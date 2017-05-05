@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{38D0780C-5080-488A-8B9F-9FB9ADBF3123}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TrainRemoteControl</RootNamespace>
+    <AssemblyName>TrainRemoteControl</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DCON_PC_DOTNET, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DCON_PC_DOTNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DHNetSDKCS, Version=3.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DHNetSDKCS.dll</HintPath>
+    </Reference>
+    <Reference Include="DHPlaySDKCS, Version=3.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DHPlaySDKCS.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageButton, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.94.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlarmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlarmForm.Designer.cs">
+      <DependentUpon>AlarmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AplicationSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AplicationSetForm.Designer.cs">
+      <DependentUpon>AplicationSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAl\AlarmRecordDAL.cs" />
+    <Compile Include="DAl\DataAcquisition.cs" />
+    <Compile Include="DAl\InspectionRecordDAL.cs" />
+    <Compile Include="dao\displayCommdao.cs" />
+    <Compile Include="DataPageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPageForm.Designer.cs">
+      <DependentUpon>DataPageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputPassWordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputPassWordForm.Designer.cs">
+      <DependentUpon>InputPassWordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AlarmInfo.cs" />
+    <Compile Include="Model\CommonOriginalData.cs" />
+    <Compile Include="Model\CriticalData.cs" />
+    <Compile Include="Model\Display.cs" />
+    <Compile Include="Model\InspectionRecords.cs" />
+    <Compile Include="Model\PartialOriginalData.cs" />
+    <Compile Include="Model\tab_temperature.cs" />
+    <Compile Include="Model\trainInfo.cs" />
+    <Compile Include="Model\xjjlmodel.cs" />
+    <Compile Include="Model\_XJmodel.cs" />
+    <Compile Include="MonCenterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonCenterForm.Designer.cs">
+      <DependentUpon>MonCenterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\TrainWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingForm.designer.cs">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Templete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Templete.Designer.cs">
+      <DependentUpon>Templete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestFrom.Designer.cs">
+      <DependentUpon>TestFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="utilclass\ComputerInfo.cs" />
+    <Compile Include="utilclass\INIClass.cs" />
+    <Compile Include="utilclass\SerialPortHelper.cs" />
+    <Compile Include="utilclass\SerialPortHelper2.cs" />
+    <Compile Include="utilclass\SQLHelper.cs" />
+    <Compile Include="utilclass\SQLiteDBHelper.cs" />
+    <Compile Include="utilclass\StringUtil.cs" />
+    <Compile Include="utilclass\WebServiceUtil.cs" />
+    <Compile Include="XunjianForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XunjianForm.Designer.cs">
+      <DependentUpon>XunjianForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AlarmForm.resx">
+      <DependentUpon>AlarmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AplicationSetForm.resx">
+      <DependentUpon>AplicationSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPageForm.resx">
+      <DependentUpon>DataPageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputPassWordForm.resx">
+      <DependentUpon>InputPassWordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonCenterForm.resx">
+      <DependentUpon>MonCenterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SettingForm.resx">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFrom.resx">
+      <DependentUpon>TestFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XunjianForm.resx">
+      <DependentUpon>XunjianForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\TrainWebService\TrainRemoteControl.TrainWebService.CompositeType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TrainWebService\TrainService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\mb1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\circl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\green2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\hc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\mb_top.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\mb_top1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\XT2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\XT4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\XT5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Video\DaHuaNetSDKSample\DaHuaNetSDKSample.csproj">
+      <Project>{ED9B98F5-5DB6-4E7E-A7E3-ADE56B9D3672}</Project>
+      <Name>DaHuaNetSDKSample</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\shukey_dw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\Upkey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouce\downKey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\TrainWebService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TrainWebService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TrainWebService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TrainWebService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

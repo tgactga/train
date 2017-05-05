@@ -1,0 +1,41 @@
+    Utility.SQLiteDBHelper.CreateDB(connectionString);
+                    string sqlcreatetab = "CREATE TABLE CriticalData" +
+                           "(id integer IDENTITY(1,1) NOT NULL," +
+                           "lcNum varchar(1,20) NOT NULL," +
+                           "generatorId int NOT NULL," +
+                           "oilPress real NOT NULL," +
+                           "waterTemp real NOT NULL," +
+                           "frequency real NOT NULL," +
+                           "motorSpeed real NOT NULL," +
+                           "voltage real NOT NULL," +
+                           "current real NOT NULL," +
+                           "motorPower real NOT NULL," +
+                           "powerFactor real ," +
+                           "oilMass real NOT NULL," +
+                           "alarmValue int NOT NULL," +
+                           "dateTime datetime NOT NULL)";
+
+
+                    string Inspe = "CREATE TABLE InspectionRecords(" +
+                            "id integer IDENTITY(1,1) NOT NULL," +
+                            "lcNum nchar(20) NOT NULL," +
+                            "status nchar(10) NOT NULL," +
+                            "planTime datetime NOT NULL," +
+                            "recordTime datetime NULL," +
+                            "worker nchar(20) NOT NULL," +
+                            "remarks nchar(30) NULL)";
+
+                    StringBuilder temperaturesql = new StringBuilder();
+
+                    temperaturesql.Append(" CREATE TABLE tab_temperature (lcnum nvarchar(10) NULL,");
+                    for (int i = 1; i <= 57; i++)
+                    {
+                        temperaturesql.Append("s" + i + " int NULL,t" + i + " real NULL,");
+                    }
+                    temperaturesql.Append("sendtime datetime NULL)");
+                    bool result1 = SQLiteDBHelper.ExecuteNonQuery(sqlcreatetab, null) > 0;
+                 // bool result2 = SQLiteDBHelper.ExecuteNonQuery(Inspe, null) > 0;
+                    string result2 = SQLiteDBHelper.ExecuteScalar(Inspe, null).ToString();
+                    bool result3 = SQLiteDBHelper.ExecuteNonQuery(temperaturesql.ToString(), null) > 0;
+                    return true;
+                }

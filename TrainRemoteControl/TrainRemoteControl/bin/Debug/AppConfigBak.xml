@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<configuration>
+  <connectionStrings>
+    <add name="connString" connectionString="Data Source=.;database=CoreData;User ID=sa;Password=123" />
+  </connectionStrings>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0" />
+  </startup>
+  <appSettings>
+    <add key="startTime" value="50" /><!--50-->
+    <add key="debug" value="false" />
+    <add key="lcNumber" value="000002" />
+    <add key="checi" value="T140" />
+    <add key="clientIp" value="192.168.6.31" />
+    <!--本地侦听端口-->
+    <add key="localListenPort" value="8888" />
+    <add key="serialNum" value="000002" />
+
+    <add key="url" value="http://10.107.241.158/"/>
+    <!--<add key="url" value="http://192.168.6.31:8000/" />-->
+    <!--巡检间隔时间ms-->
+    <add key="inspectionInterval" value="3600000" />
+    <add key="laterInterval" value="600000" />
+    <add key="comPort" value="6" />
+    <!--温度采集增加参数--> 
+    <!--读取温度串口号-->
+    <add key="comporttemperature" value="7" />
+    <!--最高温度最多一位小数-->
+    <add key="maxTemp" value="65" />
+    <!--最高温差最多一位小数-->
+    <add key="maxDvalue" value="30" />
+    <!--读取温度的时间间隔ms-->
+    <add key="readTempTime" value="1000" />
+    <!--单机站号，初始化用-->
+    <add key="stationNo" value="8"/>
+    <!--温度上传间隔时间-->
+    <add key="TemperatureInterval" value="10000"/>
+
+    <!--硬盘录像机ip-->
+    <add key="LocalVadioIp" value="192.168.6.32" />
+    <!--硬盘录像机端口-->
+    <add key="LocalVadioPort" value="37777" />
+    <!--硬盘录像机用户名-->
+    <add key="LocalVadioUsername" value="admin" />
+    <!--硬盘录像机密码-->
+    <add key="LocalVadioPassword" value="admin" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+	  <add key="TrainType" value="Train183" />
+    <!--机组1-->
+    <add key="WaterFormula1" value="143.5-(113.345-4.555*u+0.060*u*u)*x+(21.145-1.139*u+0.017*u*u)*x*x" />
+    <add key="OilFormula1" value="0.8435-(9.564678+(-0.573223)*u+0.009621*u*u)*x+(5.098121+(-0.289553)*u+0.0045378*u*u)*x*x+0.3" />
+    <!--机组2-->
+    <add key="WaterFormula2" value="143.5-(113.345-4.555*u+0.060*u*u)*x+(21.145-1.139*u+0.017*u*u)*x*x" />
+    <add key="OilFormula2" value="0.8435-(9.564678+(-0.573223)*u+0.009621*u*u)*x+(5.098121+(-0.289553)*u+0.0045378*u*u)*x*x+0.3" />
+    <!--机组3-->
+    <add key="WaterFormula3" value="143.5-(113.345-4.555*u+0.060*u*u)*x+(21.145-1.139*u+0.017*u*u)*x*x" />
+    <add key="OilFormula3" value="0.8435-(9.564678+(-0.573223)*u+0.009621*u*u)*x+(5.098121+(-0.289553)*u+0.0045378*u*u)*x*x+0.3" />
+
+    <!--水温 目前计算出的公式，根据情况自选-->
+    <!--水温 目前(2014年10月31日13:14)适应两种水温表 319 518-->
+    <!--<WaterFormula" value="143.5-(113.345-4.555*u+0.060*u*u)*x+(21.145-1.139*u+0.017*u*u)*x*x" />-->
+	 
+	  <!--<OilFormula" value="(13.6463+(-0.6947)*u+0.01166*u*u)-(13.7083+(-0.7624)*u+0.01203*u*u)*x+(3.6921+(-0.2096)*u+0.00325*u*u)*x*x" />-->
+
+	  <!--油压 350 040 004表上有油壶图表-->
+	  <!--<OilFormula" value="0.8435-(9.564678+(-0.573223)*u+0.009621*u*u)*x+(5.098121+(-0.289553)*u+0.0045378*u*u)*x*x" />-->
+
+	  <!--油压 有船舵图标-->
+    <!--<OilFormula" value="(0.0350166+0.0046242*u+(-8.65967)*u*u*0.000001)-(0.46463+(-0.00506515)*u+7.37413*u*u*0.00001)*x+(3.360184+(-0.31011)*u+0.010581*u*u+(-0.000125506)*u*u*u)*x*x>"-->
+ 
+  </appSettings>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" />
+      </providers>
+    </roleManager>
+  </system.web>
+</configuration>

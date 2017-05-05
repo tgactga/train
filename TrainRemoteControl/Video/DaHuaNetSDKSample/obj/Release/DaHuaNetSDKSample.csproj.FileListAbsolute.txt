@@ -1,0 +1,425 @@
+H:\20140311\20140309\20140308\RemoteControl_V4\bin\DaHuaNetSDKSample.exe
+H:\20140311\20140309\20140308\RemoteControl_V4\bin\DaHuaNetSDKSample.pdb
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+D:\新建文件夹\RemoteControl_V4\bin\DaHuaNetSDKSample.exe.config
+D:\新建文件夹\RemoteControl_V4\bin\DaHuaNetSDKSample.exe
+D:\新建文件夹\RemoteControl_V4\bin\DaHuaNetSDKSample.pdb
+D:\新建文件夹\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\ResolveAssemblyReference.cache
+D:\新建文件夹\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+D:\新建文件夹\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+D:\新建文件夹\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+D:\新建文件夹\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+D:\新建文件夹\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+D:\新建文件夹\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+D:\新建文件夹\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+D:\新建文件夹\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+D:\新建文件夹\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.read.1.tlog
+D:\新建文件夹\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.write.1.tlog
+D:\新建文件夹\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+D:\新建文件夹\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\bin\DaHuaNetSDKSample.exe.config
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\bin\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\bin\DaHuaNetSDKSample.pdb
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\bin\DaHuaNetSDKSample.exe.config
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\bin\DaHuaNetSDKSample.exe
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\bin\DaHuaNetSDKSample.pdb
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.exe.config
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+D:\我的文档\桌面\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.exe.config
+D:\我的文档\桌面\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.exe
+D:\我的文档\桌面\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.pdb
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\ResolveAssemblyReference.cache
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.read.1.tlog
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.write.1.tlog
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+F:\ghost\20140824\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.exe.config
+F:\ghost\20140824\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.exe
+F:\ghost\20140824\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.pdb
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\ResolveAssemblyReference.cache
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.read.1.tlog
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.write.1.tlog
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.exe.config
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.exe
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.pdb
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+D:\我的文档\下位机程序\RemoteControl_V4\bin\DaHuaNetSDKSample.exe.config
+D:\我的文档\下位机程序\RemoteControl_V4\bin\DaHuaNetSDKSample.exe
+D:\我的文档\下位机程序\RemoteControl_V4\bin\DaHuaNetSDKSample.pdb
+D:\我的文档\下位机程序\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\ResolveAssemblyReference.cache
+D:\我的文档\下位机程序\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.read.1.tlog
+D:\我的文档\下位机程序\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.write.1.tlog
+D:\我的文档\下位机程序\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+D:\我的文档\下位机程序\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+G:\20140913\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.exe.config
+G:\20140913\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.exe
+G:\20140913\下位机2\RemoteControl_V4\bin\DaHuaNetSDKSample.pdb
+G:\20140913\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+G:\20140913\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+G:\20140913\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+G:\20140913\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+G:\2014年10月18日085145\RemoteControl_V4\bin\DaHuaNetSDKSample.exe.config
+G:\2014年10月18日085145\RemoteControl_V4\bin\DaHuaNetSDKSample.exe
+G:\2014年10月18日085145\RemoteControl_V4\bin\DaHuaNetSDKSample.pdb
+G:\2014年10月18日085145\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+G:\2014年10月18日085145\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+G:\2014年10月18日085145\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+G:\2014年10月18日085145\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+G:\2014年10月22日211006\RemoteControl_V4\bin\DaHuaNetSDKSample.exe.config
+G:\2014年10月22日211006\RemoteControl_V4\bin\DaHuaNetSDKSample.exe
+G:\2014年10月22日211006\RemoteControl_V4\bin\DaHuaNetSDKSample.pdb
+G:\2014年10月22日211006\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+G:\2014年10月22日211006\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+G:\2014年10月22日211006\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+G:\2014年10月22日211006\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+G:\0141111\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+G:\0141111\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+G:\0141111\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+G:\0141111\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+G:\0141111\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+G:\0141111\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+G:\0141111\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+G:\0141111\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+G:\0141111\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+G:\0141111\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+G:\0141111\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+G:\0141111\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+G:\0141111\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+G:\0141111\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+G:\0141111\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+G:\0141115改port改巡检\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+G:\0141115改port改巡检\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+G:\0141115改port改巡检\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+G:\0141115改port改巡检\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+G:\0141115改port改巡检\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+G:\0141115改port改巡检\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+G:\0141115改port改巡检\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+G:\0141115改port改巡检\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+G:\0141115改port改巡检\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+G:\0141115改port改巡检\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+G:\0141115改port改巡检\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+G:\0141115改port改巡检\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+G:\0141115改port改巡检\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+G:\0141115改port改巡检\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+G:\0141115改port改巡检\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+G:\0141117sp指令 - 副本\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+G:\0150108\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+G:\0150108\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+G:\0150108\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+G:\0150108\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+G:\0150108\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+G:\0150108\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+G:\0150108\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+G:\0150108\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+G:\0150108\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+G:\0150108\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+G:\0150108\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+G:\0150108\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+G:\0150108\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+G:\0150108\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+G:\0150108\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+D:\我的文档\下位机程序\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+D:\我的文档\下位机程序\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+D:\我的文档\下位机程序\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+G:\150109\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+G:\150109\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+G:\150109\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+G:\150109\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+G:\150109\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+G:\150109\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+G:\150109\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+G:\150109\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+G:\150109\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+G:\150109\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+G:\150109\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+G:\150109\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+G:\150109\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+G:\150109\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+G:\150109\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\task\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\150414(2015年9月30日 174006)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+C:\Users\Administrator\Desktop\传给我20160106\160528\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+D:\我的文档\160605\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+D:\我的文档\160605\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+D:\我的文档\160605\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+D:\我的文档\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\ResolveAssemblyReference.cache
+D:\我的文档\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+D:\我的文档\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+D:\我的文档\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+D:\我的文档\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+D:\我的文档\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+D:\我的文档\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+D:\我的文档\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+D:\我的文档\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+D:\我的文档\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.read.1.tlog
+D:\我的文档\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.write.1.tlog
+D:\我的文档\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+D:\我的文档\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\ResolveAssemblyReference.cache
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.read.1.tlog
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\GenerateResource.write.1.tlog
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+D:\我的文档\下位机程序\160605\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+D:\Desktop\170312\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+D:\Desktop\170312\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+D:\Desktop\170312\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+D:\Desktop\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+D:\Desktop\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+D:\Desktop\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+D:\Desktop\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+D:\Desktop\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+D:\Desktop\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+D:\Desktop\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+D:\Desktop\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+D:\Desktop\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+D:\Desktop\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+D:\Desktop\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+D:\Desktop\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+D:\VS2008\170312\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe.config
+D:\VS2008\170312\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.exe
+D:\VS2008\170312\RemoteControl_V4\Video\bin\DaHuaNetSDKSample.pdb
+D:\VS2008\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+D:\VS2008\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
+D:\VS2008\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
+D:\VS2008\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources
+D:\VS2008\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_MainC.resources
+D:\VS2008\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+D:\VS2008\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+D:\VS2008\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.Properties.Resources.resources
+D:\VS2008\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+D:\VS2008\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+D:\VS2008\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
+D:\VS2008\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb

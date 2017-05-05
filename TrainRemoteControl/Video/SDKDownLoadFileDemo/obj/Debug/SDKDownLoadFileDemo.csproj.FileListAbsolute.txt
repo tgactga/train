@@ -1,0 +1,554 @@
+C:\Users\WANG\Desktop\General_NetSDK_Chn_Windows32_IS_V3.41.0.R.130826\演示程序源码\多编程语言调用\C# DEMO\大华SDK(C#版)\bin\SDKDownLoadFileDemo.exe
+C:\Users\WANG\Desktop\General_NetSDK_Chn_Windows32_IS_V3.41.0.R.130826\演示程序源码\多编程语言调用\C# DEMO\大华SDK(C#版)\bin\SDKDownLoadFileDemo.pdb
+C:\Users\WANG\Desktop\General_NetSDK_Chn_Windows32_IS_V3.41.0.R.130826\演示程序源码\多编程语言调用\C# DEMO\大华SDK(C#版)\代码\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\WANG\Desktop\General_NetSDK_Chn_Windows32_IS_V3.41.0.R.130826\演示程序源码\多编程语言调用\C# DEMO\大华SDK(C#版)\代码\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\WANG\Desktop\General_NetSDK_Chn_Windows32_IS_V3.41.0.R.130826\演示程序源码\多编程语言调用\C# DEMO\大华SDK(C#版)\代码\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\WANG\Desktop\General_NetSDK_Chn_Windows32_IS_V3.41.0.R.130826\演示程序源码\多编程语言调用\C# DEMO\大华SDK(C#版)\代码\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\WANG\Desktop\General_NetSDK_Chn_Windows32_IS_V3.41.0.R.130826\演示程序源码\多编程语言调用\C# DEMO\大华SDK(C#版)\代码\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\WANG\Desktop\General_NetSDK_Chn_Windows32_IS_V3.41.0.R.130826\演示程序源码\多编程语言调用\C# DEMO\大华SDK(C#版)\代码\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\WANG\Desktop\General_NetSDK_Chn_Windows32_IS_V3.41.0.R.130826\演示程序源码\多编程语言调用\C# DEMO\大华SDK(C#版)\代码\SDKDownLoadFileDemo\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\WANG\Desktop\General_NetSDK_Chn_Windows32_IS_V3.41.0.R.130826\演示程序源码\多编程语言调用\C# DEMO\大华SDK(C#版)\代码\SDKDownLoadFileDemo\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\WANG\Desktop\General_NetSDK_Chn_Windows32_IS_V3.41.0.R.130826\演示程序源码\多编程语言调用\C# DEMO\大华SDK(C#版)\代码\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\WANG\Desktop\General_NetSDK_Chn_Windows32_IS_V3.41.0.R.130826\演示程序源码\多编程语言调用\C# DEMO\大华SDK(C#版)\代码\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\WANG\Desktop\上位机ss\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\WANG\Desktop\上位机ss\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\WANG\Desktop\上位机ss\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\WANG\Desktop\上位机ss\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\WANG\Desktop\上位机ss\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\WANG\Desktop\上位机ss\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\WANG\Desktop\上位机ss\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\WANG\Desktop\上位机ss\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\WANG\Desktop\上位机ss\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\WANG\Desktop\上位机ss\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\WANG\Desktop\上位机ss\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\WANG\Desktop\上位机ss\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\WANG\Desktop\上位机ss\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Documents and Settings\Administrator\桌面\new_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\new_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Documents and Settings\Administrator\桌面\new_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Documents and Settings\Administrator\桌面\new_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Documents and Settings\Administrator\桌面\new_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Documents and Settings\Administrator\桌面\new_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Documents and Settings\Administrator\桌面\new_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\new_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\new_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\new_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Documents and Settings\Administrator\桌面\new_V2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Documents and Settings\Administrator\桌面\new_V2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Documents and Settings\Administrator\桌面\new_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Documents and Settings\Administrator\桌面\new_V3\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Documents and Settings\Administrator\桌面\new_V3\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Documents and Settings\Administrator\桌面\new_V3\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\new_V3\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Documents and Settings\Administrator\桌面\new_V3\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Documents and Settings\Administrator\桌面\new_V3\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Documents and Settings\Administrator\桌面\new_V3\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Documents and Settings\Administrator\桌面\new_V3\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Documents and Settings\Administrator\桌面\new_V3\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\new_V3\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\new_V3\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\new_V3\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Documents and Settings\Administrator\桌面\new_V3\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Documents and Settings\Administrator\桌面\20140308\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Documents and Settings\Administrator\桌面\20140308\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Documents and Settings\Administrator\桌面\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Documents and Settings\Administrator\桌面\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Documents and Settings\Administrator\桌面\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Documents and Settings\Administrator\桌面\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Documents and Settings\Administrator\桌面\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Documents and Settings\Administrator\桌面\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Documents and Settings\Administrator\桌面\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140309\20140308\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140309\20140308\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+H:\20140311\20140309\20140308\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+H:\20140311\20140309\20140308\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+H:\20140311\20140309\20140308\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Documents and Settings\Administrator\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Documents and Settings\Administrator\桌面\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Documents and Settings\Administrator\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Documents and Settings\Administrator\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Documents and Settings\Administrator\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Documents and Settings\Administrator\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Documents and Settings\Administrator\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Documents and Settings\Administrator\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Documents and Settings\Administrator\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\WANG\Desktop\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Documents and Settings\Administrator\桌面\20140314\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\WANG\Desktop\20140317\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+D:\新建文件夹\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+D:\新建文件夹\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+D:\新建文件夹\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+D:\新建文件夹\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+D:\新建文件夹\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+D:\新建文件夹\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+D:\新建文件夹\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+D:\新建文件夹\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+D:\新建文件夹\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+D:\新建文件夹\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+D:\新建文件夹\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.read.1.tlog
+D:\新建文件夹\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.write.1.tlog
+D:\新建文件夹\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+D:\新建文件夹\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140401\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140414_V2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140414_v2.2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\Administrator\Desktop\20140414_v2.2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140414_v2.2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140414_v2.2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20140414_v2.2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\20140414_v2.2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\20140414_v2.2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\20140414_v2.2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\20140414_v2.2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\20140414_v2.2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\20140414_v2.2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\20140414_v2.2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140414_v2.2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140415\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\Administrator\Desktop\20140415\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140415\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140415\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20140415\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\20140415\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\20140415\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\20140415\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\20140415\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\20140415\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\20140415\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\20140415\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140415\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Documents and Settings\xian\桌面\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140505\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\Administrator\Desktop\20140505\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140505\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140505\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20140505\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\20140505\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\20140505\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\20140505\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\20140505\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\20140505\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\20140505\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\20140505\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140505\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\下位机\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\Administrator\Desktop\下位机\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\下位机\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140518\下位机\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\Administrator\Desktop\20140518\下位机\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140518\下位机\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140518\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20140518\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\20140518\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\20140518\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\20140518\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\20140518\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\20140518\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\20140518\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\20140518\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140518\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140524\下位机\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\Administrator\Desktop\20140524\下位机\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140524\下位机\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140524\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20140524\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\20140524\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\20140524\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\20140524\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\20140524\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\20140524\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\20140524\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\20140524\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140524\下位机\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140524\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\Administrator\Desktop\20140524\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140524\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140524\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20140524\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\20140524\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\20140524\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\20140524\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\20140524\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\20140524\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\20140524\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\20140524\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140524\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140526兼容\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\Administrator\Desktop\20140526兼容\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140526兼容\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\20140526兼容\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20140526兼容\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\20140526兼容\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\20140526兼容\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\20140526兼容\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\20140526兼容\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\20140526兼容\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\20140526兼容\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\20140526兼容\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\20140526兼容\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+F:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+F:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+F:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+F:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+F:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+F:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+F:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+F:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+F:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+F:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+F:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+F:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+F:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.read.1.tlog
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.write.1.tlog
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+G:\rrrrrrrrrrrrrrrrrrrrr\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+D:\我的文档\桌面\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+D:\我的文档\桌面\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+D:\我的文档\桌面\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.read.1.tlog
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.write.1.tlog
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+D:\我的文档\桌面\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+F:\ghost\20140824\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+F:\ghost\20140824\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+F:\ghost\20140824\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.read.1.tlog
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.write.1.tlog
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+F:\ghost\20140824\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\huan\Desktop\西安项目20140906\winApp20140906\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+D:\我的文档\下位机程序\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+D:\我的文档\下位机程序\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+D:\我的文档\下位机程序\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+D:\我的文档\下位机程序\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\下位机程序\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+D:\我的文档\下位机程序\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.read.1.tlog
+D:\我的文档\下位机程序\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.write.1.tlog
+D:\我的文档\下位机程序\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+D:\我的文档\下位机程序\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+G:\20140913\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+G:\20140913\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+G:\20140913\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+G:\20140913\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+G:\20140913\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+G:\20140913\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+G:\20140913\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+G:\20140913\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+G:\2014年9月28日092312\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.read.1.tlog
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\GenerateResource.write.1.tlog
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+D:\我的文档\测试\2014年10月14日1644\下位机2\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+G:\2014年10月18日085145\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+G:\2014年10月18日085145\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+G:\2014年10月18日085145\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+G:\2014年10月18日085145\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+G:\2014年10月18日085145\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+G:\2014年10月18日085145\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+G:\2014年10月18日085145\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+G:\2014年10月18日085145\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+G:\2014年10月22日211006\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+G:\2014年10月22日211006\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+G:\2014年10月22日211006\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+G:\2014年10月22日211006\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+G:\2014年10月22日211006\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+G:\2014年10月22日211006\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+G:\2014年10月22日211006\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+G:\2014年10月22日211006\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+G:\2014年10月25日171644\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+G:\2014年10月25日171644\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+G:\2014年10月25日171644\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+G:\2014年10月25日171644\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+G:\2014年10月25日171644\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+G:\2014年10月25日171644\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+G:\2014年10月25日171644\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+G:\2014年10月25日171644\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+G:\2014年10月25日171644\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+G:\2014年10月25日171644\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+G:\2014年10月25日171644\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+G:\2014年10月25日171644\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+G:\2014年10月25日171644\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+G:\2014年10月28日181914(加公式)\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+G:\2014年10月28日181914(加公式)\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+G:\2014年10月28日181914(加公式)\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+G:\2014年10月28日181914(加公式)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+G:\2014年10月28日181914(加公式)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+G:\2014年10月28日181914(加公式)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+G:\2014年10月28日181914(加公式)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+G:\2014年10月28日181914(加公式)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+G:\2014年10月28日181914(加公式)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+G:\2014年10月28日181914(加公式)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+G:\2014年10月28日181914(加公式)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+G:\2014年10月28日181914(加公式)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+G:\2014年10月28日181914(加公式)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+G:\2014年10月28日181914(加公)\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe.config
+G:\2014年10月28日181914(加公)\RemoteControl_V4\bin\SDKDownLoadFileDemo.exe
+G:\2014年10月28日181914(加公)\RemoteControl_V4\bin\SDKDownLoadFileDemo.pdb
+G:\2014年10月28日181914(加公)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+G:\2014年10月28日181914(加公)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+G:\2014年10月28日181914(加公)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+G:\2014年10月28日181914(加公)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+G:\2014年10月28日181914(加公)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+G:\2014年10月28日181914(加公)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+G:\2014年10月28日181914(加公)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+G:\2014年10月28日181914(加公)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+G:\2014年10月28日181914(加公)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+G:\2014年10月28日181914(加公)\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+G:\0141111\RemoteControl_V4\Video\bin\SDKDownLoadFileDemo.exe.config
+G:\0141111\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+G:\0141111\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+G:\0141111\RemoteControl_V4\Video\bin\SDKDownLoadFileDemo.exe
+G:\0141111\RemoteControl_V4\Video\bin\SDKDownLoadFileDemo.pdb
+G:\0141111\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+G:\0141111\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+G:\0141111\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+G:\0141111\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+G:\0141111\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+G:\0141111\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+G:\0141111\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+G:\0141111\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+G:\0141112\RemoteControl_V4\Video\bin\SDKDownLoadFileDemo.exe.config
+G:\0141112\RemoteControl_V4\Video\bin\SDKDownLoadFileDemo.exe
+G:\0141112\RemoteControl_V4\Video\bin\SDKDownLoadFileDemo.pdb
+G:\0141112\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+G:\0141112\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+G:\0141112\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+G:\0141112\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+G:\0141112\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+G:\0141112\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+G:\0141112\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+G:\0141112\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+G:\0141112\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+G:\0141112\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\传给我20160106\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\SDKDownLoadFileDemo.exe.config
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\bin\SDKDownLoadFileDemo.pdb
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_DownLoadVadioByTime.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_Main.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_AddDevice.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByFileSet.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.frm_PlayBackByTimeSet.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.exe
+C:\Users\Administrator\Desktop\传给我20160106\传给我20160518\传给我\150414(2016年1月5日)\150414\RemoteControl_V4\Video\SDKDownLoadFileDemo\obj\Debug\SDKDownLoadFileDemo.pdb
