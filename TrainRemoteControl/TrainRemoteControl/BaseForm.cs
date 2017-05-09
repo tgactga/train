@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
+using TrainRemoteControl.utilclass;
 
 namespace TrainRemoteControl
 {
@@ -47,7 +48,7 @@ namespace TrainRemoteControl
         //检测网络状态
         private void timer2_net_Tick(object sender, EventArgs e)
         {
-
+          Program.g_isNetState =  WebServiceUtil.urlIsReach(Program.g_url);
         }
 
         private void deletOverTimelogs()
