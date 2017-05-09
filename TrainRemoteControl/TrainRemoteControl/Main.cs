@@ -33,6 +33,8 @@ namespace TrainRemoteControl
             //{
             //    this.baojing.BackColor = Color.Red;             
             //}           
+
+            showCriticalData("");
         }
         
      
@@ -72,14 +74,36 @@ namespace TrainRemoteControl
             else
             {
                 Program.WriteLog("巡检时间到");
-                countdown = 3600;
+                //调用声音提示，并弹出巡检提示对话框  一段时间后自动消失
+                if (!Program.g_isInspected)
+                {
+                    //new InspectTipsForm().Show();
+                    //return;
+                }
+
+                countdown = int.Parse(Program.g_inspectionInterval); //倒计时 时间
             }
+
+            //网络状态：
+            string netstate = "";
+            if (Program.g_isNetState)
+            {                
+                netstate = "正常";
+            }
+            else
+            {
+                netstate = "异常";
+            }
+            this.netlabel.Text = "网络状态："+netstate;
              
         }
 
         //确认巡检
         private void button1_Click(object sender, EventArgs e)
         {
+            //修改巡检状态
+            Program.g_isInspected = true;
+
             Model._XJmodel inspectionRecord = new Model._XJmodel();
             inspectionRecord.getStatus = "正常";
             inspectionRecord.getRecordTime = DateTime.Now;
@@ -90,6 +114,8 @@ namespace TrainRemoteControl
             InspectionRecordDAL inspect = new InspectionRecordDAL();
             inspect.SaveInspectionRecord(inspectionRecord);
             
+            //巡检完后修改状态
+
         }
 
         //点击确认报警

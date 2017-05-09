@@ -172,6 +172,7 @@
             this.buttonOfhomepage = new System.Windows.Forms.Button();
             this.buttonOfxunjian = new System.Windows.Forms.Button();
             this.lbtitle = new System.Windows.Forms.Label();
+            this.netlabel = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
@@ -341,7 +342,7 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.40816F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.59184F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 144F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 215F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 217F));
             this.tableLayoutPanel5.Controls.Add(this.label71, 2, 0);
             this.tableLayoutPanel5.Controls.Add(this.label69, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.label70, 1, 0);
@@ -361,7 +362,7 @@
             // label71
             // 
             this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(218, 0);
+            this.label71.Location = new System.Drawing.Point(216, 0);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(53, 12);
             this.label71.TabIndex = 17;
@@ -379,7 +380,7 @@
             // label70
             // 
             this.label70.AutoSize = true;
-            this.label70.Location = new System.Drawing.Point(90, 0);
+            this.label70.Location = new System.Drawing.Point(89, 0);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(53, 12);
             this.label70.TabIndex = 16;
@@ -388,7 +389,7 @@
             // label72
             // 
             this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(362, 0);
+            this.label72.Location = new System.Drawing.Point(360, 0);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(41, 12);
             this.label72.TabIndex = 18;
@@ -407,7 +408,7 @@
             // LabFengmingtime
             // 
             this.LabFengmingtime.AutoSize = true;
-            this.LabFengmingtime.Location = new System.Drawing.Point(90, 15);
+            this.LabFengmingtime.Location = new System.Drawing.Point(89, 15);
             this.LabFengmingtime.Name = "LabFengmingtime";
             this.LabFengmingtime.Size = new System.Drawing.Size(29, 12);
             this.LabFengmingtime.TabIndex = 20;
@@ -416,7 +417,7 @@
             // LabRecordtime
             // 
             this.LabRecordtime.AutoSize = true;
-            this.LabRecordtime.Location = new System.Drawing.Point(218, 15);
+            this.LabRecordtime.Location = new System.Drawing.Point(216, 15);
             this.LabRecordtime.Name = "LabRecordtime";
             this.LabRecordtime.Size = new System.Drawing.Size(29, 12);
             this.LabRecordtime.TabIndex = 21;
@@ -425,7 +426,7 @@
             // LabXunjianPenson
             // 
             this.LabXunjianPenson.AutoSize = true;
-            this.LabXunjianPenson.Location = new System.Drawing.Point(362, 15);
+            this.LabXunjianPenson.Location = new System.Drawing.Point(360, 15);
             this.LabXunjianPenson.Name = "LabXunjianPenson";
             this.LabXunjianPenson.Size = new System.Drawing.Size(29, 12);
             this.LabXunjianPenson.TabIndex = 22;
@@ -1683,7 +1684,7 @@
             this.labelpsw.Name = "labelpsw";
             this.labelpsw.Size = new System.Drawing.Size(100, 47);
             this.labelpsw.TabIndex = 10;
-            this.labelpsw.Text = "***";
+            this.labelpsw.Text = "※";
             this.labelpsw.Click += new System.EventHandler(this.label2_Click);
             // 
             // labelCurrenttime
@@ -1748,11 +1749,21 @@
             this.lbtitle.TabIndex = 0;
             this.lbtitle.Text = "发电车远程控制系统";
             // 
+            // netlabel
+            // 
+            this.netlabel.AutoSize = true;
+            this.netlabel.Location = new System.Drawing.Point(121, 555);
+            this.netlabel.Name = "netlabel";
+            this.netlabel.Size = new System.Drawing.Size(65, 12);
+            this.netlabel.TabIndex = 14;
+            this.netlabel.Text = "网络状态：";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1027, 586);
+            this.Controls.Add(this.netlabel);
             this.Controls.Add(this.labelbaojingtest);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
@@ -1985,5 +1996,6 @@
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.PictureBox pictureBox20;
         private System.Windows.Forms.Label labelbaojingtest;
+        private System.Windows.Forms.Label netlabel;
     }
 }
