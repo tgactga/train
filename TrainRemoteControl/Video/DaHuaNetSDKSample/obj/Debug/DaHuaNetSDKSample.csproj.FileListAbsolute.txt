@@ -705,3 +705,17 @@ D:\VS2008\webproject\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaN
 D:\VS2008\webproject\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.exe
 D:\VS2008\webproject\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.pdb
 D:\VS2008\webproject\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
+D:\fzxtwork\train\TrainRemoteControl\Video\bin\DaHuaNetSDKSample.exe.config
+D:\fzxtwork\train\TrainRemoteControl\Video\bin\DaHuaNetSDKSample.exe
+D:\fzxtwork\train\TrainRemoteControl\Video\bin\DaHuaNetSDKSample.pdb
+D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.frmMultiDVRSample.resources
+D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.frm_PTZControl.resources
+D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.frm_AddDevice.resources
+D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.frm_MainC.resources
+D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.frm_PlayBackByFileSet.resources
+D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.frm_PlayBackByTimeSet.resources
+D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.Properties.Resources.resources
+D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.SingleVideoDisplayForm.resources
+D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.csproj.GenerateResource.Cache
+D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.exe
+D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Debug\DaHuaNetSDKSample.pdb

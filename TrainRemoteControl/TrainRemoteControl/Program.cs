@@ -41,7 +41,11 @@ namespace TrainRemoteControl
         public static String g_localVedioPort= "";
         public static String g_connString= "";
         public static String g_comPort = "";
-        
+
+
+        public static String g_stationNo = "";
+        public static String g_waterFormula1 = "";
+        public static String g_oilFormula1 = "";
         /// <summary>
         /// 应用程序的主入口点。
         /// </summary>
@@ -77,7 +81,13 @@ namespace TrainRemoteControl
               g_connString=ini.IniReadValue("TermInfo", "connString");     
               
               g_comPort=ini.IniReadValue("TermInfo", "comPort");
-              g_comPortTemperature = ini.IniReadValue("TermInfo", "comPortTemperature");  
+              g_comPortTemperature = ini.IniReadValue("TermInfo", "comPortTemperature");
+
+              g_stationNo = ini.IniReadValue("TermInfo", "stationNo");
+
+              g_waterFormula1 = ini.IniReadValue("TermInfo", "WaterFormula1");
+              g_oilFormula1 = ini.IniReadValue("TermInfo", "OilFormula1");
+            
           
         }
 
@@ -86,14 +96,11 @@ namespace TrainRemoteControl
         public static void WriteLog(string strLogInfo)
         {
             DateTime dt = DateTime.Now;
-
             string strLogName = "train" + dt.ToString("yyyy-MM-dd") + ".log";
-
             try
             {
                 if (!Directory.Exists("D:\\train\\Logs"))
                     Directory.CreateDirectory("D:\\train\\Logs");
-
                 FileStream fs = new FileStream("D:\\train\\Logs\\" + strLogName, FileMode.Append);
                 StreamWriter sw = new StreamWriter(fs, Encoding.Default);
                 if (strLogInfo != "")
@@ -101,10 +108,8 @@ namespace TrainRemoteControl
                     Console.WriteLine(dt.ToString("HH:mm:ss:fff") + "   " + strLogInfo);
                     sw.WriteLine(dt.ToString("HH:mm:ss:fff") + "   " + strLogInfo);
                 }
-
                 sw.Flush();
                 sw.Close();
-
                 fs.Close();
             }
             catch (System.Exception error)

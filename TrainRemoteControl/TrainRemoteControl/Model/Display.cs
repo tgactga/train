@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TrainRemoteControl
+namespace TrainRemoteControl.Model
 {
     public enum AlarmSignal
     {

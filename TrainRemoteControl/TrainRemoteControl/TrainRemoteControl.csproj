@@ -50,6 +50,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\ImageButton.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>bin\Release\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
@@ -88,9 +91,10 @@
     <Compile Include="BaseForm.Designer.cs">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DAl\AlarmRecordDAL.cs" />
-    <Compile Include="DAl\DataAcquisition.cs" />
-    <Compile Include="DAl\InspectionRecordDAL.cs" />
+    <Compile Include="BLL\DataAcquisitionManager.cs" />
+    <Compile Include="DAL\AlarmRecordDAL.cs" />
+    <Compile Include="DAL\DataAcquisition.cs" />
+    <Compile Include="DAL\InspectionRecordDAL.cs" />
     <Compile Include="dao\displayCommdao.cs" />
     <Compile Include="DataPageForm.cs">
       <SubType>Form</SubType>
@@ -103,6 +107,12 @@
     </Compile>
     <Compile Include="InputPassWordForm.Designer.cs">
       <DependentUpon>InputPassWordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InspectTipsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InspectTipsForm.Designer.cs">
+      <DependentUpon>InspectTipsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -153,6 +163,7 @@
       <DependentUpon>TestFrom.cs</DependentUpon>
     </Compile>
     <Compile Include="utilclass\ComputerInfo.cs" />
+    <Compile Include="utilclass\Expression.cs" />
     <Compile Include="utilclass\INIClass.cs" />
     <Compile Include="utilclass\SerialPortHelper.cs" />
     <Compile Include="utilclass\SerialPortHelper2.cs" />
@@ -180,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InputPassWordForm.resx">
       <DependentUpon>InputPassWordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InspectTipsForm.resx">
+      <DependentUpon>InspectTipsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -287,6 +301,18 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSXML2">
+      <Guid>{F5078F18-C551-11D3-89B9-0000F81FE221}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

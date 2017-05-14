@@ -10,6 +10,7 @@ using TrainRemoteControl.DAl;
 using System.Configuration;
 using TrainRemoteControl.Model;
 using TrainRemoteControl.utilclass;
+using TrainRemoteControl.BLL;
 
 namespace TrainRemoteControl
 {
@@ -24,6 +25,9 @@ namespace TrainRemoteControl
         private Image greenCircle = TrainRemoteControl.Properties.Resources.green;//Image.FromFile(@"..\..\image\green.png");
        
         private int countdown = int.Parse(Program.g_inspectionInterval); //倒计时 时间 3600
+
+       
+
         private void Main_Load(object sender, EventArgs e)
         {
             Program.WriteLog("==========================>>进入主界面（main）");
@@ -31,10 +35,44 @@ namespace TrainRemoteControl
             this.labTrains.Text = Program.g_checi;
             //if (Program.g_isAlarm)
             //{
-            //    this.baojing.BackColor = Color.Red;             
-            //}           
+            //    this.baojing.BackColor = Color.Red;                       
+            //}      
+            //采集关键数据
+            gatherCriticalData();
+           
+        }
 
-            showCriticalData("");
+        //采集关键数据
+        private void gatherCriticalData()
+        {
+            try
+            {
+               DataAcquisitionManager dataAcquisitionMana = new DataAcquisitionManager();
+               DataAcquisition da = new DataAcquisition();
+               //获取公共数据
+               CommonOriginalData commonData = da.GetOriginalCommonData();
+              //获取油量值
+               float oilMass = (float)((commonData.OilMass - 5.03) * 1525 / 0.726);
+
+               //采集三个电机的电压值，判断是否处于开机状态
+               float[] voltageArray = da.GetGeneratorVoltage();
+
+               AlarmInfo alarmInfo = new AlarmInfo();
+               //设置相关报警值              
+               alarmInfo.FireAlarm = dataAcquisitionMana.judgeFireAlarm(commonData.FireAlarmValue);
+               //Console.WriteLine("AlarmValue xxxxxxxxxxxxxx"+commonData.FireAlarmValue.ToString());
+               alarmInfo.BatteryVoltage = commonData.BattaryVoltage;
+               alarmInfo.UpOilPlace = commonData.UpOilPlace;
+               alarmInfo.UpWaterPlace = commonData.UpWaterPlace;
+                          
+                Model.CriticalData cd = dataAcquisitionMana.GetCriticalData(oilMass, 1, alarmInfo.AlarmValue, voltageArray[1], voltageArray[3]);
+                showCriticalData(cd);
+            }
+            catch (Exception error)
+            {
+                Program.WriteLog("采集关键数据出错"+error.ToString());
+
+            }
         }
         
      
@@ -151,15 +189,15 @@ namespace TrainRemoteControl
 
 
         //显示关键数据
-        private void showCriticalData(object obj)
+        private void showCriticalData(Model.CriticalData cd)
         {
-            if (obj.ToString() == "x3")
-            {
-                MessageBox.Show(obj.ToString());
-            }
-            else
-            {
-                Model.CriticalData cd = (CriticalData)obj;
+            //if (obj.ToString() == "x3")
+            //{
+            //    MessageBox.Show(obj.ToString());
+            //}
+            //else
+            //{
+                //Model.CriticalData cd = (CriticalData)obj;
 
                 Model.AlarmInfo alarmInfo = new AlarmInfo(cd.AlarmValue, cd.LcNum);
 
@@ -234,7 +272,7 @@ namespace TrainRemoteControl
                 {
                     return;
                 }
-            }
+            //}
         }
 
 

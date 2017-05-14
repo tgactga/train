@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using TrainRemoteControl.Model;
+using MSXML2;
+ 
 
 namespace TrainRemoteControl.utilclass
 {
@@ -35,7 +37,42 @@ namespace TrainRemoteControl.utilclass
             Program.WriteLog("调用web服务返回：" + ret);
             return "";
         }
-        
+
+        public static Boolean urlIsReach(String url)
+        {
+            if (url == null)
+            {
+                return false;
+            }
+            try
+            {                 
+                XMLHTTP http = new XMLHTTP();
+                try
+                {
+                    http.open("GET", url, false, null, null);
+                    http.send(url);
+                    int status = http.status;
+                    if (status == 200)
+                    {                         
+                        return true;
+                    }
+                    else
+                    {
+                       Program.WriteLog("不可用status:" + status.ToString());
+                       return false;
+                    }
+                }
+                catch
+                {
+                    Console.WriteLine("不可用");
+                }
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+            return false;
+        }
 
     }
 }

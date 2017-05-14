@@ -68,10 +68,10 @@ namespace TrainRemoteControl.dao
         }
 
 
-        public TrainRemoteControl.Display GetFirstRecord()
+        public TrainRemoteControl.Model.Display GetFirstRecord()
         {
             SQLiteDataReader dr = null;
-            TrainRemoteControl.Display display = new TrainRemoteControl.Display();
+            TrainRemoteControl.Model.Display display = new TrainRemoteControl.Model.Display();
             try
             {
                 SQLiteDBHelper sdb = new SQLiteDBHelper(Program.g_dbPath);

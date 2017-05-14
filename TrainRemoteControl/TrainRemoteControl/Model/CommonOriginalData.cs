@@ -1,5 +1,5 @@
 ﻿
-namespace TrainRemoteControl
+namespace TrainRemoteControl.Model
 {
     public struct CommonOriginalData
     {
