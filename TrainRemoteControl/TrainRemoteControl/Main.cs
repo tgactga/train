@@ -11,6 +11,8 @@ using System.Configuration;
 using TrainRemoteControl.Model;
 using TrainRemoteControl.utilclass;
 using TrainRemoteControl.BLL;
+using DHNetSDK;
+using System.Threading;
 
 namespace TrainRemoteControl
 {
@@ -26,7 +28,64 @@ namespace TrainRemoteControl
        
         private int countdown = int.Parse(Program.g_inspectionInterval); //倒计时 时间 3600
 
-       
+        public event Action EngineStartEvent;//发动机启动事件
+        public event Action<bool> PowerShutDownEvent;//断电事件
+
+        /// <summary>
+        /// 设备用户登录ＩＤ
+        /// </summary>
+        private int pLoginID;
+         
+
+        /// <summary>
+        /// 程序消息提示Title
+        /// </summary>
+        private const string pMsgTitle = "大华网络SDK Demo程序";
+
+        /// <summary>
+        /// 最后操作信息显示格式
+        /// </summary>
+        private const string pErrInfoFormatStyle = "代码:errcode;\n描述:errmSG.";
+
+        /// <summary>
+        /// 当前回放的文件信息
+        /// </summary>
+        //NET_RECORDFILE_INFO fileInfo;
+
+        /// <summary>
+        /// 播放方式
+        /// </summary>
+        //private int playBy = 0;
+
+        /// <summary>
+        /// 实时播放句柄保存
+        /// </summary>
+        private int[] pRealPlayHandle;
+
+        /// <summary>
+        /// 回放句柄保存
+        /// </summary>
+        private int[] pPlayBackHandle;
+
+        /// <summary>
+        /// 回放通道号
+        /// </summary>
+        //private int pPlayBackChannelID;
+
+        /// <summary>
+        /// 上次点击的PictureBox控件
+        /// </summary>
+        //private PictureBox oldPicRealPlay;
+
+        /// <summary>
+        /// 当前点击的PictureBox控件
+        /// </summary>
+        //private PictureBox picRealPlay;
+
+        private fDisConnect disConnect;
+
+        private NET_DEVICEINFO deviceInfo;
+
 
         private void Main_Load(object sender, EventArgs e)
         {
@@ -39,8 +98,100 @@ namespace TrainRemoteControl
             //}      
             //采集关键数据
             gatherCriticalData();
+            //实时视频
+            RealPlay(); 
            
         }
+
+
+        /// <summary>
+        /// 设备断开连接处理
+        /// </summary>
+        /// <param name="lLoginID"></param>
+        /// <param name="pchDVRIP"></param>
+        /// <param name="nDVRPort"></param>
+        /// <param name="dwUser"></param>
+        private void DisConnectEvent(int lLoginID, StringBuilder pchDVRIP, int nDVRPort, IntPtr dwUser)
+        {
+            try
+            {
+                for (int i = 0; i < deviceInfo.byChanNum; i++)
+                {
+                    DHClient.DHStopRealPlay(pRealPlayHandle[i]);
+                }
+                DHClient.DHLogout(pLoginID);
+                //pLoginID
+                pLoginID = 0;
+                while (pLoginID == 0)
+                {
+                    Thread.Sleep(1000);
+                    RealPlay();
+                }
+                //MessageBox.Show("设备用户断开连接", pMsgTitle);
+            }
+            catch (Exception ex)
+            {
+                Program.WriteLog("视频设备断开连接处理异常" + ex.ToString());
+            }
+        }
+
+
+        //摄像头视频显示
+        private void RealPlay()
+        {
+            disConnect = new fDisConnect(DisConnectEvent);
+            DHClient.DHInit(disConnect, IntPtr.Zero);
+            DHClient.DHSetEncoding(LANGUAGE_ENCODING.gb2312);//字符编码格式设置，默认为gb2312字符编码，如果为其他字符编码请设置            
+            pRealPlayHandle = null;
+            deviceInfo = new NET_DEVICEINFO();
+            int error = 0;
+            pLoginID = DHClient.DHLogin(Program.g_localVedioIp, ushort.Parse(Program.g_localVedioPort), Program.g_localVadioUsername, Program.g_localVadioPassword, out deviceInfo, out error);
+            if (pLoginID != 0)
+            {
+                pPlayBackHandle = new int[deviceInfo.byChanNum];
+                //画面按钮有效性控制
+                pRealPlayHandle = null;
+                pRealPlayHandle = new int[deviceInfo.byChanNum];
+
+                for (int i = 0; i < deviceInfo.byChanNum; i++)
+                {
+                    switch (i)
+                    {
+                        case 0://通道0的实时监视
+                            pictureBox17.Invoke((MethodInvoker)delegate
+                            {
+                                pRealPlayHandle[i] = DHClient.DHRealPlay(pLoginID, i, pictureBox17.Handle);
+                            });
+                            break;
+                        case 1://通道1的实时监视
+                            pictureBox18.Invoke((MethodInvoker)delegate
+                            {
+                                pRealPlayHandle[i] = DHClient.DHRealPlay(pLoginID, i, pictureBox18.Handle);
+                            });
+                            break;
+                        case 2://通道2的实时监视
+                            pictureBox19.Invoke((MethodInvoker)delegate
+                            {
+                                pRealPlayHandle[i] = DHClient.DHRealPlay(pLoginID, i, pictureBox19.Handle);
+                            });
+                            break;
+                        case 3://通道3的实时监视
+                            pictureBox20.Invoke((MethodInvoker)delegate
+                            {
+                                pRealPlayHandle[i] = DHClient.DHRealPlay(pLoginID, i, pictureBox20.Handle);
+                            });
+                            break;
+                        case 4://通道4的实时监视
+                            pictureBox21.Invoke((MethodInvoker)delegate
+                            {
+                                pRealPlayHandle[i] = DHClient.DHRealPlay(pLoginID, i, pictureBox21.Handle);
+                            });
+                            break;
+                    }
+                }
+            }
+        }
+
 
         //采集关键数据
         private void gatherCriticalData()
@@ -57,6 +208,21 @@ namespace TrainRemoteControl
                //采集三个电机的电压值，判断是否处于开机状态
                float[] voltageArray = da.GetGeneratorVoltage();
 
+               if (PowerShutDownEvent != null)
+               {
+                   bool off = false;
+                   if (voltageArray[4] > 0.5)
+                   {
+                       off = true;
+                   }
+                   PowerShutDownEvent(off);
+               }
+
+               bool started1 = voltageArray[0] >= 6.0;
+               bool started2 = voltageArray[1] >= 6.0;
+               bool started3 = voltageArray[2] >= 6.0;
+               //具有电机处于打开状态进行数据采集
+
                AlarmInfo alarmInfo = new AlarmInfo();
                //设置相关报警值              
                alarmInfo.FireAlarm = dataAcquisitionMana.judgeFireAlarm(commonData.FireAlarmValue);
@@ -64,9 +230,14 @@ namespace TrainRemoteControl
                alarmInfo.BatteryVoltage = commonData.BattaryVoltage;
                alarmInfo.UpOilPlace = commonData.UpOilPlace;
                alarmInfo.UpWaterPlace = commonData.UpWaterPlace;
-                          
-                Model.CriticalData cd = dataAcquisitionMana.GetCriticalData(oilMass, 1, alarmInfo.AlarmValue, voltageArray[1], voltageArray[3]);
-                showCriticalData(cd);
+
+               CriticalData cd = new CriticalData();
+                //获取三个电机的关键数据
+               for (int i = 1; i < 4; i++)
+               {
+                   cd = dataAcquisitionMana.GetCriticalData(oilMass, i, alarmInfo.AlarmValue, voltageArray[1], voltageArray[3]);
+                   showCriticalData(cd);
+               }
             }
             catch (Exception error)
             {
@@ -294,13 +465,13 @@ namespace TrainRemoteControl
 
         private void pictureBox17_Click(object sender, EventArgs e)
         {
-            DaHuaNetSDKSample.SingleVideoDisplayForm singleVideo = new DaHuaNetSDKSample.SingleVideoDisplayForm(Program.g_LocalVadioIp, ushort.Parse(Program.g_LocalVadioPort), Program.g_LocalVadioUsername, Program.g_LocalVadioPassword, 0);
+            DaHuaNetSDKSample.SingleVideoDisplayForm singleVideo = new DaHuaNetSDKSample.SingleVideoDisplayForm(Program.g_localVedioIp, ushort.Parse(Program.g_localVedioPort), Program.g_localVadioUsername, Program.g_localVadioPassword, 0);
             singleVideo.Show();
         }
 
         private void pictureBox18_Click(object sender, EventArgs e)
         {
-            DaHuaNetSDKSample.SingleVideoDisplayForm singleVideo = new DaHuaNetSDKSample.SingleVideoDisplayForm(Program.g_LocalVadioIp, ushort.Parse(Program.g_LocalVadioPort), Program.g_LocalVadioUsername, Program.g_LocalVadioPassword, 1);
+            DaHuaNetSDKSample.SingleVideoDisplayForm singleVideo = new DaHuaNetSDKSample.SingleVideoDisplayForm(Program.g_localVedioIp, ushort.Parse(Program.g_localVedioPort), Program.g_localVadioUsername, Program.g_localVadioPassword, 1);
             singleVideo.Show();
 
         }

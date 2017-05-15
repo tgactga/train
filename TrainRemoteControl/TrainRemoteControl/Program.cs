@@ -23,22 +23,22 @@ namespace TrainRemoteControl
         public static String g_lcNumber = "";
         public static string g_dbPath = "D:\\train\\Demo.db3";
 
-        public static String  g_LocalVadioIp= "";
-        public static String g_LocalVadioPort= "";
-        public static String  g_LocalVadioUsername= "";
-        public static String  g_LocalVadioPassword= "";   
+        public static String g_localVedioIp= "";
+        public static String g_localVedioPort = "";
+        public static String  g_localVadioUsername= "";
+        public static String  g_localVadioPassword= "";   
     
         public static String g_comPortTemperature = "";           			   
         public static String g_deadline= "";
         public static String g_inspectionInterval= "";
         public static String g_localListenPort= "";
-        public static String g_localVedioPwd= "";
+         
         public static String g_serialNum= "";
         public static String g_train= "";
-        public static String g_localVedioUserName= "";
-        public static String g_localVedioIp= "";
+         
+         
         public static String g_url = "";
-        public static String g_localVedioPort= "";
+        
         public static String g_connString= "";
         public static String g_comPort = "";
 
@@ -70,14 +70,17 @@ namespace TrainRemoteControl
             g_deadline=ini.IniReadValue("TermInfo", "deadline");                      
               g_inspectionInterval=ini.IniReadValue("TermInfo", "inspectionInterval");                   
               g_localListenPort=ini.IniReadValue("TermInfo", "localListenPort");     
-              g_localVedioPwd=ini.IniReadValue("TermInfo", "localVedioPwd");                   
+                                 
               g_serialNum=ini.IniReadValue("TermInfo", "serialNum");                  
-              g_train=ini.IniReadValue("TermInfo", "train");                                 
-              g_localVedioUserName=ini.IniReadValue("TermInfo", "localVedioUserName");      
-               
-              g_localVedioIp=ini.IniReadValue("TermInfo", "localVedioIp");      
-				g_url= ini.IniReadValue("TermInfo", "url");        
-              g_localVedioPort=ini.IniReadValue("TermInfo", "localVedioPort");   
+              g_train=ini.IniReadValue("TermInfo", "train");
+              g_url = ini.IniReadValue("TermInfo", "url");
+
+              g_localVadioUsername = ini.IniReadValue("TermInfo", "localVedioUserName");
+              g_localVadioPassword = ini.IniReadValue("TermInfo", "localVedioPwd");     
+              g_localVedioIp=ini.IniReadValue("TermInfo", "localVedioIp");      				
+              g_localVedioPort=ini.IniReadValue("TermInfo", "localVedioPort");
+              
+
               g_connString=ini.IniReadValue("TermInfo", "connString");     
               
               g_comPort=ini.IniReadValue("TermInfo", "comPort");
