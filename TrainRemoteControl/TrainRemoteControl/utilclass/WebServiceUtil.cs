@@ -69,6 +69,7 @@ namespace TrainRemoteControl.utilclass
             }
             catch (Exception e)
             {
+                Program.WriteLog("异常" + e.ToString());
                 return false;
             }
             return false;

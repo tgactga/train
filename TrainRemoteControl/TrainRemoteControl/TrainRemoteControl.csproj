@@ -91,8 +91,10 @@
     <Compile Include="BaseForm.Designer.cs">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BLL\CriticalDataBLL.cs" />
     <Compile Include="BLL\DataAcquisitionManager.cs" />
     <Compile Include="DAL\AlarmRecordDAL.cs" />
+    <Compile Include="DAL\CriticalDataDAL.cs" />
     <Compile Include="DAL\DataAcquisition.cs" />
     <Compile Include="DAL\InspectionRecordDAL.cs" />
     <Compile Include="dao\displayCommdao.cs" />

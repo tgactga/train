@@ -41,8 +41,7 @@ namespace TrainRemoteControl.DAl
             sqlParams[0].Value = "ture";
             sqlParams[1].Value =  "T401";
             sqlParams[2].Value =  "报警";
-             
-            
+                         
                 sqlParams[3].Value = DateTime.Now;
          
             sqlParams[4].Value =  "关键数据报警|温度超过警戒值";

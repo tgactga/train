@@ -173,6 +173,7 @@
             this.buttonOfxunjian = new System.Windows.Forms.Button();
             this.lbtitle = new System.Windows.Forms.Label();
             this.netlabel = new System.Windows.Forms.Label();
+            this.timer_gatherCritical = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
@@ -342,7 +343,7 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.40816F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.59184F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 144F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 217F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 219F));
             this.tableLayoutPanel5.Controls.Add(this.label71, 2, 0);
             this.tableLayoutPanel5.Controls.Add(this.label69, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.label70, 1, 0);
@@ -362,7 +363,7 @@
             // label71
             // 
             this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(216, 0);
+            this.label71.Location = new System.Drawing.Point(214, 0);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(53, 12);
             this.label71.TabIndex = 17;
@@ -380,7 +381,7 @@
             // label70
             // 
             this.label70.AutoSize = true;
-            this.label70.Location = new System.Drawing.Point(89, 0);
+            this.label70.Location = new System.Drawing.Point(88, 0);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(53, 12);
             this.label70.TabIndex = 16;
@@ -389,7 +390,7 @@
             // label72
             // 
             this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(360, 0);
+            this.label72.Location = new System.Drawing.Point(358, 0);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(41, 12);
             this.label72.TabIndex = 18;
@@ -408,7 +409,7 @@
             // LabFengmingtime
             // 
             this.LabFengmingtime.AutoSize = true;
-            this.LabFengmingtime.Location = new System.Drawing.Point(89, 15);
+            this.LabFengmingtime.Location = new System.Drawing.Point(88, 15);
             this.LabFengmingtime.Name = "LabFengmingtime";
             this.LabFengmingtime.Size = new System.Drawing.Size(29, 12);
             this.LabFengmingtime.TabIndex = 20;
@@ -417,7 +418,7 @@
             // LabRecordtime
             // 
             this.LabRecordtime.AutoSize = true;
-            this.LabRecordtime.Location = new System.Drawing.Point(216, 15);
+            this.LabRecordtime.Location = new System.Drawing.Point(214, 15);
             this.LabRecordtime.Name = "LabRecordtime";
             this.LabRecordtime.Size = new System.Drawing.Size(29, 12);
             this.LabRecordtime.TabIndex = 21;
@@ -426,7 +427,7 @@
             // LabXunjianPenson
             // 
             this.LabXunjianPenson.AutoSize = true;
-            this.LabXunjianPenson.Location = new System.Drawing.Point(360, 15);
+            this.LabXunjianPenson.Location = new System.Drawing.Point(358, 15);
             this.LabXunjianPenson.Name = "LabXunjianPenson";
             this.LabXunjianPenson.Size = new System.Drawing.Size(29, 12);
             this.LabXunjianPenson.TabIndex = 22;
@@ -1758,6 +1759,12 @@
             this.netlabel.TabIndex = 14;
             this.netlabel.Text = "网络状态：";
             // 
+            // timer_gatherCritical
+            // 
+            this.timer_gatherCritical.Enabled = true;
+            this.timer_gatherCritical.Interval = 2000;
+            this.timer_gatherCritical.Tick += new System.EventHandler(this.timer_gatherCritical_Tick);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1997,5 +2004,6 @@
         private System.Windows.Forms.PictureBox pictureBox20;
         private System.Windows.Forms.Label labelbaojingtest;
         private System.Windows.Forms.Label netlabel;
+        private System.Windows.Forms.Timer timer_gatherCritical;
     }
 }

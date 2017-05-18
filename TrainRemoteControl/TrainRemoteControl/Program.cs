@@ -16,6 +16,7 @@ namespace TrainRemoteControl
         public static TrainRemoteControl.TrainWebService.TrainServiceClient g_trainService = new TrainWebService.TrainServiceClient();
         public static bool g_isNetState = false;  //网络状态
         public static bool g_isAlarm = false;  //是否报警
+        public static bool g_isflashed = false; //是否闪烁报警灯
         public static bool g_isInspected = false;  //是否巡检
         public static Form singleForm = null;
         public static INIClass ini = new INIClass("D://train//train.ini");

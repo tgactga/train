@@ -488,4 +488,7 @@
         H+r7dd2O3SgDasNv2m2/1P8ArV6+Zj756Y5oA//Z
 </value>
   </data>
+  <metadata name="timer_gatherCritical.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>168, 17</value>
+  </metadata>
 </root>

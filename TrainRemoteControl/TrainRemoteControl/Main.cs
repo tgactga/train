@@ -34,58 +34,45 @@ namespace TrainRemoteControl
         /// <summary>
         /// 设备用户登录ＩＤ
         /// </summary>
-        private int pLoginID;
-         
-
+        private int pLoginID;         
         /// <summary>
         /// 程序消息提示Title
         /// </summary>
         private const string pMsgTitle = "大华网络SDK Demo程序";
-
         /// <summary>
         /// 最后操作信息显示格式
         /// </summary>
         private const string pErrInfoFormatStyle = "代码:errcode;\n描述:errmSG.";
-
         /// <summary>
         /// 当前回放的文件信息
         /// </summary>
         //NET_RECORDFILE_INFO fileInfo;
-
         /// <summary>
         /// 播放方式
         /// </summary>
         //private int playBy = 0;
-
         /// <summary>
         /// 实时播放句柄保存
         /// </summary>
         private int[] pRealPlayHandle;
-
         /// <summary>
         /// 回放句柄保存
         /// </summary>
         private int[] pPlayBackHandle;
-
         /// <summary>
         /// 回放通道号
         /// </summary>
         //private int pPlayBackChannelID;
-
         /// <summary>
         /// 上次点击的PictureBox控件
         /// </summary>
         //private PictureBox oldPicRealPlay;
-
         /// <summary>
         /// 当前点击的PictureBox控件
         /// </summary>
         //private PictureBox picRealPlay;
-
         private fDisConnect disConnect;
-
         private NET_DEVICEINFO deviceInfo;
-
 
         private void Main_Load(object sender, EventArgs e)
         {
@@ -95,14 +82,17 @@ namespace TrainRemoteControl
             //if (Program.g_isAlarm)
             //{
             //    this.baojing.BackColor = Color.Red;                       
-            //}      
-            //采集关键数据
-            gatherCriticalData();
+            //}              
             //实时视频
-            RealPlay(); 
-           
+            RealPlay();           
         }
-
+        //定时采集关键数据
+        private void timer_gatherCritical_Tick(object sender, EventArgs e)
+        {
+            timer_gatherCritical.Enabled = false;
+            //采集关键数据
+            gatherCriticalData();           
+        }
 
         /// <summary>
         /// 设备断开连接处理
@@ -134,7 +124,6 @@ namespace TrainRemoteControl
                 Program.WriteLog("视频设备断开连接处理异常" + ex.ToString());
             }
         }
-
 
         //摄像头视频显示
         private void RealPlay()
@@ -191,11 +180,20 @@ namespace TrainRemoteControl
                 }
             }
         }
-
-
+        int a1 = 0;
+        int a2 = 0;
+        int a3 = 0;
+        int a4 = 0; //发送电机状态计数
+        int timesCount = 30; //标示30s上传一次关键数据
+        CriticalDataBLL bll = new CriticalDataBLL();
         //采集关键数据
         private void gatherCriticalData()
         {
+            //初始化报警值
+            int oldAlarmValue = 0;
+            int alarm = 0;
+            //初始化电机状态
+            string oldGeneratorStatus = "";//其实int或者byte最好
             try
             {
                DataAcquisitionManager dataAcquisitionMana = new DataAcquisitionManager();
@@ -221,28 +219,170 @@ namespace TrainRemoteControl
                bool started1 = voltageArray[0] >= 6.0;
                bool started2 = voltageArray[1] >= 6.0;
                bool started3 = voltageArray[2] >= 6.0;
-               //具有电机处于打开状态进行数据采集
-
-               AlarmInfo alarmInfo = new AlarmInfo();
-               //设置相关报警值              
-               alarmInfo.FireAlarm = dataAcquisitionMana.judgeFireAlarm(commonData.FireAlarmValue);
-               //Console.WriteLine("AlarmValue xxxxxxxxxxxxxx"+commonData.FireAlarmValue.ToString());
-               alarmInfo.BatteryVoltage = commonData.BattaryVoltage;
-               alarmInfo.UpOilPlace = commonData.UpOilPlace;
-               alarmInfo.UpWaterPlace = commonData.UpWaterPlace;
-
-               CriticalData cd = new CriticalData();
-                //获取三个电机的关键数据
-               for (int i = 1; i < 4; i++)
+               //如果电机处于打开状态进行数据采集
+                 //获取三个电机的关键数据
+               if (started1 || started2 || started3)
                {
-                   cd = dataAcquisitionMana.GetCriticalData(oilMass, i, alarmInfo.AlarmValue, voltageArray[1], voltageArray[3]);
-                   showCriticalData(cd);
+                   string gsStr = "";
+                   gsStr += started1 ? "1" : "0";
+                   gsStr += started2 ? "1" : "0";
+                   gsStr += started3 ? "1" : "0";
+
+                   if (gsStr != oldGeneratorStatus)
+                   {
+                       oldGeneratorStatus = gsStr;
+                   }
+
+                   AlarmInfo alarmInfo = new AlarmInfo();
+                   //设置相关报警值              
+                   alarmInfo.FireAlarm = dataAcquisitionMana.judgeFireAlarm(commonData.FireAlarmValue);                 
+                   alarmInfo.BatteryVoltage = commonData.BattaryVoltage;
+                   alarmInfo.UpOilPlace = commonData.UpOilPlace;
+                   alarmInfo.UpWaterPlace = commonData.UpWaterPlace;
+
+                   int alarmValue1 = 0;
+                   int alarmValue2 = 0;
+                   int alarmValue3 = 0;
+
+                   //一号电机数据采集
+                   if (started1)
+                   {
+                       CriticalData cd = dataAcquisitionMana.GetCriticalData(oilMass, 1, alarmInfo.AlarmValue, voltageArray[0], voltageArray[3]);
+                       cd.LcNum = Program.g_serialNum;//列车编号
+                       cd.Run = true;
+                       a1++;
+                       if (a1 > timesCount)
+                       {
+                           Program.WriteLog("保存关键数据");
+                           bll.GetCricialDataToDataBase(cd);  //保存数据
+                           a1 = 0;
+                       }
+                       showCriticalData(cd);
+
+                       //如果具有报警，且报警灯处于停止状态，通知UI报警灯闪烁
+                       Program.WriteLog("报警值为：" + cd.AlarmValue);
+                       alarmValue1 = cd.AlarmValue;
+                       if (cd.AlarmValue > 0 && !Program.g_isflashed)
+                       {
+                           Program.g_isflashed = true;//标示报警灯已经处于闪烁状态                        
+                           da.StartAlarm(); //开始报警                       
+                       }
+                   }
+                   else
+                   {
+                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, false);
+
+                       showCriticalData(criticalData);
+                   }
+                   //二号电机数据采集
+                   if (started2)
+                   {
+                       CriticalData cd = dataAcquisitionMana.GetCriticalData(oilMass, 2, alarmInfo.AlarmValue, voltageArray[1], voltageArray[3]);
+                       cd.LcNum = Program.g_serialNum;//列车编号
+                       cd.Run = true;
+                       a2++;
+                       if (a2 > timesCount)
+                       {
+                           Program.WriteLog("保存关键数据");
+                           bll.GetCricialDataToDataBase(cd);  //保存数据
+                           a2 = 0;
+                       }
+                       showCriticalData(cd);
+                       //如果具有报警，且报警灯处于停止状态，通知UI报警灯闪烁
+                       Program.WriteLog("报警值为：" + cd.AlarmValue);
+                       alarmValue2 = cd.AlarmValue;
+                       if (cd.AlarmValue > 0 && !Program.g_isflashed)
+                       {
+                           Program.g_isflashed = true;//标示报警灯已经处于闪烁状态                        
+                           da.StartAlarm(); //开始报警                       
+                       }
+                   }
+                   else
+                   {
+                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, false);
+
+                       showCriticalData(criticalData);
+                   }
+                   //三号电机数据采集
+                   if (started3)
+                   {
+                       CriticalData cd = dataAcquisitionMana.GetCriticalData(oilMass, 3, alarmInfo.AlarmValue, voltageArray[2], voltageArray[3]);
+                       cd.LcNum = Program.g_serialNum;//列车编号
+                       cd.Run = true;
+                       a3++;
+                       if (a3 > timesCount)
+                       {
+                           Program.WriteLog("保存关键数据");
+                           bll.GetCricialDataToDataBase(cd);  //保存数据
+                           a3 = 0;
+                       }
+                       showCriticalData(cd);
+                       //如果具有报警，且报警灯处于停止状态，通知UI报警灯闪烁
+                       Program.WriteLog("报警值为：" + cd.AlarmValue);
+                       alarmValue2 = cd.AlarmValue;
+                       if (cd.AlarmValue > 0 && !Program.g_isflashed)
+                       {
+                           Program.g_isflashed = true;//标示报警灯已经处于闪烁状态                        
+                           da.StartAlarm(); //开始报警                       
+                       }
+                   }
+                   else
+                   {
+                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, false);
+
+                       showCriticalData(criticalData);
+                   }
+
+
+                   //将三个电机报警值合并
+                   int newAlarmValue = alarmValue1 | alarmValue2 | alarmValue3;
+                   //报警值只有15个，确保前16位为0
+                   newAlarmValue = (newAlarmValue << 16) >> 16;
+
+                   //CriticalDataHandle(cdList);
+                   //如果报警值发生变化发送到服务器
+                   if (newAlarmValue != oldAlarmValue)
+                   {
+                       oldAlarmValue = newAlarmValue;
+                       alarm = oldAlarmValue;
+                       //comManger.AsyncSendAlarm(newAlarmValue);//mark
+                   }
+
+                   ///如果报警清除，关闭报警灯
+                   if (newAlarmValue == 0 && Program.g_isflashed)
+                   {
+                       Program.WriteLog("清除报警值");
+                       Program.g_isflashed = false;
+                       da.StopAlarm();
+
+                   }
+
                }
+               else
+               {
+                   for (int i = 1; i < 4; i++)
+                   {
+                       CriticalData criticalData = new CriticalData(Program.g_serialNum, i, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, false);
+                        //界面显示
+                   }
+
+                   if (oldGeneratorStatus != "000")
+                   {
+                       oldGeneratorStatus = "000";
+                   }
+                   alarm = oldAlarmValue;
+               }
+
+               a4++; 
+               if (a4 > 15)
+               {
+                   a4 = 0;
+                   //comManger.AsyncSendGs(oldGeneratorStatus, alarm); //向服务器发送数据
+               }              
             }
             catch (Exception error)
             {
                 Program.WriteLog("采集关键数据出错"+error.ToString());
-
             }
         }
         
@@ -394,7 +534,7 @@ namespace TrainRemoteControl
                         label30.Text = cd.Frequency == -1 ? "——" : alarmInfo.OilLeak1 ? "报警" : "正常";
                         label26.Text = cd.Voltage == -1 ? "——" : cd.Voltage.ToString();
                         this.pictureBox22.Image = cd.Run ? greenCircle : redCircle;
-                        this.label7.Text = cd.Run ? "运行" : "停机";
+                        this.label48.Text = cd.Run ? "运行" : "停机";
                         this.pictureBox5.Image = alarmInfo.AlarmOP1 ? redCircle : greenCircle;
                         this.pictureBox6.Image = alarmInfo.AlarmWT1 ? redCircle : greenCircle;
                         this.pictureBox7.Image = alarmInfo.AlarmMS1 ? redCircle : greenCircle;
@@ -413,7 +553,7 @@ namespace TrainRemoteControl
                         label11.Text = cd.Frequency == -1 ? "——" : alarmInfo.OilLeak1 ? "报警" : "正常";
                         label32.Text = cd.Voltage == -1 ? "——" : cd.Voltage.ToString();
                         this.pictureBox23.Image = cd.Run ? greenCircle : redCircle;
-                        this.label8.Text = cd.Run ? "运行" : "停机";
+                        this.label13.Text = cd.Run ? "运行" : "停机";
                         this.pictureBox12.Image = alarmInfo.AlarmOP2 ? redCircle : greenCircle;
                         this.pictureBox9.Image = alarmInfo.AlarmWT2 ? redCircle : greenCircle;
                         this.pictureBox10.Image = alarmInfo.AlarmMS2 ? redCircle : greenCircle;
@@ -432,7 +572,8 @@ namespace TrainRemoteControl
                         label49.Text = cd.Frequency == -1 ? "——" : alarmInfo.OilLeak1 ? "报警" : "正常";
                         label52.Text = cd.Voltage == -1 ? "——" : cd.Voltage.ToString();
                         this.pictureBox24.Image = cd.Run ? greenCircle : redCircle;
-                        this.label9.Text = cd.Run ? "运行" : "停机";
+                       
+                        this.label10.Text = cd.Run ? "运行" : "停机";
                         this.pictureBox16.Image = alarmInfo.AlarmOP3 ? redCircle : greenCircle;
                         this.pictureBox13.Image = alarmInfo.AlarmWT3 ? redCircle : greenCircle;
                         this.pictureBox14.Image = alarmInfo.AlarmMS3 ? redCircle : greenCircle;
@@ -483,6 +624,8 @@ namespace TrainRemoteControl
             return;
 
         }
+
+       
 
       
 
