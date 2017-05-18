@@ -45,6 +45,9 @@ namespace TrainRemoteControl.Model
         private float oilMass;
         private int alarmValue;
         private DateTime dateTime;
+        private DateTime saveTime;
+
+        
         private bool run;
 
         /// <summary>
@@ -207,6 +210,14 @@ namespace TrainRemoteControl.Model
                 alarmValue = value;
             }
         }
+        /// <summary>
+        /// 保存时间
+        /// </summary>
+        public DateTime SaveNowTime
+        {
+            get { return saveTime; }
+            set { saveTime = value; }
+        }
 
         /// <summary>
         /// 采集时间
@@ -235,7 +246,7 @@ namespace TrainRemoteControl.Model
             }
         }
 
-        public CriticalData(string lcNum, int generatorId, float oilPress, float waterTemp, float frequency, float motorSpeed, float voltage, float current, float motorPower, float powerFactor, float oilMass, int alarmValue, DateTime date)
+        public CriticalData(string lcNum, int generatorId, float oilPress, float waterTemp, float frequency, float motorSpeed, float voltage, float current, float motorPower, float powerFactor, float oilMass, int alarmValue, DateTime date, DateTime savetime)
         {
             this.lcNum = lcNum;
             this.generatorId = generatorId;
@@ -250,10 +261,11 @@ namespace TrainRemoteControl.Model
             this.oilMass = oilMass;
             this.alarmValue = alarmValue;
             this.dateTime = date;
+            this.saveTime = savetime;
             this.run = false;
         }
 
-        public CriticalData(string lcNum, int generatorId, float oilPress, float waterTemp, float frequency, float motorSpeed, float voltage, float current, float motorPower, float powerFactor, float oilMass, int alarmValue, DateTime date, bool run)
+        public CriticalData(string lcNum, int generatorId, float oilPress, float waterTemp, float frequency, float motorSpeed, float voltage, float current, float motorPower, float powerFactor, float oilMass, int alarmValue, DateTime date, DateTime savetime, bool run)
         {
             this.lcNum = lcNum;
             this.generatorId = generatorId;
@@ -268,6 +280,7 @@ namespace TrainRemoteControl.Model
             this.oilMass = oilMass;
             this.alarmValue = alarmValue;
             this.dateTime = date;
+            this.saveTime = savetime;
             this.run = run;
         }
     }

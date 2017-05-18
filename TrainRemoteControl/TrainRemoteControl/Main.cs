@@ -89,7 +89,7 @@ namespace TrainRemoteControl
         //定时采集关键数据
         private void timer_gatherCritical_Tick(object sender, EventArgs e)
         {
-            timer_gatherCritical.Enabled = false;
+           // timer_gatherCritical.Enabled = false;
             //采集关键数据
             gatherCriticalData();           
         }
@@ -221,6 +221,7 @@ namespace TrainRemoteControl
                bool started3 = voltageArray[2] >= 6.0;
                //如果电机处于打开状态进行数据采集
                  //获取三个电机的关键数据
+                
                if (started1 || started2 || started3)
                {
                    string gsStr = "";
@@ -243,17 +244,18 @@ namespace TrainRemoteControl
                    int alarmValue1 = 0;
                    int alarmValue2 = 0;
                    int alarmValue3 = 0;
-
+                   DateTime saveNowTime = DateTime.Now;
                    //一号电机数据采集
                    if (started1)
                    {
                        CriticalData cd = dataAcquisitionMana.GetCriticalData(oilMass, 1, alarmInfo.AlarmValue, voltageArray[0], voltageArray[3]);
                        cd.LcNum = Program.g_serialNum;//列车编号
                        cd.Run = true;
+                       cd.SaveNowTime = saveNowTime;
                        a1++;
                        if (a1 > timesCount)
                        {
-                           Program.WriteLog("保存关键数据");
+                           Program.WriteLog("保存一号电机关键数据");
                            bll.GetCricialDataToDataBase(cd);  //保存数据
                            a1 = 0;
                        }
@@ -270,8 +272,8 @@ namespace TrainRemoteControl
                    }
                    else
                    {
-                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, false);
-
+                       Program.WriteLog("一号电机未开机");
+                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now,saveNowTime, false);
                        showCriticalData(criticalData);
                    }
                    //二号电机数据采集
@@ -280,10 +282,11 @@ namespace TrainRemoteControl
                        CriticalData cd = dataAcquisitionMana.GetCriticalData(oilMass, 2, alarmInfo.AlarmValue, voltageArray[1], voltageArray[3]);
                        cd.LcNum = Program.g_serialNum;//列车编号
                        cd.Run = true;
+                       cd.SaveNowTime = saveNowTime;
                        a2++;
                        if (a2 > timesCount)
                        {
-                           Program.WriteLog("保存关键数据");
+                           Program.WriteLog("保存二号电机关键数据");
                            bll.GetCricialDataToDataBase(cd);  //保存数据
                            a2 = 0;
                        }
@@ -299,8 +302,8 @@ namespace TrainRemoteControl
                    }
                    else
                    {
-                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, false);
-
+                       Program.WriteLog("二号电机未开机");
+                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, saveNowTime, false);
                        showCriticalData(criticalData);
                    }
                    //三号电机数据采集
@@ -309,10 +312,11 @@ namespace TrainRemoteControl
                        CriticalData cd = dataAcquisitionMana.GetCriticalData(oilMass, 3, alarmInfo.AlarmValue, voltageArray[2], voltageArray[3]);
                        cd.LcNum = Program.g_serialNum;//列车编号
                        cd.Run = true;
+                       cd.SaveNowTime = saveNowTime;
                        a3++;
                        if (a3 > timesCount)
                        {
-                           Program.WriteLog("保存关键数据");
+                           Program.WriteLog("保存三号电机关键数据");
                            bll.GetCricialDataToDataBase(cd);  //保存数据
                            a3 = 0;
                        }
@@ -328,8 +332,8 @@ namespace TrainRemoteControl
                    }
                    else
                    {
-                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, false);
-
+                       Program.WriteLog("三号电机未开机");
+                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, saveNowTime, false);
                        showCriticalData(criticalData);
                    }
 
@@ -362,7 +366,7 @@ namespace TrainRemoteControl
                {
                    for (int i = 1; i < 4; i++)
                    {
-                       CriticalData criticalData = new CriticalData(Program.g_serialNum, i, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, false);
+                       CriticalData criticalData = new CriticalData(Program.g_serialNum, i, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, DateTime.Now, false);
                         //界面显示
                    }
 
