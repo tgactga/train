@@ -426,7 +426,6 @@ D:\VS2008\170312\RemoteControl_V4\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSD
 D:\fzxtwork\train\TrainRemoteControl\Video\bin\DaHuaNetSDKSample.exe.config
 D:\fzxtwork\train\TrainRemoteControl\Video\bin\DaHuaNetSDKSample.exe
 D:\fzxtwork\train\TrainRemoteControl\Video\bin\DaHuaNetSDKSample.pdb
-D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
 D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frmMultiDVRSample.resources
 D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_PTZControl.resources
 D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.frm_AddDevice.resources

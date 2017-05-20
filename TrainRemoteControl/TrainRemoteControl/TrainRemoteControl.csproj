@@ -173,6 +173,10 @@
     <Compile Include="utilclass\SQLiteDBHelper.cs" />
     <Compile Include="utilclass\StringUtil.cs" />
     <Compile Include="utilclass\WebServiceUtil.cs" />
+    <Compile Include="WebModel\CriticalData.cs" />
+    <Compile Include="WebModel\InspectionRecords.cs" />
+    <Compile Include="WebModel\tab_temperature.cs" />
+    <Compile Include="WebModel\trainInfo.cs" />
     <Compile Include="XunjianForm.cs">
       <SubType>Form</SubType>
     </Compile>

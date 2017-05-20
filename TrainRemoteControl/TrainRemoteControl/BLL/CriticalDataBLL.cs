@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using TrainRemoteControl.Model;
 
 namespace TrainRemoteControl.BLL
 {
@@ -23,5 +24,16 @@ namespace TrainRemoteControl.BLL
             return dal.SaveTempData(ct, time);
         }
 
+        //查询要上传数据
+        public List<CriticalData> SelectCricialData(string lcNum, string isuploadstate)
+        {
+            return dal.SelectCricialData(lcNum, isuploadstate);
+        }
+
+        //更新
+        public void updateCriticalData(List<CriticalData> criticalList)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

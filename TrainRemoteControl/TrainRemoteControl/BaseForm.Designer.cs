@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2_net = new System.Windows.Forms.Timer(this.components);
+            this.timer3_uploadCriticalData = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // progressBar1
@@ -61,17 +62,22 @@
             // timer2_net
             // 
             this.timer2_net.Enabled = true;
+            this.timer2_net.Interval = 60000;
             this.timer2_net.Tick += new System.EventHandler(this.timer2_net_Tick);
+            // 
+            // timer3_uploadCriticalData
+            // 
+            this.timer3_uploadCriticalData.Tick += new System.EventHandler(this.timer3_uploadCriticalData_Tick);
             // 
             // BaseForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TrainRemoteControl.Properties.Resources.mb1;
-            this.ClientSize = new System.Drawing.Size(990, 875);
-            this.Location = new System.Drawing.Point(8, 10);
+            this.ClientSize = new System.Drawing.Size(990, 741);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
+            this.Location = new System.Drawing.Point(8, 10);
             this.Name = "BaseForm";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.BaseForm_Load);
@@ -86,5 +92,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2_net;
+        private System.Windows.Forms.Timer timer3_uploadCriticalData;
     }
 }

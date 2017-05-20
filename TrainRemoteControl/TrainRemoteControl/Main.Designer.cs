@@ -343,7 +343,7 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.40816F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.59184F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 144F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 219F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 220F));
             this.tableLayoutPanel5.Controls.Add(this.label71, 2, 0);
             this.tableLayoutPanel5.Controls.Add(this.label69, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.label70, 1, 0);
@@ -363,7 +363,7 @@
             // label71
             // 
             this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(214, 0);
+            this.label71.Location = new System.Drawing.Point(213, 0);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(53, 12);
             this.label71.TabIndex = 17;
@@ -390,7 +390,7 @@
             // label72
             // 
             this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(358, 0);
+            this.label72.Location = new System.Drawing.Point(357, 0);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(41, 12);
             this.label72.TabIndex = 18;
@@ -418,7 +418,7 @@
             // LabRecordtime
             // 
             this.LabRecordtime.AutoSize = true;
-            this.LabRecordtime.Location = new System.Drawing.Point(214, 15);
+            this.LabRecordtime.Location = new System.Drawing.Point(213, 15);
             this.LabRecordtime.Name = "LabRecordtime";
             this.LabRecordtime.Size = new System.Drawing.Size(29, 12);
             this.LabRecordtime.TabIndex = 21;
@@ -427,7 +427,7 @@
             // LabXunjianPenson
             // 
             this.LabXunjianPenson.AutoSize = true;
-            this.LabXunjianPenson.Location = new System.Drawing.Point(358, 15);
+            this.LabXunjianPenson.Location = new System.Drawing.Point(357, 15);
             this.LabXunjianPenson.Name = "LabXunjianPenson";
             this.LabXunjianPenson.Size = new System.Drawing.Size(29, 12);
             this.LabXunjianPenson.TabIndex = 22;
@@ -1762,7 +1762,7 @@
             // timer_gatherCritical
             // 
             this.timer_gatherCritical.Enabled = true;
-            this.timer_gatherCritical.Interval = 2000;
+            this.timer_gatherCritical.Interval = 1000;
             this.timer_gatherCritical.Tick += new System.EventHandler(this.timer_gatherCritical_Tick);
             // 
             // Main

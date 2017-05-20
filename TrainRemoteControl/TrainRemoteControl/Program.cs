@@ -6,6 +6,7 @@ using System.IO;
 using System.Text;
 using TrainRemoteControl.utilclass;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Diagnostics;
  
 
 namespace TrainRemoteControl
@@ -53,6 +54,15 @@ namespace TrainRemoteControl
         [STAThread]
         static void Main()
         {
+            Process[] ps = Process.GetProcesses();
+            foreach (Process item in ps)
+            {
+                if (item.ProcessName == "TrainRemoteControl")
+                {
+                    item.Kill();
+                }
+            }
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new BaseForm());
@@ -61,9 +71,7 @@ namespace TrainRemoteControl
 
         static Program()
         {
-            
-            
-
+                    
             //ini.IniWriteValue("TermInfo", "checi", "T141");
             g_checi = ini.IniReadValue("TermInfo", "checi");//读取车次号  
             //ini.IniWriteValue("TermInfo", "lcNumber", "000002");

@@ -8,6 +8,8 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using TrainRemoteControl.utilclass;
+using TrainRemoteControl.Model;
+using TrainRemoteControl.BLL;
 
 namespace TrainRemoteControl
 {
@@ -27,7 +29,7 @@ namespace TrainRemoteControl
             string startTime =  "50";
             timeCount = int.Parse(startTime);
 
-
+            this.timer3_uploadCriticalData.Enabled = true;
 
             deletOverTimelogs();
         }
@@ -49,6 +51,37 @@ namespace TrainRemoteControl
         private void timer2_net_Tick(object sender, EventArgs e)
         {
           Program.g_isNetState =  WebServiceUtil.urlIsReach(Program.g_url);
+        }
+
+        
+        private void timer3_uploadCriticalData_Tick(object sender, EventArgs e)
+        {
+            Program.g_isNetState = true;
+            if (Program.g_isNetState)
+            {              
+                //Program.WriteLog("查询要上传的关键数据");
+                CriticalDataBLL bll = new CriticalDataBLL();
+               List<CriticalData> criticalList =  bll.SelectCricialData(Program.g_lcNumber, "1");
+
+               if (criticalList != null && criticalList.Count > 1)
+               {
+                   Program.WriteLog("上传关键数据");
+                   string uploadRet = WebServiceUtil.uploadCriticalData(criticalList);
+                   if ("".Equals(uploadRet))
+                   {
+                       Program.WriteLog("更新关键数据的状态");
+                       bll.updateCriticalData(criticalList);
+
+                   }
+               }
+
+                //foreach (CriticalData cd in criticalList)
+                //{
+                
+                //     WebServiceUtil.uploadCriticalData(cd);
+                //}
+            }
+
         }
 
         private void deletOverTimelogs()
@@ -79,6 +112,7 @@ namespace TrainRemoteControl
             }
             Program.WriteLog("成功删除7天之前的日志文件文件");
         }
+
 
     }
 }

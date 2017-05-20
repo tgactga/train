@@ -12,13 +12,17 @@ namespace TrainRemoteControl
     public class CriticalDataDAL
     {
         #region SQL语句
-        private const string INSERT_DISPLAY = @"INSERT INTO CriticalData(lcNum,generatorId,oilPress,waterTemp,frequency,motorSpeed,voltage,[current],motorPower,powerFactor,oilMass,alarmValue,[dateTime],[saveTime])
-                                                VALUES(@lcNum,@generatorId,@oilPress,@waterTemp,@frequency,@motorSpeed,@voltage,@current,@motorPower,@powerFactor,@oilMass,@alarmValue,@dateTime,@saveTime)";
-        private const string SELECT_CDATA_TOP = @"SELECT TOP @rowCount lcNum,generatorId,oilPress,waterTemp,frequency,motorSpeed,voltage,[current],motorPower,powerFactor,oilMass,alarmValue,[dateTime]
+        private const string UPDATE_CRITICAL = "UPDATE CriticalData SET isuploadstate=@isuploadstate  where lcNum=@lcNum  and saveTime=@saveTime ";
+        private const string INSERT_DISPLAY = @"INSERT INTO CriticalData(lcNum,generatorId,oilPress,waterTemp,frequency,motorSpeed,voltage,[current],motorPower,powerFactor,oilMass,alarmValue,[dateTime],[saveTime],isuploadstate)
+                                                VALUES(@lcNum,@generatorId,@oilPress,@waterTemp,@frequency,@motorSpeed,@voltage,@current,@motorPower,@powerFactor,@oilMass,@alarmValue,@dateTime,@saveTime,@isuploadstate)";
+        private const string SELECT_CDATA_TOP = @"SELECT TOP @rowCount lcNum,generatorId,oilPress,waterTemp,frequency,motorSpeed,voltage,[current],motorPower,powerFactor,oilMass,alarmValue,[dateTime,[saveTime],isuploadstate]
                                                   FROM CriticalData";
-        private const string SELECT_CDATA_DATE = @"SELECT lcNum,generatorId,oilPress,waterTemp,frequency,motorSpeed,voltage,[current],motorPower,powerFactor,oilMass,alarmValue,[dateTime]
+        private const string SELECT_CDATA_DATE = @"SELECT lcNum,generatorId,oilPress,waterTemp,frequency,motorSpeed,voltage,[current],motorPower,powerFactor,oilMass,alarmValue,[dateTime],[saveTime],isuploadstate
                                                    FROM CriticalData
                                                    WHERE dateTime>@preDate AND dateTime<@nextDate";
+        private const string SELECT_CDATA_DATE_ISNOTUPLOAD = @"SELECT lcNum,generatorId,oilPress,waterTemp,frequency,motorSpeed,voltage,[current],motorPower,powerFactor,oilMass,alarmValue,[dateTime],[saveTime],isuploadstate
+                                                   FROM CriticalData
+                                                   WHERE lcNum=@lcNum AND isuploadstate=@isuploadstate";
         private const string SELECT_CDATA_GENERATORID = @"SELECT TOP @rowCount lcNum,generatorId,oilPress,waterTemp,frequency,motorSpeed,voltage,[current],motorPower,powerFactor,oilMass,alarmValue,[dateTime]
                                                         FROM CriticalData
                                                         WHERE generatorId=@generatorId";
@@ -82,6 +86,8 @@ namespace TrainRemoteControl
         private const string PARAM_ALARMSTATUS = "@alarmStatus";
         private const string PARAM_STARTTIME = "@startDateTime";
         private const string PARAM_ENDTIME = "@endDateTime";
+
+        private const string PARAM_ISUPLOADSTATE = "@isuploadstate"; 
         #endregion
 
         private const int PAGESIZE = 30;
@@ -609,7 +615,7 @@ namespace TrainRemoteControl
 
         public bool SaveCriticalData(CriticalData cd)
         {
-            SQLiteParameter[] sqlParams = new SQLiteParameter[13];
+            SQLiteParameter[] sqlParams = new SQLiteParameter[15];
             sqlParams[0] = new SQLiteParameter(PARAM_LCNUM, DbType.String, 20);
             sqlParams[1] = new SQLiteParameter(PARAM_GID, DbType.Int32, 4);
             sqlParams[2] = new SQLiteParameter(PARAM_OILPRESS, DbType.Double);
@@ -624,6 +630,7 @@ namespace TrainRemoteControl
             sqlParams[11] = new SQLiteParameter(PARAM_ALARMVALUE, DbType.Int32, 4);
             sqlParams[12] = new SQLiteParameter(PARAM_DATETIME, DbType.DateTime, 8);
             sqlParams[13] = new SQLiteParameter(PARAM_SAVETIME, DbType.DateTime, 8);
+            sqlParams[14] = new SQLiteParameter(PARAM_ISUPLOADSTATE, DbType.String, 20);
             sqlParams[0].Value = cd.LcNum;
             sqlParams[1].Value = cd.GeneratorId;
             sqlParams[2].Value = cd.OilPress;
@@ -638,6 +645,7 @@ namespace TrainRemoteControl
             sqlParams[11].Value = cd.AlarmValue;
             sqlParams[12].Value = cd.Date;
             sqlParams[13].Value = cd.SaveNowTime;
+            sqlParams[14].Value = cd.Isuploadstate;
             SQLiteDBHelper sdb = new SQLiteDBHelper(Program.g_dbPath);
             return sdb.ExecuteNonQuery(INSERT_DISPLAY, sqlParams) == 1;
         }
@@ -785,7 +793,37 @@ namespace TrainRemoteControl
             // return SQLHelper.ExecuteNonQuery(strSql.ToString(), parameters) == 1;
             return sdb.ExecuteNonQuery(strSql.ToString(), parameters) > 0;
         }
-   
-    
+
+        public List<CriticalData> SelectCricialData(string lcNum, string isuploadstate)
+        {
+            
+            SQLiteParameter[] sqlParams = new SQLiteParameter[2];
+            sqlParams[0] = new SQLiteParameter(PARAM_LCNUM, DbType.String, 10);
+            sqlParams[1] = new SQLiteParameter(PARAM_ISUPLOADSTATE, DbType.String, 10);
+            sqlParams[0].Value = lcNum;
+            sqlParams[1].Value = isuploadstate;
+            List<CriticalData> criticalDataList = new List<CriticalData>(100);
+            SQLiteDBHelper sdb = new SQLiteDBHelper(Program.g_dbPath);
+            SQLiteDataReader reader =   null;
+            try
+            {
+                reader = sdb.ExecuteReader(SELECT_CDATA_DATE_ISNOTUPLOAD, sqlParams);
+                while (reader.Read())
+                {
+                    CriticalData criticalData = new CriticalData(reader.GetString(0).Trim(), reader.GetInt32(1), (float)reader.GetDouble(2), (float)reader.GetDouble(3), (float)reader.GetDouble(4), (float)reader.GetDouble(5), (float)reader.GetDouble(6), (float)reader.GetDouble(7), (float)reader.GetDouble(8), (float)reader.GetDouble(9), (float)reader.GetDouble(10), reader.GetInt32(11), reader.GetDateTime(12), reader.GetDateTime(13), reader.GetString(14));
+                    criticalDataList.Add(criticalData);
+                }
+            }
+            finally
+            {
+                if (reader != null)
+                {
+                    reader.Close();
+                }
+            }
+            return criticalDataList;
+
+
+        }
     }
 }

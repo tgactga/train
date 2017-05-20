@@ -46,7 +46,9 @@ namespace TrainRemoteControl.Model
         private int alarmValue;
         private DateTime dateTime;
         private DateTime saveTime;
+        private string isuploadstate;
 
+        
         
         private bool run;
 
@@ -245,8 +247,13 @@ namespace TrainRemoteControl.Model
                 run = value;
             }
         }
+        public string Isuploadstate
+        {
+            get { return isuploadstate; }
+            set { isuploadstate = value; }
+        }
 
-        public CriticalData(string lcNum, int generatorId, float oilPress, float waterTemp, float frequency, float motorSpeed, float voltage, float current, float motorPower, float powerFactor, float oilMass, int alarmValue, DateTime date, DateTime savetime)
+        public CriticalData(string lcNum, int generatorId, float oilPress, float waterTemp, float frequency, float motorSpeed, float voltage, float current, float motorPower, float powerFactor, float oilMass, int alarmValue, DateTime date, DateTime savetime, string isuploadstate)
         {
             this.lcNum = lcNum;
             this.generatorId = generatorId;
@@ -263,9 +270,10 @@ namespace TrainRemoteControl.Model
             this.dateTime = date;
             this.saveTime = savetime;
             this.run = false;
+            this.isuploadstate = isuploadstate;
         }
 
-        public CriticalData(string lcNum, int generatorId, float oilPress, float waterTemp, float frequency, float motorSpeed, float voltage, float current, float motorPower, float powerFactor, float oilMass, int alarmValue, DateTime date, DateTime savetime, bool run)
+        public CriticalData(string lcNum, int generatorId, float oilPress, float waterTemp, float frequency, float motorSpeed, float voltage, float current, float motorPower, float powerFactor, float oilMass, int alarmValue, DateTime date, DateTime savetime, bool run,string isuploadstate)
         {
             this.lcNum = lcNum;
             this.generatorId = generatorId;
@@ -282,6 +290,7 @@ namespace TrainRemoteControl.Model
             this.dateTime = date;
             this.saveTime = savetime;
             this.run = run;
+            this.isuploadstate = isuploadstate;
         }
     }
 }

@@ -252,6 +252,7 @@ namespace TrainRemoteControl
                        cd.LcNum = Program.g_serialNum;//列车编号
                        cd.Run = true;
                        cd.SaveNowTime = saveNowTime;
+                       cd.Isuploadstate = "1";
                        a1++;
                        if (a1 > timesCount)
                        {
@@ -262,10 +263,11 @@ namespace TrainRemoteControl
                        showCriticalData(cd);
 
                        //如果具有报警，且报警灯处于停止状态，通知UI报警灯闪烁
-                       Program.WriteLog("报警值为：" + cd.AlarmValue);
+                       
                        alarmValue1 = cd.AlarmValue;
                        if (cd.AlarmValue > 0 && !Program.g_isflashed)
                        {
+                           Program.WriteLog("报警值为：" + cd.AlarmValue);
                            Program.g_isflashed = true;//标示报警灯已经处于闪烁状态                        
                            da.StartAlarm(); //开始报警                       
                        }
@@ -273,7 +275,7 @@ namespace TrainRemoteControl
                    else
                    {
                        Program.WriteLog("一号电机未开机");
-                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now,saveNowTime, false);
+                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now,saveNowTime, false,"1");
                        showCriticalData(criticalData);
                    }
                    //二号电机数据采集
@@ -283,6 +285,7 @@ namespace TrainRemoteControl
                        cd.LcNum = Program.g_serialNum;//列车编号
                        cd.Run = true;
                        cd.SaveNowTime = saveNowTime;
+                       cd.Isuploadstate = "1";
                        a2++;
                        if (a2 > timesCount)
                        {
@@ -291,11 +294,11 @@ namespace TrainRemoteControl
                            a2 = 0;
                        }
                        showCriticalData(cd);
-                       //如果具有报警，且报警灯处于停止状态，通知UI报警灯闪烁
-                       Program.WriteLog("报警值为：" + cd.AlarmValue);
+                       //如果具有报警，且报警灯处于停止状态，通知UI报警灯闪烁                    
                        alarmValue2 = cd.AlarmValue;
                        if (cd.AlarmValue > 0 && !Program.g_isflashed)
                        {
+                           Program.WriteLog("报警值为：" + cd.AlarmValue);
                            Program.g_isflashed = true;//标示报警灯已经处于闪烁状态                        
                            da.StartAlarm(); //开始报警                       
                        }
@@ -303,7 +306,7 @@ namespace TrainRemoteControl
                    else
                    {
                        Program.WriteLog("二号电机未开机");
-                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, saveNowTime, false);
+                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, saveNowTime, false,"1");
                        showCriticalData(criticalData);
                    }
                    //三号电机数据采集
@@ -313,6 +316,7 @@ namespace TrainRemoteControl
                        cd.LcNum = Program.g_serialNum;//列车编号
                        cd.Run = true;
                        cd.SaveNowTime = saveNowTime;
+                       cd.Isuploadstate = "1";
                        a3++;
                        if (a3 > timesCount)
                        {
@@ -321,11 +325,11 @@ namespace TrainRemoteControl
                            a3 = 0;
                        }
                        showCriticalData(cd);
-                       //如果具有报警，且报警灯处于停止状态，通知UI报警灯闪烁
-                       Program.WriteLog("报警值为：" + cd.AlarmValue);
+                       //如果具有报警，且报警灯处于停止状态，通知UI报警灯闪烁                     
                        alarmValue2 = cd.AlarmValue;
                        if (cd.AlarmValue > 0 && !Program.g_isflashed)
                        {
+                           Program.WriteLog("报警值为：" + cd.AlarmValue);
                            Program.g_isflashed = true;//标示报警灯已经处于闪烁状态                        
                            da.StartAlarm(); //开始报警                       
                        }
@@ -333,7 +337,7 @@ namespace TrainRemoteControl
                    else
                    {
                        Program.WriteLog("三号电机未开机");
-                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, saveNowTime, false);
+                       CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, saveNowTime, false, "1");
                        showCriticalData(criticalData);
                    }
 
@@ -366,7 +370,7 @@ namespace TrainRemoteControl
                {
                    for (int i = 1; i < 4; i++)
                    {
-                       CriticalData criticalData = new CriticalData(Program.g_serialNum, i, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, DateTime.Now, false);
+                       CriticalData criticalData = new CriticalData(Program.g_serialNum, i, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, DateTime.Now, false, "1");
                         //界面显示
                    }
 
