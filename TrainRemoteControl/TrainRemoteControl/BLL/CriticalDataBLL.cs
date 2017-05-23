@@ -31,9 +31,13 @@ namespace TrainRemoteControl.BLL
         }
 
         //更新
-        public void updateCriticalData(List<CriticalData> criticalList)
+        public void updateCriticalData(List<CriticalData> criticalList,string state)
         {
-            throw new NotImplementedException();
+            foreach (CriticalData cd in criticalList)
+            {
+                dal.updateCriticalData(cd,state);
+            }
+
         }
     }
 }

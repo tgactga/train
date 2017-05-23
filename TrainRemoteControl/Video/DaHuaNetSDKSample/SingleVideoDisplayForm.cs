@@ -53,10 +53,10 @@ namespace DaHuaNetSDKSample
         /// 当前点击的PictureBox控件
         /// </summary>
         private PictureBox picRealPlay;
-        private fDisConnect disConnect;
-        private NET_DEVICEINFO deviceInfo;
-        int UpComputerPort = 60000;
-        ushort LowerComputerport = 60000;
+        //private fDisConnect disConnect;
+        //private NET_DEVICEINFO deviceInfo;
+        //int UpComputerPort = 60000;
+        //ushort LowerComputerport = 60000;
         public string strStart = StringUtil.ConvertString("一号电机实时监视开始");
         public string strStop = StringUtil.ConvertString("二号电机实时监视结束");
 

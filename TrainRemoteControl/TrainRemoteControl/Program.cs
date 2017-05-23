@@ -7,6 +7,7 @@ using System.Text;
 using TrainRemoteControl.utilclass;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Diagnostics;
+using System.Web.Script.Serialization;
  
 
 namespace TrainRemoteControl
@@ -131,7 +132,7 @@ namespace TrainRemoteControl
             }
         }
 
-        //对象序列化
+        //对象序列化(用于保存txt文件？？)
         public static byte[] SerializeObject(object pObj)
         {
             if (pObj == null)
@@ -145,6 +146,17 @@ namespace TrainRemoteControl
             memoryStream.Close();
             return read;
         }
+
+
+        //将object转换为string对象
+        public static string ScriptSerialize<T>(T t)
+        {
+            JavaScriptSerializer serializer = new JavaScriptSerializer();
+            return serializer.Serialize(t);
+        }
+
+
+
          
     }
 }

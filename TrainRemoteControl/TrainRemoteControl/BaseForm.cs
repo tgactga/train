@@ -53,7 +53,7 @@ namespace TrainRemoteControl
           Program.g_isNetState =  WebServiceUtil.urlIsReach(Program.g_url);
         }
 
-        
+        //上传关键数据
         private void timer3_uploadCriticalData_Tick(object sender, EventArgs e)
         {
             Program.g_isNetState = true;
@@ -65,12 +65,11 @@ namespace TrainRemoteControl
 
                if (criticalList != null && criticalList.Count > 1)
                {
-                   Program.WriteLog("上传关键数据");
-                   string uploadRet = WebServiceUtil.uploadCriticalData(criticalList);
-                   if ("".Equals(uploadRet))
+                   Program.WriteLog("上传关键数据");             
+                    if (WebServiceUtil.uploadCriticalData(criticalList))
                    {
                        Program.WriteLog("更新关键数据的状态");
-                       bll.updateCriticalData(criticalList);
+                       bll.updateCriticalData(criticalList,"1");
 
                    }
                }

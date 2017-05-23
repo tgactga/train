@@ -28,7 +28,7 @@ namespace TrainRemoteControl
        
         private int countdown = int.Parse(Program.g_inspectionInterval); //倒计时 时间 3600
 
-        public event Action EngineStartEvent;//发动机启动事件
+        //public event Action EngineStartEvent;//发动机启动事件
         public event Action<bool> PowerShutDownEvent;//断电事件
 
         /// <summary>

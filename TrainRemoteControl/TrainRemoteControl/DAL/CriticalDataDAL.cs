@@ -650,7 +650,22 @@ namespace TrainRemoteControl
             return sdb.ExecuteNonQuery(INSERT_DISPLAY, sqlParams) == 1;
         }
 
+        //更新关键数据状态
+        public bool updateCriticalData( CriticalData cd,string state)
+        {
+            SQLiteParameter[] sqlParams = new SQLiteParameter[3];
+            sqlParams[0] = new SQLiteParameter(PARAM_ISUPLOADSTATE, DbType.String, 20);
+            sqlParams[1] = new SQLiteParameter(PARAM_LCNUM, DbType.String, 20);
+            sqlParams[2] = new SQLiteParameter(PARAM_SAVETIME, DbType.DateTime, 8);
 
+            sqlParams[0].Value = state;
+            sqlParams[1].Value = cd.LcNum;
+            sqlParams[2].Value = cd.SaveNowTime;
+
+            SQLiteDBHelper sdb = new SQLiteDBHelper(Program.g_dbPath);
+            return sdb.ExecuteNonQuery(UPDATE_CRITICAL, sqlParams) == 1;
+
+        }
         public bool SaveTempData(List<CellTerminal> ct, string time)
         {
             StringBuilder strSql = new StringBuilder();

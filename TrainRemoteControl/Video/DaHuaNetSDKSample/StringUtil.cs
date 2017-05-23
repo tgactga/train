@@ -216,6 +216,7 @@ namespace DaHuaNetSDKSample
             }
             catch (System.Exception ex)
             {
+                Console.WriteLine(ex.ToString());
                 return strKey;
             }
         }

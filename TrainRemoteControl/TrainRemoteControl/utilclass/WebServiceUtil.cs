@@ -20,37 +20,43 @@ namespace TrainRemoteControl.utilclass
             return "1";
         }
 
-        public static string uploadCriticalData(List<CriticalData> criticalDataList)
+        public static bool uploadCriticalData(List<CriticalData> criticalDataList)
         {          
             Program.WriteLog("调用web服务，上传关键数据");
             List<TrainRemoteControl.WebModel.CriticalData> cdList = new List<WebModel.CriticalData>();
-           
-            for (int i = 0; i < criticalDataList.Count;i++)  {
-                TrainRemoteControl.WebModel.CriticalData cd  = new WebModel.CriticalData();
-                cd.alarmValue = criticalDataList[i].AlarmValue;
-                cd.current = criticalDataList[i]._Current;
-                cd.dateTime = criticalDataList[i].Date;
-                cd.frequency = criticalDataList[i].Frequency;
-                cd.generatorId = criticalDataList[i].GeneratorId;
-                cd.lcNum = criticalDataList[i].LcNum;
-                cd.motorPower = criticalDataList[i].MotorPower;
-                cd.motorSpeed = criticalDataList[i].MotorSpeed;
-                cd.oilMass = criticalDataList[i].OilMass;
-                cd.oilPress = criticalDataList[i].OilPress;
-                cd.powerFactor = criticalDataList[i].PowerFactor;
-                cd.trainInfo = null;
-                cd.voltage = criticalDataList[i].Voltage;
-                cd.waterTemp = criticalDataList[i].WaterTemp;
-                cdList.Add(cd);
-            }
-
-            string str = System.Text.Encoding.Default.GetString(Program.SerializeObject(cdList));
-            string  returnret = Program.g_trainService.SaveCriticalData(str);
-            if ("0".Equals(returnret))
-            {
-                Program.WriteLog("调用web服务返回：0  ，调用成功！");
-            }           
-            return returnret;
+            try{
+                for (int i = 0; i < criticalDataList.Count;i++)  {
+                    TrainRemoteControl.WebModel.CriticalData cd  = new WebModel.CriticalData();
+                    cd.alarmValue = criticalDataList[i].AlarmValue;
+                    cd.current = criticalDataList[i]._Current;
+                    cd.dateTime = criticalDataList[i].Date;
+                    cd.frequency = criticalDataList[i].Frequency;
+                    cd.generatorId = criticalDataList[i].GeneratorId;
+                    cd.lcNum = criticalDataList[i].LcNum;
+                    cd.motorPower = criticalDataList[i].MotorPower;
+                    cd.motorSpeed = criticalDataList[i].MotorSpeed;
+                    cd.oilMass = criticalDataList[i].OilMass;
+                    cd.oilPress = criticalDataList[i].OilPress;
+                    cd.powerFactor = criticalDataList[i].PowerFactor;
+                    cd.trainInfo = null;
+                    cd.voltage = criticalDataList[i].Voltage;
+                    cd.waterTemp = criticalDataList[i].WaterTemp;
+                    cdList.Add(cd);
+                }
+                string str = Program.ScriptSerialize(cdList);
+                string returnret = Program.g_trainService.SaveCriticalData(str);
+                if (!"0".Equals(returnret))
+                {
+                    Program.WriteLog("调用web服务返回：" + returnret + " ，调用成功");
+                    return true;
+                }
+                else
+                    return false;
+           } catch(Exception error){
+               Program.WriteLog(""+error.ToString());
+               return false;
+             }   
+        
         }
 
         public static string uploadInspectionRecords(_XJmodel inspection)

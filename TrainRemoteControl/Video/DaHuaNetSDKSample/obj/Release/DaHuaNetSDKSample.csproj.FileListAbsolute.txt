@@ -437,3 +437,4 @@ D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Release\DaHuaNe
 D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csproj.GenerateResource.Cache
 D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.exe
 D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.pdb
+D:\fzxtwork\train\TrainRemoteControl\Video\DaHuaNetSDKSample\obj\Release\DaHuaNetSDKSample.csprojResolveAssemblyReference.cache
