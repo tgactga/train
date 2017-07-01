@@ -10,13 +10,45 @@ namespace TrainRemoteControl.BLL
 {
     class DataAcquisitionManager
     {
+        private TimperatureAcquisition ta = new TimperatureAcquisition();
         private DataAcquisition da = new DataAcquisition(); //采集数据对象
         private static string[] WaterFormula = new string[3] { Program.g_waterFormula1, Program.g_waterFormula1, Program.g_waterFormula1 };
         private static string[] OilFormula = new string[3] { Program.g_oilFormula1, Program.g_oilFormula1, Program.g_oilFormula1 };
         
         private Expression[] WaterExpression = new Expression[3];//水温计算类
         private Expression[] OilExpression = new Expression[3];//计算类
+        int[] newIndex = new int[]
+        {
+            3,4,
+            2,5,
+            1,6,
+            9,10,
+            8,11,
+            7,12,
+            39,38,37,
 
+            15,16,
+            14,17,
+            13,18,
+            21,22,
+            20,23,
+            19,24,
+            48,47,46,
+
+            27,28,
+            26,29,
+            25,30,
+            33,34,
+            32,35,
+            31,36,
+            57,56,55,
+
+            //40,41,42,43,44,45,
+            //49,50,51,52,53,54,
+            42,45,41,44,40,43,
+            51,54,50,53,49,52    
+
+        };
         public DataAcquisitionManager()
         {
             for (int i = 0; i < 3; i++)
@@ -82,6 +114,38 @@ namespace TrainRemoteControl.BLL
             criticalData.AlarmValue = alarmInfo1.AlarmValue;
 
             return criticalData;
+        }
+
+
+        public List<CellTerminal>  DoReadTemp()
+        {            
+            // List<CellTerminal> cellsTerminal = null;
+            while (true)
+            {              
+                List<CellTerminal> cellsTerminal = ta.ReadTemperature(Program.g_stationNo, Program.g_axDvalue, Program.g_maxTemp);
+                List<CellTerminal> tempCellsTerminal = new List<CellTerminal>();
+
+                if (cellsTerminal.Count == 59)
+                {
+                    for (int i = 0; i < 57; i++)
+                    {
+                        cellsTerminal[newIndex[i] - 1].n = (i + 1);
+                        tempCellsTerminal.Add(cellsTerminal[newIndex[i] - 1]);
+                    }
+                    cellsTerminal[57].n = 100;
+                    tempCellsTerminal.Add(cellsTerminal[57]);
+                    cellsTerminal[58].n = 101;
+                    tempCellsTerminal.Add(cellsTerminal[58]);
+
+                    return tempCellsTerminal;
+                    //TemperatureDataHandle(tempCellsTerminal);
+
+                    //Thread.Sleep(Convert.ToInt32(Program.g_readTempTime));
+                }
+
+                Thread.Sleep(1000);           
+
+            }
         }
 
 

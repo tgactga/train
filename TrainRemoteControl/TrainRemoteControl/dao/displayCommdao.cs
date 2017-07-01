@@ -39,17 +39,23 @@ namespace TrainRemoteControl.dao
         /// </summary>
         /// <param name="i"></param>
         /// <returns></returns>
-        public DataTable getdjDatatable(string i)
+        public DataTable getdjDatatable(string i, int startNumber,int endNumber )
         {
            // string sql = "select top 1000  oilPress as '油压',waterTemp as '冷却水温',frequency as '电机频率',motorSpeed as '电机转速', voltage as '电压',[current] as 'w相电压',motorPower as '视在功率',powerFactor as '功率因数',oilMass as 'oilMass',alarmValue as 'alarmValue',dateTime as '记录时间'  from CriticalData where generatorId=@i order by dateTime desc";
             //string sql="select top 100 oil_press as '油压',water_temp as '冷却水温',frequency as '电机频率',motor_speed as '电机转速', voltage as '电压',[current] as 'w相电压',motor_power as '视在功率',power_factor as '功率因数',OKAlarm as '报警已经确认',NOAlarm as '报警已经解除',NCAlarm as '报警无法排除'  from tab_displayComm where djNumber=@i"
             string sql = "";
             sql = "select  oilPress as '油压', waterTemp  as  '冷却水温' , frequency  as '电机频率', powerFactor as '功率因数'";
             sql += ",motorSpeed as '电机转速',voltage  as '电压', [current] as 'w相电压', motorPower  as '视在功率', oilMass  as '油量',alarmValue as '报警状态',dateTime as '记录时间'";
-            sql += "from CriticalData where generatorId=@i order by dateTime desc ";
-            SQLiteParameter[] param = new SQLiteParameter[] { new SQLiteParameter("@i", DbType.AnsiString) };
+            sql += "from CriticalData where generatorId=@i order by dateTime desc limit @startNumber,@endNumber ";
+            SQLiteParameter[] param = new SQLiteParameter[3];
+            param[0] = new SQLiteParameter("@i", DbType.String, 10);
+            param[1] = new SQLiteParameter("@startNumber", DbType.Int32, 4);
+            param[2] = new SQLiteParameter("@endNumber", DbType.Int32, 4);
+                
             SQLiteDBHelper sdb = new SQLiteDBHelper(Program.g_dbPath);
             param[0].Value = i+"";
+            param[1].Value = startNumber;
+            param[2].Value = endNumber;
             return sdb.ExecuteDataTable(sql, param);
         }
         //查询电机室公共信息

@@ -25,9 +25,9 @@ namespace TrainRemoteControl.BLL
         }
 
         //查询要上传数据
-        public List<CriticalData> SelectCricialData(string lcNum, string isuploadstate)
+        public List<CriticalData> SelectCricialData(string lcNum, string isuploadstate,int rowCount)
         {
-            return dal.SelectCricialData(lcNum, isuploadstate);
+            return dal.SelectCricialData(lcNum, isuploadstate, rowCount);
         }
 
         //更新
@@ -39,5 +39,12 @@ namespace TrainRemoteControl.BLL
             }
 
         }
+
+        //删除 关键数据
+        public bool deleteCricialData(string lcNum, DateTime datetime)
+        {
+           return  dal.deleteCricialData(lcNum, datetime);
+        }
+
     }
 }

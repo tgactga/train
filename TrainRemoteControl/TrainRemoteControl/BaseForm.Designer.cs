@@ -34,6 +34,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2_net = new System.Windows.Forms.Timer(this.components);
             this.timer3_uploadCriticalData = new System.Windows.Forms.Timer(this.components);
+            this.timer_gatherCritical = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // progressBar1
@@ -62,12 +63,19 @@
             // timer2_net
             // 
             this.timer2_net.Enabled = true;
-            this.timer2_net.Interval = 60000;
+            this.timer2_net.Interval = 2000;
             this.timer2_net.Tick += new System.EventHandler(this.timer2_net_Tick);
             // 
             // timer3_uploadCriticalData
             // 
+            this.timer3_uploadCriticalData.Interval = 60000;
             this.timer3_uploadCriticalData.Tick += new System.EventHandler(this.timer3_uploadCriticalData_Tick);
+            // 
+            // timer_gatherCritical
+            // 
+            this.timer_gatherCritical.Enabled = true;
+            this.timer_gatherCritical.Interval = 1000;
+            this.timer_gatherCritical.Tick += new System.EventHandler(this.timer_gatherCritical_Tick);
             // 
             // BaseForm
             // 
@@ -93,5 +101,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2_net;
         private System.Windows.Forms.Timer timer3_uploadCriticalData;
+        private System.Windows.Forms.Timer timer_gatherCritical;
     }
 }

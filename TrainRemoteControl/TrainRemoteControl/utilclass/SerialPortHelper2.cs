@@ -8,12 +8,12 @@ using System.Threading;
 
 namespace TrainRemoteControl
 {
-    public static  class SerialPortHelper2
+    public static class SerialPortHelper2
     {
         //增加温度读取串口
         private static object obj = new object();
         //串口号
-        private static readonly byte comPort = byte.Parse( Program.g_comPortTemperature);
+        private static readonly byte comPort = byte.Parse(Program.g_comPortTemperature);
         private const uint baudrate = 9600;
         private const short slot = -1;
         private const short checksum = 0;
@@ -47,13 +47,13 @@ namespace TrainRemoteControl
             {
                 wCrc = CRCCalculate(sour, sour.Length - 3);//crc 2  ,0x16 1
 
-                string sCrc = wCrc.ToString("x").PadLeft(4,'0');
+                string sCrc = wCrc.ToString("x").PadLeft(4, '0');
 
                 if (sCrc.Length == 4)
                 {
-                    bCrc[0] = Convert.ToByte("0x" + sCrc.Substring(2, 2),16);
-                    bCrc[1] = Convert.ToByte("0x" + sCrc.Substring(0, 2),16);
-                }                
+                    bCrc[0] = Convert.ToByte("0x" + sCrc.Substring(2, 2), 16);
+                    bCrc[1] = Convert.ToByte("0x" + sCrc.Substring(0, 2), 16);
+                }
             }
             catch
             {
@@ -65,8 +65,8 @@ namespace TrainRemoteControl
 
             return sour;
         }
-    
-    //校验
+
+        //校验
         private static uint CRCCalculate(byte[] sour, int len)
         {
             uint wCrc;
@@ -91,9 +91,9 @@ namespace TrainRemoteControl
                     }
                 }
             }
-          return wCrc;
+            return wCrc;
         }
-      
+
 
         //打开串口
         private static bool Open()
@@ -109,12 +109,12 @@ namespace TrainRemoteControl
             }
             catch (System.Exception ex)
             {
-                Program.WriteLog(ex.ToString());
+                Program.WriteLog("打开串口失败  "+ex.ToString());
                 return false;
             }
         }
 
-        
+
         /// <summary>
         /// 设置车厢编号1，2,3....
         /// </summary>
@@ -189,7 +189,7 @@ namespace TrainRemoteControl
             }
             catch (Exception ex)
             {
-                Program.WriteLog(ex.ToString());
+
             }
             finally
             {
@@ -205,9 +205,10 @@ namespace TrainRemoteControl
             return false;
         }
 
-        public static  byte[] ReadAllTemp(byte[] value)
+        public static byte[] ReadAllTemp(byte[] value)
         {
             byte[] bReceive = new byte[259];
+            byte[] bReceive2 = new byte[260];
 
             try
             {
@@ -216,11 +217,13 @@ namespace TrainRemoteControl
                     if (Open())
                     {
                         value = CRCCalculate(value);
-                        
+
                         sp.ReadExisting();
-                        sp.Write(value, 0, value .Length);
+                        sp.Write(value, 0, value.Length);
                         Thread.Sleep(2000);
-                        sp.Read(bReceive, 0, bReceive.Length);
+                        sp.Read(bReceive2, 0, bReceive2.Length);
+                        for (int i = 0; i < 259; i++)
+                            bReceive[i] = bReceive2[i + 1];
                         if (bReceive[0] == 169 && bReceive[1] == 169 & bReceive[bReceive.Length - 1] == 22)
                         {
                             return bReceive;
@@ -234,7 +237,7 @@ namespace TrainRemoteControl
             }
             catch (Exception ex)
             {
-                Program.WriteLog(ex.ToString());
+                Program.WriteLog(""+ex.ToString());
             }
             finally
             {
@@ -243,6 +246,6 @@ namespace TrainRemoteControl
 
             return new byte[0];
         }
-          
+
     }
 }

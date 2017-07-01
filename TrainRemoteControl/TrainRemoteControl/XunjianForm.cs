@@ -10,18 +10,21 @@ using TrainRemoteControl.DAl;
 
 namespace TrainRemoteControl
 {
-    public partial class XunjianForm : Templete
+    public partial class XunjianForm : Form
     {
         private InspectionRecordDAL dal = new InspectionRecordDAL();
         public XunjianForm()
         {
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             InitializeComponent();
         }
 
         private void XunjianForm_Load(object sender, EventArgs e)
         {
             Program.WriteLog("==========================>>进入XunjianForm（巡检）界面");
-            this.label3.Text = "0002";  //车体名称
+            this.Top = 80;
+            this.Left = 0;
+            //this.label3.Text = "0002";  //车体名称
             dateTimePicker1.Value = DateTime.Now.AddDays(-7);
            this.dataGridView1.RowsDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter; //设置居中
         }
@@ -36,7 +39,7 @@ namespace TrainRemoteControl
         //点击 端子温度
         private void btnTerminalTemp_Click(object sender, EventArgs e)
         {
-            new MonCenterForm().Show();
+            new TerminalTemperaturex().Show();
             this.Close();
             return;
         }

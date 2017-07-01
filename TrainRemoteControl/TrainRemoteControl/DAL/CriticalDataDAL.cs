@@ -12,6 +12,9 @@ namespace TrainRemoteControl
     public class CriticalDataDAL
     {
         #region SQL语句
+
+        private const string DELETE_CRITICAL = " delete FROM CriticalData  where  saveTime  <@saveTime  and  lcNum=@lcNum ";
+        
         private const string UPDATE_CRITICAL = "UPDATE CriticalData SET isuploadstate=@isuploadstate  where lcNum=@lcNum  and saveTime=@saveTime ";
         private const string INSERT_DISPLAY = @"INSERT INTO CriticalData(lcNum,generatorId,oilPress,waterTemp,frequency,motorSpeed,voltage,[current],motorPower,powerFactor,oilMass,alarmValue,[dateTime],[saveTime],isuploadstate)
                                                 VALUES(@lcNum,@generatorId,@oilPress,@waterTemp,@frequency,@motorSpeed,@voltage,@current,@motorPower,@powerFactor,@oilMass,@alarmValue,@dateTime,@saveTime,@isuploadstate)";
@@ -22,7 +25,7 @@ namespace TrainRemoteControl
                                                    WHERE dateTime>@preDate AND dateTime<@nextDate";
         private const string SELECT_CDATA_DATE_ISNOTUPLOAD = @"SELECT lcNum,generatorId,oilPress,waterTemp,frequency,motorSpeed,voltage,[current],motorPower,powerFactor,oilMass,alarmValue,[dateTime],[saveTime],isuploadstate
                                                    FROM CriticalData
-                                                   WHERE lcNum=@lcNum AND isuploadstate=@isuploadstate";
+                                                   WHERE lcNum=@lcNum AND isuploadstate=@isuploadstate  order by saveTime desc limit 0,@rowCount";
         private const string SELECT_CDATA_GENERATORID = @"SELECT TOP @rowCount lcNum,generatorId,oilPress,waterTemp,frequency,motorSpeed,voltage,[current],motorPower,powerFactor,oilMass,alarmValue,[dateTime]
                                                         FROM CriticalData
                                                         WHERE generatorId=@generatorId";
@@ -809,14 +812,16 @@ namespace TrainRemoteControl
             return sdb.ExecuteNonQuery(strSql.ToString(), parameters) > 0;
         }
 
-        public List<CriticalData> SelectCricialData(string lcNum, string isuploadstate)
+        public List<CriticalData> SelectCricialData(string lcNum, string isuploadstate,int rowCount)
         {
             
-            SQLiteParameter[] sqlParams = new SQLiteParameter[2];
+            SQLiteParameter[] sqlParams = new SQLiteParameter[3];
             sqlParams[0] = new SQLiteParameter(PARAM_LCNUM, DbType.String, 10);
             sqlParams[1] = new SQLiteParameter(PARAM_ISUPLOADSTATE, DbType.String, 10);
+            sqlParams[2] = new SQLiteParameter(PARAM_ROWCOUNT, DbType.Int32, 4);
             sqlParams[0].Value = lcNum;
             sqlParams[1].Value = isuploadstate;
+            sqlParams[2].Value = rowCount;
             List<CriticalData> criticalDataList = new List<CriticalData>(100);
             SQLiteDBHelper sdb = new SQLiteDBHelper(Program.g_dbPath);
             SQLiteDataReader reader =   null;
@@ -840,5 +845,28 @@ namespace TrainRemoteControl
 
 
         }
+
+        //删除关键数据
+        public bool deleteCricialData(string lcNum, DateTime datetime)
+        {
+            SQLiteParameter[] sqlParams = new SQLiteParameter[2];
+          
+            sqlParams[0] = new SQLiteParameter(PARAM_LCNUM, DbType.String, 20);
+            sqlParams[1] = new SQLiteParameter(PARAM_SAVETIME, DbType.DateTime, 8);
+
+            sqlParams[0].Value = lcNum;
+            sqlParams[1].Value = datetime;        
+
+            SQLiteDBHelper sdb = new SQLiteDBHelper(Program.g_dbPath);
+            return sdb.ExecuteNonQuery(DELETE_CRITICAL, sqlParams) >0;
+
+        }
+
+
+
+
+
+
+
     }
 }

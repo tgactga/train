@@ -33,6 +33,37 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\TrainRemoteControl.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\TrainRemoteControl.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DCON_PC_DOTNET, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -48,7 +79,7 @@
     </Reference>
     <Reference Include="ImageButton, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\ImageButton.dll</HintPath>
+      <HintPath>bin\Release\ImageButton.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>bin\Release\Newtonsoft.Json.dll</HintPath>
@@ -74,6 +105,10 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="websocket-sharp, Version=1.0.2.17262, Culture=neutral, PublicKeyToken=5660b08a1845a91e, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\websocket-sharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlarmForm.cs">
@@ -125,7 +160,14 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="MDIParent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.designer.cs">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\AlarmInfo.cs" />
+    <Compile Include="Model\CellTerminal.cs" />
     <Compile Include="Model\CommonOriginalData.cs" />
     <Compile Include="Model\CriticalData.cs" />
     <Compile Include="Model\Display.cs" />
@@ -143,6 +185,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\MessageService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\TrainWebService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -155,18 +202,56 @@
       <DependentUpon>SettingForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Settings.cs" />
+    <Compile Include="TCP\TCPServiceUtil.cs" />
     <Compile Include="Templete.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Templete.Designer.cs">
       <DependentUpon>Templete.cs</DependentUpon>
     </Compile>
-    <Compile Include="TestFrom.cs">
+    <Compile Include="TerminalTemperaturex.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TestFrom.Designer.cs">
+    <Compile Include="TerminalTemperaturex.designer.cs">
+      <DependentUpon>TerminalTemperaturex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test\TestForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test\TestForm1.Designer.cs">
+      <DependentUpon>TestForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test\TestForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test\TestForm2.Designer.cs">
+      <DependentUpon>TestForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test\TestInvokeForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test\TestInvokeForm1.Designer.cs">
+      <DependentUpon>TestInvokeForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test\TestMoreWindows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test\TestMoreWindows.Designer.cs">
+      <DependentUpon>TestMoreWindows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test\TestSyncContextForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test\TestSyncContextForm1.Designer.cs">
+      <DependentUpon>TestSyncContextForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test\TestFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test\TestFrom.Designer.cs">
       <DependentUpon>TestFrom.cs</DependentUpon>
     </Compile>
+    <Compile Include="utilclass\BuildMsgUtil.cs" />
     <Compile Include="utilclass\ComputerInfo.cs" />
     <Compile Include="utilclass\Expression.cs" />
     <Compile Include="utilclass\INIClass.cs" />
@@ -176,6 +261,7 @@
     <Compile Include="utilclass\SQLiteDBHelper.cs" />
     <Compile Include="utilclass\StringUtil.cs" />
     <Compile Include="utilclass\WebServiceUtil.cs" />
+    <Compile Include="utilclass\webSocketClient.cs" />
     <Compile Include="WebModel\CriticalData.cs" />
     <Compile Include="WebModel\InspectionRecords.cs" />
     <Compile Include="WebModel\tab_temperature.cs" />
@@ -207,6 +293,9 @@
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MonCenterForm.resx">
       <DependentUpon>MonCenterForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -223,13 +312,27 @@
     <EmbeddedResource Include="SettingForm.resx">
       <DependentUpon>SettingForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TestFrom.resx">
+    <EmbeddedResource Include="TerminalTemperaturex.resx">
+      <DependentUpon>TerminalTemperaturex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test\TestInvokeForm1.resx">
+      <DependentUpon>TestInvokeForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test\TestMoreWindows.resx">
+      <DependentUpon>TestMoreWindows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test\TestSyncContextForm1.resx">
+      <DependentUpon>TestSyncContextForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test\TestFrom.resx">
       <DependentUpon>TestFrom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="XunjianForm.resx">
       <DependentUpon>XunjianForm.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -239,6 +342,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Service References\MessageService\service.wsdl" />
+    <None Include="Service References\MessageService\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MessageService\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\TrainWebService\TrainRemoteControl.TrainWebService.CompositeType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -296,6 +406,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\MessageService\" />
     <WCFMetadataStorage Include="Service References\TrainWebService\" />
   </ItemGroup>
   <ItemGroup>
@@ -311,6 +422,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Service References\MessageService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MessageService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\MessageService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <COMReference Include="MSXML2">
       <Guid>{F5078F18-C551-11D3-89B9-0000F81FE221}</Guid>
       <VersionMajor>3</VersionMajor>
@@ -321,7 +444,6 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

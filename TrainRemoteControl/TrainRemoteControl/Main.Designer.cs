@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.timer_coundown = new System.Windows.Forms.Timer(this.components);
             this.labelbaojingtest = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -164,14 +163,6 @@
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.buttonxunjian = new System.Windows.Forms.Button();
             this.labelnextxuanjiantime = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.labelpsw = new System.Windows.Forms.Label();
-            this.labelCurrenttime = new System.Windows.Forms.Label();
-            this.btnTerminalTemp = new System.Windows.Forms.Button();
-            this.buttonOfdatadb = new System.Windows.Forms.Button();
-            this.buttonOfhomepage = new System.Windows.Forms.Button();
-            this.buttonOfxunjian = new System.Windows.Forms.Button();
-            this.lbtitle = new System.Windows.Forms.Label();
             this.netlabel = new System.Windows.Forms.Label();
             this.timer_gatherCritical = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
@@ -223,7 +214,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer_coundown
@@ -235,7 +225,7 @@
             // labelbaojingtest
             // 
             this.labelbaojingtest.AutoSize = true;
-            this.labelbaojingtest.Location = new System.Drawing.Point(790, 533);
+            this.labelbaojingtest.Location = new System.Drawing.Point(429, 472);
             this.labelbaojingtest.Name = "labelbaojingtest";
             this.labelbaojingtest.Size = new System.Drawing.Size(101, 12);
             this.labelbaojingtest.TabIndex = 13;
@@ -250,7 +240,7 @@
             this.panel2.Controls.Add(this.btnEMachine);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Location = new System.Drawing.Point(110, 79);
+            this.panel2.Location = new System.Drawing.Point(7, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(771, 24);
             this.panel2.TabIndex = 10;
@@ -332,7 +322,7 @@
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.panel5);
             this.panel3.Controls.Add(this.panel4);
-            this.panel3.Location = new System.Drawing.Point(110, 219);
+            this.panel3.Location = new System.Drawing.Point(4, 151);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(771, 299);
             this.panel3.TabIndex = 11;
@@ -343,7 +333,7 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.40816F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.59184F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 144F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 220F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 221F));
             this.tableLayoutPanel5.Controls.Add(this.label71, 2, 0);
             this.tableLayoutPanel5.Controls.Add(this.label69, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.label70, 1, 0);
@@ -363,7 +353,7 @@
             // label71
             // 
             this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(213, 0);
+            this.label71.Location = new System.Drawing.Point(212, 0);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(53, 12);
             this.label71.TabIndex = 17;
@@ -381,7 +371,7 @@
             // label70
             // 
             this.label70.AutoSize = true;
-            this.label70.Location = new System.Drawing.Point(88, 0);
+            this.label70.Location = new System.Drawing.Point(87, 0);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(53, 12);
             this.label70.TabIndex = 16;
@@ -390,7 +380,7 @@
             // label72
             // 
             this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(357, 0);
+            this.label72.Location = new System.Drawing.Point(356, 0);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(41, 12);
             this.label72.TabIndex = 18;
@@ -409,7 +399,7 @@
             // LabFengmingtime
             // 
             this.LabFengmingtime.AutoSize = true;
-            this.LabFengmingtime.Location = new System.Drawing.Point(88, 15);
+            this.LabFengmingtime.Location = new System.Drawing.Point(87, 15);
             this.LabFengmingtime.Name = "LabFengmingtime";
             this.LabFengmingtime.Size = new System.Drawing.Size(29, 12);
             this.LabFengmingtime.TabIndex = 20;
@@ -418,7 +408,7 @@
             // LabRecordtime
             // 
             this.LabRecordtime.AutoSize = true;
-            this.LabRecordtime.Location = new System.Drawing.Point(213, 15);
+            this.LabRecordtime.Location = new System.Drawing.Point(212, 15);
             this.LabRecordtime.Name = "LabRecordtime";
             this.LabRecordtime.Size = new System.Drawing.Size(29, 12);
             this.LabRecordtime.TabIndex = 21;
@@ -427,7 +417,7 @@
             // LabXunjianPenson
             // 
             this.LabXunjianPenson.AutoSize = true;
-            this.LabXunjianPenson.Location = new System.Drawing.Point(357, 15);
+            this.LabXunjianPenson.Location = new System.Drawing.Point(356, 15);
             this.LabXunjianPenson.Name = "LabXunjianPenson";
             this.LabXunjianPenson.Size = new System.Drawing.Size(29, 12);
             this.LabXunjianPenson.TabIndex = 22;
@@ -1593,7 +1583,7 @@
             this.tableLayoutPanel4.Controls.Add(this.pictureBox20, 3, 0);
             this.tableLayoutPanel4.Controls.Add(this.pictureBox21, 4, 0);
             this.tableLayoutPanel4.Controls.Add(this.pictureBox19, 2, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(110, 104);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(7, 37);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -1645,7 +1635,7 @@
             // 
             // buttonxunjian
             // 
-            this.buttonxunjian.Location = new System.Drawing.Point(683, 555);
+            this.buttonxunjian.Location = new System.Drawing.Point(186, 472);
             this.buttonxunjian.Name = "buttonxunjian";
             this.buttonxunjian.Size = new System.Drawing.Size(75, 23);
             this.buttonxunjian.TabIndex = 9;
@@ -1656,104 +1646,16 @@
             // labelnextxuanjiantime
             // 
             this.labelnextxuanjiantime.AutoSize = true;
-            this.labelnextxuanjiantime.Location = new System.Drawing.Point(793, 560);
+            this.labelnextxuanjiantime.Location = new System.Drawing.Point(601, 472);
             this.labelnextxuanjiantime.Name = "labelnextxuanjiantime";
             this.labelnextxuanjiantime.Size = new System.Drawing.Size(113, 12);
             this.labelnextxuanjiantime.TabIndex = 8;
             this.labelnextxuanjiantime.Text = "离下一次巡检时间：";
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.labelpsw);
-            this.panel1.Controls.Add(this.labelCurrenttime);
-            this.panel1.Controls.Add(this.btnTerminalTemp);
-            this.panel1.Controls.Add(this.buttonOfdatadb);
-            this.panel1.Controls.Add(this.buttonOfhomepage);
-            this.panel1.Controls.Add(this.buttonOfxunjian);
-            this.panel1.Controls.Add(this.lbtitle);
-            this.panel1.Location = new System.Drawing.Point(-2, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1032, 50);
-            this.panel1.TabIndex = 5;
-            // 
-            // labelpsw
-            // 
-            this.labelpsw.Location = new System.Drawing.Point(3, 3);
-            this.labelpsw.Name = "labelpsw";
-            this.labelpsw.Size = new System.Drawing.Size(100, 47);
-            this.labelpsw.TabIndex = 10;
-            this.labelpsw.Text = "※";
-            this.labelpsw.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // labelCurrenttime
-            // 
-            this.labelCurrenttime.AutoSize = true;
-            this.labelCurrenttime.BackColor = System.Drawing.Color.Transparent;
-            this.labelCurrenttime.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.labelCurrenttime.Location = new System.Drawing.Point(840, 35);
-            this.labelCurrenttime.Name = "labelCurrenttime";
-            this.labelCurrenttime.Size = new System.Drawing.Size(53, 12);
-            this.labelCurrenttime.TabIndex = 5;
-            this.labelCurrenttime.Text = "当前时间";
-            // 
-            // btnTerminalTemp
-            // 
-            this.btnTerminalTemp.Location = new System.Drawing.Point(667, 10);
-            this.btnTerminalTemp.Name = "btnTerminalTemp";
-            this.btnTerminalTemp.Size = new System.Drawing.Size(75, 30);
-            this.btnTerminalTemp.TabIndex = 11;
-            this.btnTerminalTemp.Text = "端子温度";
-            this.btnTerminalTemp.UseVisualStyleBackColor = true;
-            this.btnTerminalTemp.Click += new System.EventHandler(this.btnTerminalTemp_Click);
-            // 
-            // buttonOfdatadb
-            // 
-            this.buttonOfdatadb.Location = new System.Drawing.Point(505, 10);
-            this.buttonOfdatadb.Name = "buttonOfdatadb";
-            this.buttonOfdatadb.Size = new System.Drawing.Size(75, 30);
-            this.buttonOfdatadb.TabIndex = 10;
-            this.buttonOfdatadb.Text = "数据库";
-            this.buttonOfdatadb.UseVisualStyleBackColor = true;
-            this.buttonOfdatadb.Click += new System.EventHandler(this.buttonOfdatadb_Click);
-            // 
-            // buttonOfhomepage
-            // 
-            this.buttonOfhomepage.Location = new System.Drawing.Point(755, 10);
-            this.buttonOfhomepage.Name = "buttonOfhomepage";
-            this.buttonOfhomepage.Size = new System.Drawing.Size(75, 30);
-            this.buttonOfhomepage.TabIndex = 1;
-            this.buttonOfhomepage.Text = "首页";
-            this.buttonOfhomepage.UseVisualStyleBackColor = true;
-            this.buttonOfhomepage.Click += new System.EventHandler(this.buttonOfhomepage_Click);
-            // 
-            // buttonOfxunjian
-            // 
-            this.buttonOfxunjian.Location = new System.Drawing.Point(586, 10);
-            this.buttonOfxunjian.Name = "buttonOfxunjian";
-            this.buttonOfxunjian.Size = new System.Drawing.Size(75, 30);
-            this.buttonOfxunjian.TabIndex = 1;
-            this.buttonOfxunjian.Text = "巡检作业";
-            this.buttonOfxunjian.UseVisualStyleBackColor = true;
-            this.buttonOfxunjian.Click += new System.EventHandler(this.buttonOfxunjian_Click);
-            // 
-            // lbtitle
-            // 
-            this.lbtitle.AutoSize = true;
-            this.lbtitle.Font = new System.Drawing.Font("新宋体", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbtitle.ForeColor = System.Drawing.Color.DimGray;
-            this.lbtitle.Location = new System.Drawing.Point(98, 12);
-            this.lbtitle.Name = "lbtitle";
-            this.lbtitle.Size = new System.Drawing.Size(292, 29);
-            this.lbtitle.TabIndex = 0;
-            this.lbtitle.Text = "发电车远程控制系统";
-            // 
             // netlabel
             // 
             this.netlabel.AutoSize = true;
-            this.netlabel.Location = new System.Drawing.Point(121, 555);
+            this.netlabel.Location = new System.Drawing.Point(19, 472);
             this.netlabel.Name = "netlabel";
             this.netlabel.Size = new System.Drawing.Size(65, 12);
             this.netlabel.TabIndex = 14;
@@ -1769,7 +1671,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1027, 586);
+            this.ClientSize = new System.Drawing.Size(808, 491);
             this.Controls.Add(this.netlabel);
             this.Controls.Add(this.labelbaojingtest);
             this.Controls.Add(this.panel2);
@@ -1777,7 +1679,6 @@
             this.Controls.Add(this.tableLayoutPanel4);
             this.Controls.Add(this.buttonxunjian);
             this.Controls.Add(this.labelnextxuanjiantime);
-            this.Controls.Add(this.panel1);
             this.Name = "Main";
             this.Text = "Main";
             this.Load += new System.EventHandler(this.Main_Load);
@@ -1852,8 +1753,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1861,17 +1760,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnTerminalTemp;
-        private System.Windows.Forms.Button buttonOfdatadb;
-        private System.Windows.Forms.Button buttonOfxunjian;
-        private System.Windows.Forms.Label lbtitle;
-        private System.Windows.Forms.Button buttonOfhomepage;
-        private System.Windows.Forms.Label labelCurrenttime;
         private System.Windows.Forms.Label labelnextxuanjiantime;
         private System.Windows.Forms.Timer timer_coundown;
         private System.Windows.Forms.Button buttonxunjian;
-        private System.Windows.Forms.Label labelpsw;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label27;
