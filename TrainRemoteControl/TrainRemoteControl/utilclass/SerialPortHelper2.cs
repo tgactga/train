@@ -105,11 +105,13 @@ namespace TrainRemoteControl
                     sp.Open();
                 }
                 sp.ReadExisting();
+                Program.g_isOpenTempCom = true;
                 return true;
             }
             catch (System.Exception ex)
             {
                 Program.WriteLog("打开串口失败  "+ex.ToString());
+                Program.g_isOpenTempCom = false;
                 return false;
             }
         }
@@ -212,8 +214,8 @@ namespace TrainRemoteControl
 
             try
             {
-                lock (obj)
-                {
+                //lock (obj)
+                //{
                     if (Open())
                     {
                         value = CRCCalculate(value);
@@ -233,7 +235,7 @@ namespace TrainRemoteControl
                             return new byte[0];
                         }
                     }
-                }
+                //}
             }
             catch (Exception ex)
             {

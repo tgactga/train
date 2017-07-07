@@ -22,11 +22,10 @@ namespace TrainRemoteControl
         private int childFormNumber = 0;
 
         
-
         public MDIParent1()
         {
             InitializeComponent();
-            
+            this.IsMdiContainer = true;
         }
 
         public const int WM_SYSCOMMAND = 0x112;
@@ -51,8 +50,8 @@ namespace TrainRemoteControl
             childForm.Show();
         }
 
-        
- 
+
+
         private void ExitToolsStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -87,15 +86,39 @@ namespace TrainRemoteControl
 
         private void MDIParent1_Load(object sender, EventArgs e)
         {
-            TerminalTemperaturex tt = new TerminalTemperaturex();
-            tt.MdiParent=this;
-            tt.Show();
+            //TerminalTemperaturex tt = new TerminalTemperaturex();
+            //tt.MdiParent = this;
+            //tt.Show();
+            Form fo2 = FindMdiChildren("TerminalTemperaturex");
+            if (fo2 != null)
+            {
+                fo2.Show();
+            }
+            else
+            {
+                fo2 = new TerminalTemperaturex();
+                fo2.MdiParent = this;
+                fo2.Show();
+            }
+            fo2.Activate();
 
-            Main main = new Main();
-            main.MdiParent = this;
-            main.Show();
+            Form fo = FindMdiChildren("Main");
+            if (fo != null)
+            {
+                fo.Show();
+            }
+            else
+            {
+                fo = new Main();
+                fo.MdiParent = this;
+                fo.Show();
+            }
+            fo.Activate();
+
+           
 
             this.FormClosed += new FormClosedEventHandler(MDIParent1_FormClosed);
+             
         }
 
         public void MDIParent1_FormClosed(object sender, EventArgs e)
@@ -389,10 +412,22 @@ namespace TrainRemoteControl
 
         private void labelpsw_Click(object sender, EventArgs e)
         {
-            new InputPassWordForm().Show();
+            Form fo = FindMdiChildren("InputPassWordForm");
+            if (fo != null)
+            {
+                fo.Show();
+            }
+            else
+            {
+                fo = new InputPassWordForm();
+                fo.MdiParent = this;
+                fo.Show();
+            }
+            
+        }
 
-            return;
-        }             
+
+         
     }
 
      

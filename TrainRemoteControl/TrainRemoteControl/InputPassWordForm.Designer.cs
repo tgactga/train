@@ -37,7 +37,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(285, 88);
+            this.label1.Location = new System.Drawing.Point(350, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 24);
             this.label1.TabIndex = 0;
@@ -46,7 +46,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(256, 493);
+            this.button1.Location = new System.Drawing.Point(256, 422);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 49);
             this.button1.TabIndex = 1;
@@ -57,7 +57,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.Location = new System.Drawing.Point(453, 493);
+            this.button2.Location = new System.Drawing.Point(454, 422);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(114, 49);
             this.button2.TabIndex = 2;
@@ -69,7 +69,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(842, 606);
+            this.ClientSize = new System.Drawing.Size(842, 518);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);

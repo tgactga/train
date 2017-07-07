@@ -67,8 +67,10 @@ namespace TrainRemoteControl.TCP
                 }
                 catch (Exception ex)
                 {
+                    Program.WriteLog("发送报错"+ex.ToString());
                     // 记录日志及消息 补发
                     _ReConnectEvent.Set();//开启重新连接
+                    Program.WriteLog("开启重新连接");
                 }
             }));
 

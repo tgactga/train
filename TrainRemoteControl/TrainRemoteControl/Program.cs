@@ -22,6 +22,7 @@ namespace TrainRemoteControl
 
         public static  CriticalData [] g_criticalDataList  = new CriticalData [3];
         public static List<CellTerminal> g_tempCellsTerminalList = null;
+        public static bool g_isOpenTempCom = true;  //
         public static bool g_isNetState = false;  //网络状态
         public static bool g_isAlarm = false;  //是否报警
         public static bool g_isflashed = false; //是否闪烁报警灯

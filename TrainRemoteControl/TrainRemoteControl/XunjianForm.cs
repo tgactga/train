@@ -16,6 +16,7 @@ namespace TrainRemoteControl
         public XunjianForm()
         {
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Dock = DockStyle.Fill;
             InitializeComponent();
         }
 
@@ -27,28 +28,6 @@ namespace TrainRemoteControl
             //this.label3.Text = "0002";  //车体名称
             dateTimePicker1.Value = DateTime.Now.AddDays(-7);
            this.dataGridView1.RowsDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter; //设置居中
-        }
-
-        private void buttonOfdatadb_Click(object sender, EventArgs e)
-        {
-            new DataPageForm().Show();
-            this.Close();
-            return;
-        }
-
-        //点击 端子温度
-        private void btnTerminalTemp_Click(object sender, EventArgs e)
-        {
-            new TerminalTemperaturex().Show();
-            this.Close();
-            return;
-        }
-
-        private void buttonOfhomepage_Click(object sender, EventArgs e)
-        {
-            new Main().Show();
-            this.Close();
-            return;
         }
 
         private void button2_Click(object sender, EventArgs e)

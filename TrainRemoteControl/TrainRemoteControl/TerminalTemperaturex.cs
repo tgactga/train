@@ -164,7 +164,7 @@ namespace TrainRemoteControl
 
         private void timer_showtemp_Tick(object sender, EventArgs e)
         {
-            if (Program.g_tempCellsTerminalList != null)
+            if (Program.g_tempCellsTerminalList != null && Program.g_tempCellsTerminalList.Count>0)
             {
                 showTempData(Program.g_tempCellsTerminalList);
             }

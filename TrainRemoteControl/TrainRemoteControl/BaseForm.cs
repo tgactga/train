@@ -27,10 +27,9 @@ namespace TrainRemoteControl
         {
             Program.WriteLog("==========================>>进入BaseForm页面");
             timer1.Start();
-            string startTime =  "50";
+            string startTime =  "5";
             timeCount = int.Parse(startTime);
-
-            this.timer3_uploadCriticalData.Enabled = false;
+           
             tcputil.InitalSevice(); //注册tcp连接
             deletOverTimelogs();
             deletOverTimeData();
@@ -46,42 +45,54 @@ namespace TrainRemoteControl
                 timer1.Stop();
                 new MDIParent1().Show();              
                 this.Hide();
+                 
             }
         }
 
+        int netTimeCount = 0;
+        int uploadTimeCount = 0;
+        int readtempTimeCount = 0;
         //检测网络状态  报到
         private void timer2_net_Tick(object sender, EventArgs e)
         {
-          //Program.g_isNetState =  WebServiceUtil.urlIsReach(Program.g_url);
-            tcputil.SendMsg2Server(1, Program.g_serialNum);
-        }
-
-        //上传关键数据
-        private void timer3_uploadCriticalData_Tick(object sender, EventArgs e)
-        {                     
-            Program.g_isNetState = true;
-            if (Program.g_isNetState)
+            
+            netTimeCount++;
+            readtempTimeCount++;
+            uploadTimeCount++;
+            //采集关键数据
+            gatherCriticalData();
+            //读取温度数据
+            if (readtempTimeCount == 8)  //4s 读取温度数据
             {
-                Program.WriteLog(" TCP通信，上传关键数据");
-                string upStr = new BuildMsgUtil().buildUploadCriticalData(Program.g_criticalDataList); 
-                tcputil.SendMsg2Server(2, upStr);
-                Program.WriteLog(" 上传关键数据调用成功");
-
-                Program.WriteLog(" TCP通信，上传温度数据");
-                string uptempStr = new BuildMsgUtil().buildUploadTemperatureData(Program.g_tempCellsTerminalList);
-                tcputil.SendMsg2Server(3 ,uptempStr);
-                Program.WriteLog(" 上传温度数据调用成功");
-
-                   //if ()
-                   //    status = "1";
-                   //else
-                   //    status = "0";
-                   // Program.WriteLog("更新关键数据的状态");
-                   // bll.updateCriticalData(ResultcriticalList, status);                                   
+                readtempTimeCount = 0;
+                readTemperature();
             }
+            if (netTimeCount == 4)
+            {
+                netTimeCount = 0;
+                tcputil.SendMsg2Server(1, Program.g_serialNum);  //2s 报到一次
+            }
+            if (uploadTimeCount == 8)   //4s上传关键数据
+            {
+                uploadTimeCount = 0;
+                if (Program.g_isNetState)
+                {
+                    Program.WriteLog(" TCP通信，上传关键数据");
+                    string upStr = new BuildMsgUtil().buildUploadCriticalData(Program.g_criticalDataList);
+                    tcputil.SendMsg2Server(2, upStr);
+                    Program.WriteLog(" 上传关键数据调用成功");
 
+                    Program.WriteLog(" TCP通信，上传温度数据");
+                    string uptempStr = new BuildMsgUtil().buildUploadTemperatureData(Program.g_tempCellsTerminalList);
+                    tcputil.SendMsg2Server(3, uptempStr);
+                    Program.WriteLog(" 上传温度数据调用成功");
+                }
+
+            }
         }
 
+       
+       
         private void deletOverTimelogs()
         {
             //得到D:\javafzxt\Logs"文件夹下所有 
@@ -125,19 +136,6 @@ namespace TrainRemoteControl
            
         }
 
-        
-    
-        //定时采集关键数据
-        private void timer_gatherCritical_Tick(object sender, EventArgs e)
-        {
-           // timer_gatherCritical.Enabled = false;
-            //采集关键数据
-            gatherCriticalData();
-            //读取温度
-            readTemperature();
-            timer3_uploadCriticalData.Enabled = true;
-        }
-
         DataAcquisitionManager dataAcquisitionMana = new DataAcquisitionManager();
         DataAcquisition da = new DataAcquisition();
         public event Action<bool> PowerShutDownEvent;//断电事件
@@ -145,7 +143,7 @@ namespace TrainRemoteControl
         int a2 = 0;
         int a3 = 0;
         int a4 = 0; //发送电机状态计数
-        int timesCount = 30; //标示30s上传一次关键数据
+        int timesCount = 120; //标示1分钟报存关键数据
         CriticalDataBLL bll = new CriticalDataBLL();
         //采集关键数据
         private void gatherCriticalData()
@@ -364,9 +362,12 @@ namespace TrainRemoteControl
         //读取温度
         private void readTemperature()
         {
-            Program.WriteLog("读取温度数据");
-           Program.g_tempCellsTerminalList  = dataAcquisitionMana.DoReadTemp();
-           Program.WriteLog(Program.ScriptSerialize(Program.g_tempCellsTerminalList));
+            if (Program.g_isOpenTempCom)
+            {
+                Program.WriteLog("读取温度数据");
+                Program.g_tempCellsTerminalList = dataAcquisitionMana.DoReadTemp();
+                Program.WriteLog(Program.ScriptSerialize(Program.g_tempCellsTerminalList));
+            }
         }
     }
 }

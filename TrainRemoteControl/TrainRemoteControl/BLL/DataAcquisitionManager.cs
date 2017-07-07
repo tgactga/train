@@ -118,12 +118,12 @@ namespace TrainRemoteControl.BLL
 
 
         public List<CellTerminal>  DoReadTemp()
-        {            
-            // List<CellTerminal> cellsTerminal = null;
-            while (true)
+        {
+            List<CellTerminal> tempCellsTerminal = new List<CellTerminal>();
+            if (Program.g_isOpenTempCom)
             {              
                 List<CellTerminal> cellsTerminal = ta.ReadTemperature(Program.g_stationNo, Program.g_axDvalue, Program.g_maxTemp);
-                List<CellTerminal> tempCellsTerminal = new List<CellTerminal>();
+              
 
                 if (cellsTerminal.Count == 59)
                 {
@@ -136,16 +136,16 @@ namespace TrainRemoteControl.BLL
                     tempCellsTerminal.Add(cellsTerminal[57]);
                     cellsTerminal[58].n = 101;
                     tempCellsTerminal.Add(cellsTerminal[58]);
-
-                    return tempCellsTerminal;
+                   
                     //TemperatureDataHandle(tempCellsTerminal);
 
                     //Thread.Sleep(Convert.ToInt32(Program.g_readTempTime));
                 }
-
-                Thread.Sleep(1000);           
+               
+                //Thread.Sleep(1000);           
 
             }
+            return tempCellsTerminal;
         }
 
 
