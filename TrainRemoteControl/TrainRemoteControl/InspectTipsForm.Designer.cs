@@ -57,6 +57,8 @@
             // 
             // timer1_downtime
             // 
+            this.timer1_downtime.Enabled = true;
+            this.timer1_downtime.Interval = 1000;
             this.timer1_downtime.Tick += new System.EventHandler(this.timer1_downtime_Tick);
             // 
             // InspectTipsForm
@@ -66,6 +68,7 @@
             this.ClientSize = new System.Drawing.Size(522, 358);
             this.Controls.Add(this.inspectTipslabel);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "InspectTipsForm";
             this.Text = "InspectTipsForm";
             this.Load += new System.EventHandler(this.InspectTipsForm_Load);

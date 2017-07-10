@@ -439,8 +439,8 @@ namespace TrainRemoteControl
                 //调用声音提示，并弹出巡检提示对话框  一段时间后自动消失
                 if (!Program.g_isInspected)
                 {
-                    //new InspectTipsForm().Show();
-                    //return;
+                    new InspectTipsForm().Show();
+                    return;
                 }
 
                 countdown = int.Parse(Program.g_inspectionInterval); //倒计时 时间

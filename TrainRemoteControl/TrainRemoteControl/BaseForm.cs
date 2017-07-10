@@ -29,7 +29,7 @@ namespace TrainRemoteControl
             timer1.Start();
             string startTime =  "5";
             timeCount = int.Parse(startTime);
-           
+            IniVarUtil.iniXunjianVar();
             tcputil.InitalSevice(); //注册tcp连接
             deletOverTimelogs();
             deletOverTimeData();

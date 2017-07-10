@@ -255,6 +255,7 @@
     <Compile Include="utilclass\ComputerInfo.cs" />
     <Compile Include="utilclass\Expression.cs" />
     <Compile Include="utilclass\INIClass.cs" />
+    <Compile Include="utilclass\IniVarUtil.cs" />
     <Compile Include="utilclass\SerialPortHelper.cs" />
     <Compile Include="utilclass\SerialPortHelper2.cs" />
     <Compile Include="utilclass\SQLHelper.cs" />

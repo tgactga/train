@@ -6,22 +6,17 @@ using System.Media;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
- 
 using System.Text;
 using System.Reflection;
- 
-//using DAL;
 
 namespace TrainRemoteControl
 {
     public delegate void UpBaojingDelegete();
     public partial class MDIParent1 : Form
-    {
-         
+    {        
         public static UpBaojingDelegete baojingDelegate;
         private int childFormNumber = 0;
-
-        
+      
         public MDIParent1()
         {
             InitializeComponent();
@@ -50,31 +45,29 @@ namespace TrainRemoteControl
             childForm.Show();
         }
 
+        //private void ExitToolsStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    this.Close();
+        //}
+        //private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    LayoutMdi(MdiLayout.Cascade);
+        //}
 
+        //private void TileVerticalToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    LayoutMdi(MdiLayout.TileVertical);
+        //}
 
-        private void ExitToolsStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-        private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LayoutMdi(MdiLayout.Cascade);
-        }
+        //private void TileHorizontalToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    LayoutMdi(MdiLayout.TileHorizontal);
+        //}
 
-        private void TileVerticalToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LayoutMdi(MdiLayout.TileVertical);
-        }
-
-        private void TileHorizontalToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LayoutMdi(MdiLayout.TileHorizontal);
-        }
-
-        private void ArrangeIconsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            LayoutMdi(MdiLayout.ArrangeIcons);
-        }
+        //private void ArrangeIconsToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    LayoutMdi(MdiLayout.ArrangeIcons);
+        //}
 
         private void CloseAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -173,20 +166,6 @@ namespace TrainRemoteControl
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            //Form fo = FindMdiChildren("SystemSet");
-            //if (fo != null)
-            //{
-            //    fo.Show();
-
-            //}
-            //else
-            //{
-            //    fo = new SystemSet();
-            //    fo.MdiParent = this;
-            //    fo.Show();
-            //}
-            //fo.Activate();
-
             SettingForm sf = new SettingForm();
             sf.ShowDialog();
 

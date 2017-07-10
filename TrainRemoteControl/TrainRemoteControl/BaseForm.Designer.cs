@@ -73,7 +73,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
             this.Location = new System.Drawing.Point(8, 10);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            //this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "BaseForm";
             this.Text = "武汉里瑞工程贸易有限公司";
             this.Load += new System.EventHandler(this.BaseForm_Load);

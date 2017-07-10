@@ -119,7 +119,7 @@ namespace TrainRemoteControl.TCP
                     break;
                 case "3":
                     Program.WriteLog("服务器请求巡检数据");
-                    senMsg = new BuildMsgUtil().buildXunjianData();
+                    senMsg = new BuildMsgUtil().buildXunjianData(Program.g_inspectionRecord);
                     break;
                 case "4":
                     Program.WriteLog("服务器请求错误日志");

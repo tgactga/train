@@ -24,7 +24,16 @@ namespace TrainRemoteControl
 
         private void InspectTipsForm_Load(object sender, EventArgs e)
         {
-            Program.WriteLog("==========================>>进入InspectTipsForm页面");
+            Program.WriteLog("==========================>>进入InspectTipsForm（巡检时间到提示）页面");
+            if (!Program.g_isInspected)
+            {
+                //巡检时间到 上传上次巡检数据
+                BuildMsgUtil buildMsgUtil = new BuildMsgUtil();
+                buildMsgUtil.buildXunjianData(Program.g_inspectionRecord);
+            }
+
+            Program.g_isInspected = false; //初始化
+            
             //=================================定时器====================================
             label01.Text = this.count + "";
             label01.AutoSize = true;
@@ -40,25 +49,22 @@ namespace TrainRemoteControl
         {
             Program.WriteLog("点击确认巡检，上传巡检数据");
             Program.g_isInspected = true;
-            Model._XJmodel inspectionRecord = new Model._XJmodel();
-            inspectionRecord.getStatus = "正常";
-            inspectionRecord.getRecordTime = DateTime.Now;
-            inspectionRecord.getContent = "备注";
-            inspectionRecord.getBjtime = DateTime.Now;
-            inspectionRecord.getWorker = "张三丰";
-            inspectionRecord.lcNumber = "T401";
-            InspectionRecordDAL inspect = new InspectionRecordDAL();
-            inspect.SaveInspectionRecord(inspectionRecord);
+            Program.g_inspectionRecord.getStatus = "正常";
 
-            //上传 数据
-            WebServiceUtil.uploadInspectionRecords(inspectionRecord);
+            BuildMsgUtil buildMsgUtil = new BuildMsgUtil();
+            buildMsgUtil.buildXunjianData(Program.g_inspectionRecord);
+
+            this.Close();
+            return;
         }
 
         private void timer1_downtime_Tick(object sender, EventArgs e)
         {
             if (this.count == 0)
             {
-                timer1_downtime.Enabled = false;                
+                Program.WriteLog("未检");
+                timer1_downtime.Enabled = false;
+                Program.g_inspectionRecord.getStatus = "未检";
                 this.Close();
                 return;
             }

@@ -20,6 +20,7 @@ namespace TrainRemoteControl
         //web服务        
         public static TrainRemoteControl.TrainWebService.TrainServiceClient g_trainService = new TrainWebService.TrainServiceClient();
 
+        public static Model._XJmodel g_inspectionRecord = new _XJmodel();
         public static  CriticalData [] g_criticalDataList  = new CriticalData [3];
         public static List<CellTerminal> g_tempCellsTerminalList = null;
         public static bool g_isOpenTempCom = true;  //
