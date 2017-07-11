@@ -273,6 +273,12 @@
     <Compile Include="XunjianForm.Designer.cs">
       <DependentUpon>XunjianForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="XunJianTipsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XunJianTipsForm.Designer.cs">
+      <DependentUpon>XunJianTipsForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AlarmForm.resx">
       <DependentUpon>AlarmForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -330,6 +336,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="XunjianForm.resx">
       <DependentUpon>XunjianForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XunJianTipsForm.resx">
+      <DependentUpon>XunJianTipsForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config">
       <SubType>Designer</SubType>

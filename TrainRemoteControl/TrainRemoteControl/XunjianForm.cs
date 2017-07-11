@@ -53,10 +53,7 @@ namespace TrainRemoteControl
             }
         }
 
-        private void buttonOfxunjian_Click(object sender, EventArgs e)
-        {
-
-        }
+         
 
        
     }

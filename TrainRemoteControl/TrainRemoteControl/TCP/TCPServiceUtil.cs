@@ -56,11 +56,13 @@ namespace TrainRemoteControl.TCP
                     string ss = mService.ClientSendInfo(type, msg);
                     if (ss == "-1")
                     {
+                        Program.g_isNetState = false;
                         //记录补发 记录日志
                         SetDisplayMessage("发送失败 记录补发" + msg);
                     }
                     else
                     {
+                        Program.g_isNetState = true;
                         SetDisplayMessage(Program.g_serialNum+"发送消息，返回：" + ss);
 
                     }

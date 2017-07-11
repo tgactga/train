@@ -32,7 +32,6 @@
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.timer2_net = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // progressBar1
@@ -58,12 +57,6 @@
             this.timer1.Interval = 5;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // timer2_net
-            // 
-            this.timer2_net.Enabled = true;
-            this.timer2_net.Interval = 500;
-            this.timer2_net.Tick += new System.EventHandler(this.timer2_net_Tick);
-            // 
             // BaseForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -73,7 +66,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
             this.Location = new System.Drawing.Point(8, 10);
-            //this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "BaseForm";
             this.Text = "武汉里瑞工程贸易有限公司";
             this.Load += new System.EventHandler(this.BaseForm_Load);
@@ -87,6 +79,5 @@
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Timer timer2_net;
     }
 }

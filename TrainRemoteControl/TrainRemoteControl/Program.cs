@@ -28,6 +28,7 @@ namespace TrainRemoteControl
         public static bool g_isAlarm = false;  //是否报警
         public static bool g_isflashed = false; //是否闪烁报警灯
         public static bool g_isInspected = false;  //是否巡检
+        public static bool g_isShowInspectTipsForm = false; //是否显示了提示界面
         public static Form singleForm = null;
         public static INIClass ini = new INIClass("D://train//train.ini");
         public static String g_checi = "";

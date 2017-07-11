@@ -186,12 +186,13 @@ namespace TrainRemoteControl
                 }
             }
         }
-        int a1 = 0;
-        int a2 = 0;
-        int a3 = 0;
-        int a4 = 0; //发送电机状态计数
-        int timesCount = 30; //标示30s上传一次关键数据
-        CriticalDataBLL bll = new CriticalDataBLL();
+      
+        //int a1 = 0;
+        //int a2 = 0;
+        //int a3 = 0;
+        //int a4 = 0; //发送电机状态计数
+        //int timesCount = 30; //标示30s上传一次关键数据
+        //CriticalDataBLL bll = new CriticalDataBLL();
         //采集关键数据
         //private void gatherCriticalData()
         //{
@@ -400,26 +401,31 @@ namespace TrainRemoteControl
         //    }
         //}
         
-        private void buttonOfdatadb_Click(object sender, EventArgs e)
-        {
-            new DataPageForm().Show();
-            this.Close();
-            return;
-        }
+        //private void buttonOfdatadb_Click(object sender, EventArgs e)
+        //{
+        //    new DataPageForm().Show();
+        //    this.Close();
+        //    return;
+        //}
 
-        private void buttonOfxunjian_Click(object sender, EventArgs e)
-        {
-            new XunjianForm().Show();
-            this.Close();
-            return;
-        }
+        //private void buttonOfxunjian_Click(object sender, EventArgs e)
+        //{
+        //    new XunjianForm().Show();
+        //    this.Close();
+        //    return;
+        //}
 
-        private void buttonOfhomepage_Click(object sender, EventArgs e)
-        {
+        //private void buttonOfhomepage_Click(object sender, EventArgs e)
+        //{
              
-        }
+        //}
+
+
+
+
 
         //巡检倒计时 定时器
+        
         private void timer_coundown_Tick(object sender, EventArgs e)
         {
             //this.labelCurrenttime.Text = "当前时间：" + DateTime.Now + "";
@@ -439,8 +445,12 @@ namespace TrainRemoteControl
                 //调用声音提示，并弹出巡检提示对话框  一段时间后自动消失
                 if (!Program.g_isInspected)
                 {
-                    new InspectTipsForm().Show();
-                    return;
+                    if (!Program.g_isShowInspectTipsForm)
+                    {
+                        new XunJianTipsForm().Show();
+                        
+                        return;
+                    }
                 }
 
                 countdown = int.Parse(Program.g_inspectionInterval); //倒计时 时间
@@ -503,27 +513,11 @@ namespace TrainRemoteControl
             }
         }
 
-        //点击 端子温度
-        private void btnTerminalTemp_Click(object sender, EventArgs e)
-        {
-            //new MonCenterForm().Show();
-            new TerminalTemperaturex().Show();
-            this.Close();
-            return;
-        }
-
+      
 
         //显示关键数据
         private void showCriticalData( CriticalData  cd )
         {
-            //if (obj.ToString() == "x3")
-            //{
-            //    MessageBox.Show(obj.ToString());
-            //}
-            //else
-            //{
-                //Model.CriticalData cd = (CriticalData)obj;
-
                 Model.AlarmInfo alarmInfo = new AlarmInfo(cd.AlarmValue, cd.LcNum);
 
                 try
@@ -598,25 +592,9 @@ namespace TrainRemoteControl
                 {
                     return;
                 }
-            //}
+            
         }
 
-
-
-
-
-
-
-
-        //隐藏按钮
-        private void label2_Click(object sender, EventArgs e)
-        {
-            new InputPassWordForm().Show();
-           
-            return;
-
-
-        }
 
         private void pictureBox17_Click(object sender, EventArgs e)
         {

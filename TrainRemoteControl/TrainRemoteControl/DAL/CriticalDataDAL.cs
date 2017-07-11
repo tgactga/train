@@ -621,7 +621,7 @@ namespace TrainRemoteControl
             SQLiteParameter[] sqlParams = new SQLiteParameter[15];
             sqlParams[0] = new SQLiteParameter(PARAM_LCNUM, DbType.String, 20);
             sqlParams[1] = new SQLiteParameter(PARAM_GID, DbType.Int32, 4);
-            sqlParams[2] = new SQLiteParameter(PARAM_OILPRESS, DbType.Double);
+            sqlParams[2] = new SQLiteParameter(PARAM_OILPRESS, DbType.Double,4);
             sqlParams[3] = new SQLiteParameter(PARAM_WATERTEMP, DbType.Double, 4);
             sqlParams[4] = new SQLiteParameter(PARAM_FRE, DbType.Double, 4);
             sqlParams[5] = new SQLiteParameter(PARAM_MSPEED, DbType.Double, 4);

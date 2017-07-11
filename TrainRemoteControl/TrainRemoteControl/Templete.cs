@@ -25,11 +25,11 @@ namespace TrainRemoteControl
                     Program.WriteLog(e.ToString());
                 }
             }
-            this.Size = new Size(1024, 715);
-            //this.WindowState = FormWindowState.Maximized;
-            this.Text = "武汉里瑞工贸有限公司";
-            this.StartPosition = FormStartPosition.Manual;
-            this.Location = new Point(8, 10);
+            //this.Size = new Size(500, 425);
+          
+            //this.Text = "武汉里瑞工贸有限公司";
+            //this.StartPosition = FormStartPosition.Manual;
+            //this.Location = new Point(8, 10);
             Program.singleForm = this;
             base.Show();
             Program.WriteLog("Program.singleForm:" + Program.singleForm.Name);

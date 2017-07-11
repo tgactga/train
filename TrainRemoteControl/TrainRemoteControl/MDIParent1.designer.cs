@@ -37,21 +37,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MDIParent1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelpsw = new System.Windows.Forms.Label();
             this.btnTerminalTemp = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.button4_data = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button1_Xunjian = new System.Windows.Forms.Button();
             this.lbtitle = new System.Windows.Forms.Label();
-            this.baojing = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label1_main = new System.Windows.Forms.Label();
             this.welcome = new System.Windows.Forms.Label();
             this.username = new System.Windows.Forms.Label();
             this.lbname = new System.Windows.Forms.Label();
+            this.timer2_net = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -63,9 +63,9 @@
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.labelpsw);
             this.panel1.Controls.Add(this.btnTerminalTemp);
-            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.button4_data);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.button1_Xunjian);
             this.panel1.Controls.Add(this.lbtitle);
             this.panel1.Location = new System.Drawing.Point(0, 1);
             this.panel1.Name = "panel1";
@@ -91,36 +91,32 @@
             this.btnTerminalTemp.UseVisualStyleBackColor = true;
             this.btnTerminalTemp.Click += new System.EventHandler(this.btnTerminalTemp_Click);
             // 
-            // button4
+            // button4_data
             // 
-            this.button4.Location = new System.Drawing.Point(398, 10);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 30);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "数据库";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4_data.Location = new System.Drawing.Point(398, 10);
+            this.button4_data.Name = "button4_data";
+            this.button4_data.Size = new System.Drawing.Size(75, 30);
+            this.button4_data.TabIndex = 10;
+            this.button4_data.Text = "数据库";
+            this.button4_data.UseVisualStyleBackColor = true;
+            this.button4_data.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 10);
+            this.button2.Location = new System.Drawing.Point(0, 0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 30);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "系统设置";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Visible = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 13;
             // 
-            // button1
+            // button1_Xunjian
             // 
-            this.button1.Location = new System.Drawing.Point(479, 10);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 30);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "巡检作业";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1_Xunjian.Location = new System.Drawing.Point(479, 10);
+            this.button1_Xunjian.Name = "button1_Xunjian";
+            this.button1_Xunjian.Size = new System.Drawing.Size(75, 30);
+            this.button1_Xunjian.TabIndex = 1;
+            this.button1_Xunjian.Text = "巡检作业";
+            this.button1_Xunjian.UseVisualStyleBackColor = true;
+            this.button1_Xunjian.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // lbtitle
             // 
@@ -133,23 +129,11 @@
             this.lbtitle.TabIndex = 0;
             this.lbtitle.Text = "发电车远程控制系统";
             // 
-            // baojing
-            // 
-            this.baojing.AutoSize = true;
-            this.baojing.BackColor = System.Drawing.Color.Transparent;
-            this.baojing.Location = new System.Drawing.Point(351, 9);
-            this.baojing.Name = "baojing";
-            this.baojing.Size = new System.Drawing.Size(53, 12);
-            this.baojing.TabIndex = 3;
-            this.baojing.Text = "报警确认";
-            // 
             // panel3
             // 
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Controls.Add(this.label1);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.baojing);
+            this.panel3.Controls.Add(this.label1_main);
             this.panel3.Controls.Add(this.welcome);
             this.panel3.Controls.Add(this.username);
             this.panel3.Controls.Add(this.lbname);
@@ -158,26 +142,16 @@
             this.panel3.Size = new System.Drawing.Size(796, 30);
             this.panel3.TabIndex = 6;
             // 
-            // label1
+            // label1_main
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(696, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 12);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "首页";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(461, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 12);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "label3";
+            this.label1_main.AutoSize = true;
+            this.label1_main.BackColor = System.Drawing.Color.Transparent;
+            this.label1_main.Location = new System.Drawing.Point(696, 9);
+            this.label1_main.Name = "label1_main";
+            this.label1_main.Size = new System.Drawing.Size(29, 12);
+            this.label1_main.TabIndex = 6;
+            this.label1_main.Text = "首页";
+            this.label1_main.Click += new System.EventHandler(this.label1_Click);
             // 
             // welcome
             // 
@@ -211,6 +185,12 @@
             this.lbname.Text = "用户名：";
             this.lbname.Visible = false;
             // 
+            // timer2_net
+            // 
+            this.timer2_net.Enabled = true;
+            this.timer2_net.Interval = 500;
+            this.timer2_net.Tick += new System.EventHandler(this.timer2_net_Tick);
+            // 
             // MDIParent1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -219,7 +199,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(794, 631);
+            this.ClientSize = new System.Drawing.Size(794, 648);
             this.ControlBox = false;
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -244,15 +224,14 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label username;
         private System.Windows.Forms.Label lbname;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label baojing;
+        private System.Windows.Forms.Label label1_main;
         private System.Windows.Forms.Label welcome;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button1_Xunjian;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button4_data;
         private System.Windows.Forms.Button btnTerminalTemp;
         private System.Windows.Forms.Label labelpsw;
+        private System.Windows.Forms.Timer timer2_net;
     }
 }
 

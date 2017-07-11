@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Runtime.InteropServices;
 using System.IO;
+using System.Reflection;
 
 namespace TrainRemoteControl.utilclass
 {
@@ -39,6 +40,22 @@ namespace TrainRemoteControl.utilclass
         public bool test()
         {
             return File.Exists(inipath);
+        }
+
+
+        public string GetObjectPropertyValue<T>(T t, string propertyname)
+        {
+            Type type = typeof(T);
+
+            PropertyInfo property = type.GetProperty(propertyname);
+
+            if (property == null) return string.Empty;
+
+            object o = property.GetValue(t, null);
+
+            if (o == null) return string.Empty;
+
+            return o.ToString();
         }
 
     }
