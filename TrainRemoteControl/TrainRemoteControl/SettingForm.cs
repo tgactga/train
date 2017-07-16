@@ -312,28 +312,13 @@ namespace TrainRemoteControl
             }
         }
         public const int IME_CMODE_SOFTKBD = 0x80;
-        private void btnTouchKeyboard_Click(object sender, EventArgs e)
-        {
-            //打开软件盘
-            ProcessStartInfo si = new ProcessStartInfo("osk.exe");
-            Process.Start(si);
-            
-
-            //IntPtr hwndInput = ImmGetContext(this.Handle);
-            //IntPtr dw1 = IntPtr.Zero;
-            //IntPtr dw2 = IntPtr.Zero;
-            //bool isSuccess = ImmGetConversionStatus(hwndInput, ref dw1, ref dw2);
-            //if (isSuccess)
-            //{
-            //    int intTemp = dw1.ToInt32() & IME_CMODE_SOFTKBD;
-            //    if (intTemp > 0)
-            //        dw1 = (IntPtr)(dw1.ToInt32() ^ IME_CMODE_SOFTKBD);
-            //    else
-            //        dw1 = (IntPtr)(dw1.ToInt32() );
-            //}
-            //isSuccess = ImmSetConversionStatus(hwndInput, dw1, dw2);
-            //ImmReleaseContext(this.Handle, hwndInput);
-        }
+        //private void btnTouchKeyboard_Click(object sender, EventArgs e)
+        //{
+        //    //打开软件盘
+        //    ProcessStartInfo si = new ProcessStartInfo("osk.exe");
+        //    Process.Start(si);    
+             
+        //}
 
         private void button1_Click(object sender, EventArgs e)
         {

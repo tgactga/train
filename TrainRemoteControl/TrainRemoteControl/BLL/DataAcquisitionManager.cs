@@ -17,6 +17,23 @@ namespace TrainRemoteControl.BLL
         
         private Expression[] WaterExpression = new Expression[3];//水温计算类
         private Expression[] OilExpression = new Expression[3];//计算类
+
+        public event Action PressButtonEvent;//按下按钮触发事件
+        public event Action<bool> AlarmFlashContrl;//报警灯
+        private System.Timers.Timer btnStatusTimer;
+        Thread InspectionThread;
+        private bool bCheckBtnStatus = false; //巡检按键
+        private bool bCheck = false;//是否开始
+        private const int btnStatusInterval = 1000;
+        private const int btnStatusLowerLimit = 1000;
+
+        private bool changed = false;
+        public bool Changed
+        {
+            get { return changed; }
+            set { changed = value; }
+        }
+
         int[] newIndex = new int[]
         {
             3,4,
@@ -63,6 +80,45 @@ namespace TrainRemoteControl.BLL
                 }
                 Thread.Sleep(100);
             }
+
+            InspectionThread = new Thread((o) =>
+            {
+                while (true)
+                {
+                    if (bCheck)
+                    {
+                        if (da.GetBtnStatus())
+                        {
+                            if (PressButtonEvent != null)
+                            {
+                                PressButtonEvent();
+                            }
+                            bCheck = false;
+                        }
+                    }
+
+                    Thread.Sleep(btnStatusInterval);
+                }
+            });
+            InspectionThread.IsBackground = true;
+            InspectionThread.Start();
+
+            btnStatusTimer = new System.Timers.Timer(btnStatusInterval);
+            btnStatusTimer.AutoReset = true;
+            btnStatusTimer.Elapsed += new System.Timers.ElapsedEventHandler((object sender, System.Timers.ElapsedEventArgs e) =>
+            {
+                bool status = da.GetBtnStatus();//实际时请改正
+                if (status && !changed)
+                {
+                    changed = true;
+                    //触发按钮状态改变事件
+                    if (PressButtonEvent != null)
+                    {
+                        PressButtonEvent();
+                        changed = false;
+                    }
+                }
+            });
         }
 
         /// <summary>
@@ -150,18 +206,12 @@ namespace TrainRemoteControl.BLL
 
 
 
-
-
-
-
-
-
         /// <summary>
         /// 开始监听按钮状态
         /// </summary>
         public void StartListenBtnStatus()
         {
-            //bCheck = true;
+            bCheck = true;
         }
 
         /// <summary>

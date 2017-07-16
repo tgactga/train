@@ -148,12 +148,6 @@
     <Compile Include="InputPassWordForm.Designer.cs">
       <DependentUpon>InputPassWordForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="InspectTipsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InspectTipsForm.Designer.cs">
-      <DependentUpon>InspectTipsForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -200,6 +194,12 @@
     </Compile>
     <Compile Include="SettingForm.designer.cs">
       <DependentUpon>SettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingForm2.Designer.cs">
+      <DependentUpon>SettingForm2.cs</DependentUpon>
     </Compile>
     <Compile Include="Settings.cs" />
     <Compile Include="TCP\TCPServiceUtil.cs" />
@@ -294,9 +294,6 @@
     <EmbeddedResource Include="InputPassWordForm.resx">
       <DependentUpon>InputPassWordForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InspectTipsForm.resx">
-      <DependentUpon>InspectTipsForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -318,6 +315,9 @@
     </Compile>
     <EmbeddedResource Include="SettingForm.resx">
       <DependentUpon>SettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingForm2.resx">
+      <DependentUpon>SettingForm2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TerminalTemperaturex.resx">
       <DependentUpon>TerminalTemperaturex.cs</DependentUpon>

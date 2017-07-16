@@ -41,19 +41,20 @@ namespace TrainRemoteControl
         public static String  g_localVadioPassword= "";   
     
         public static String g_comPortTemperature = "";           			   
-        public static String g_deadline= "";
-        public static String g_inspectionInterval= "";
+        public static String g_deadline= "";      
         public static String g_localListenPort= "";
          
         public static String g_serialNum= "";
         public static String g_train= "";
-         
-         
+                
         public static String g_url = "";
         
         public static String g_connString= "";
         public static String g_comPort = "";
 
+        //巡检相关变量
+        public static String g_inspectionInterval = ""; //巡检时间间隔
+        public static String g_laterInterval = "";
         //温度有关静态变量
         public static String g_stationNo = "";
         public static String g_readTempTime = "";
@@ -62,9 +63,16 @@ namespace TrainRemoteControl
         public static String g_axDvalue = "";
         
         
-
+        //公式相关变量
         public static String g_waterFormula1 = "";
+        public static String g_waterFormula2 = "";
+        public static String g_waterFormula3 = "";
         public static String g_oilFormula1 = "";
+        public static String g_oilFormula2 = "";
+        public static String g_oilFormula3 = "";
+
+        //报警值变量
+        public static String g_waterAlarm1Value = "";
         /// <summary>
         /// 应用程序的主入口点。
         /// </summary>
@@ -107,12 +115,14 @@ namespace TrainRemoteControl
         static Program()
         {
 
+            g_inspectionInterval = ini.IniReadValue("XunJianInfo", "inspectionInterval");
+            g_laterInterval = ini.IniReadValue("XunJianInfo", "laterInterval");
+
             //ini.IniWriteValue("TermInfo", "checi", "T141");
             g_checi = ini.IniReadValue("TermInfo", "checi");//读取车次号  
             //ini.IniWriteValue("TermInfo", "lcNumber", "000002");
             g_lcNumber = ini.IniReadValue("TermInfo", "lcNumber");//读取列车号  
-            g_deadline = ini.IniReadValue("TermInfo", "deadline");
-            g_inspectionInterval = ini.IniReadValue("TermInfo", "inspectionInterval");
+            g_deadline = ini.IniReadValue("TermInfo", "deadline");   
             g_localListenPort = ini.IniReadValue("TermInfo", "localListenPort");
 
             g_serialNum = ini.IniReadValue("TermInfo", "serialNum");
@@ -136,8 +146,13 @@ namespace TrainRemoteControl
             g_axDvalue = ini.IniReadValue("TermInfo", "axDvalue");
 
             g_waterFormula1 = ini.IniReadValue("TermInfo", "WaterFormula1");
+            g_waterFormula2 = ini.IniReadValue("TermInfo", "WaterFormula2");
+            g_waterFormula3 = ini.IniReadValue("TermInfo", "WaterFormula3");
             g_oilFormula1 = ini.IniReadValue("TermInfo", "OilFormula1");
+            g_oilFormula2 = ini.IniReadValue("TermInfo", "OilFormula2");
+            g_oilFormula3 = ini.IniReadValue("TermInfo", "OilFormula3");
 
+            g_waterAlarm1Value = ini.IniReadValue("TermInfo", "waterAlarm1Value");
             CriticalData cd = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, DateTime.Now, false, "1");
             g_criticalDataList[0] =  cd;
             g_criticalDataList[1] = cd;

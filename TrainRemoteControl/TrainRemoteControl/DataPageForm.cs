@@ -30,31 +30,31 @@ namespace TrainRemoteControl
             backgroundWorker1.RunWorkerAsync();
 
         }
-        private void buttonOfxunjian_Click(object sender, EventArgs e)
-        {
-            new XunjianForm().Show();
-            this.Hide();
-            return;
-        }
+        //private void buttonOfxunjian_Click(object sender, EventArgs e)
+        //{
+        //    new XunjianForm().Show();
+        //    this.Hide();
+        //    return;
+        //}
 
-        private void buttonOfhomepage_Click(object sender, EventArgs e)
-        {
-            new Main().Show();
-            this.Hide();
-            return;
-        }
+        //private void buttonOfhomepage_Click(object sender, EventArgs e)
+        //{
+        //    new Main().Show();
+        //    this.Hide();
+        //    return;
+        //}
 
-        //点击 端子温度
-        private void btnTerminalTemp_Click(object sender, EventArgs e)
-        {
-            new TerminalTemperaturex().Show();
-            this.Hide();
-            return;
-        }
+        ////点击 端子温度
+        //private void btnTerminalTemp_Click(object sender, EventArgs e)
+        //{
+        //    new TerminalTemperaturex().Show();
+        //    this.Hide();
+        //    return;
+        //}
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
-            t1 = dao.getdjDatatable("1",0,300); //1号机组
+            t1 = dao.getdjDatatable("1", 0,300); //1号机组
             t2 = dao.getdjDatatable("2", 0, 300);
             t3 = dao.getdjDatatable("3", 0, 300);
         }

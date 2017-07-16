@@ -52,6 +52,8 @@
             this.username = new System.Windows.Forms.Label();
             this.lbname = new System.Windows.Forms.Label();
             this.timer2_net = new System.Windows.Forms.Timer(this.components);
+            this.xunjian_timer = new System.Windows.Forms.Timer(this.components);
+            this.gatherAndReadData_timer = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -188,8 +190,19 @@
             // timer2_net
             // 
             this.timer2_net.Enabled = true;
-            this.timer2_net.Interval = 500;
+            this.timer2_net.Interval = 2000;
             this.timer2_net.Tick += new System.EventHandler(this.timer2_net_Tick);
+            // 
+            // xunjian_timer
+            // 
+            this.xunjian_timer.Enabled = true;
+            this.xunjian_timer.Tick += new System.EventHandler(this.xunjian_timer_Tick);
+            // 
+            // gatherAndReadData_timer
+            // 
+            this.gatherAndReadData_timer.Enabled = true;
+            this.gatherAndReadData_timer.Interval = 500;
+            this.gatherAndReadData_timer.Tick += new System.EventHandler(this.gatherAndReadData_timer_Tick);
             // 
             // MDIParent1
             // 
@@ -199,7 +212,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(794, 648);
+            this.ClientSize = new System.Drawing.Size(794, 682);
             this.ControlBox = false;
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -232,6 +245,8 @@
         private System.Windows.Forms.Button btnTerminalTemp;
         private System.Windows.Forms.Label labelpsw;
         private System.Windows.Forms.Timer timer2_net;
+        private System.Windows.Forms.Timer xunjian_timer;
+        private System.Windows.Forms.Timer gatherAndReadData_timer;
     }
 }
 

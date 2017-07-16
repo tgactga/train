@@ -6,13 +6,16 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using TrainRemoteControl.BLL;
 
 namespace TrainRemoteControl
 {
-    public partial class InputPassWordForm : Templete
+    public partial class InputPassWordForm : Form
     {
+      
         public InputPassWordForm()
         {
+            
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             //this.WindowState = FormWindowState.Maximized;
             InitializeComponent();
@@ -37,6 +40,7 @@ namespace TrainRemoteControl
             textBox1.RightToLeft = RightToLeft.Yes;
             textBox1.BackColor = Color.White;
             textBox1.Text = "";
+            textBox1.PasswordChar = '*';
             textBox1.TextAlign = HorizontalAlignment.Center;
             textBox1.Click += new EventHandler(textBox1_Click);
             textBox1.Top = Convert.ToInt16((this.Height - textBox1.Height) / 2.5-80);
@@ -53,12 +57,12 @@ namespace TrainRemoteControl
             label4.Left = Convert.ToInt16((this.Width - label4.Width) / 2.45);
             this.Controls.Add(label4);
 
-            this.button1.Top = Convert.ToInt16((this.Height - this.button1.Height) / 1.15);
+            this.button1.Top = Convert.ToInt16((this.Height - this.button1.Height) / 1.15-50);
             this.button1.Left = Convert.ToInt16((this.Width - this.button1.Width) / 1.5 + 5);
 
 
-            this.button2.Top = Convert.ToInt16((this.Height - button2.Height) / 1.15);
-            button2.Left = Convert.ToInt16((this.Width - button2.Width) / 2.7 - 16);
+            //this.button2.Top = Convert.ToInt16((this.Height - button2.Height) / 1.15);
+            //button2.Left = Convert.ToInt16((this.Width - button2.Width) / 2.7 - 16);
 
             inputTarget = textBox1;
 
@@ -151,7 +155,8 @@ namespace TrainRemoteControl
             //MessageBox.Show(ss);
             if (ss.Equals("1"))
             {
-                new SettingForm().Show();           
+                new SettingForm2().Show();
+                //new SettingForm().Show();           
                 return;
             }
             else
@@ -167,7 +172,7 @@ namespace TrainRemoteControl
             this.textBox1.Text = ""; 
             this.ParentForm.Show();
             //new MDIParent1().Show();
-            this.Hide();
+            //this.Hide();
             return;
         }
 

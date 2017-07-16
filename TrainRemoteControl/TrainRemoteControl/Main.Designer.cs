@@ -30,6 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             this.timer_coundown = new System.Windows.Forms.Timer(this.components);
+            this.timer_gatherCritical = new System.Windows.Forms.Timer(this.components);
+            this.netlabel = new System.Windows.Forms.Label();
             this.labelbaojingtest = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnIndex = new System.Windows.Forms.Button();
@@ -161,10 +163,7 @@
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.buttonxunjian = new System.Windows.Forms.Button();
             this.labelnextxuanjiantime = new System.Windows.Forms.Label();
-            this.netlabel = new System.Windows.Forms.Label();
-            this.timer_gatherCritical = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
@@ -222,10 +221,25 @@
             this.timer_coundown.Interval = 1000;
             this.timer_coundown.Tick += new System.EventHandler(this.timer_coundown_Tick);
             // 
+            // timer_gatherCritical
+            // 
+            this.timer_gatherCritical.Enabled = true;
+            this.timer_gatherCritical.Interval = 1000;
+            this.timer_gatherCritical.Tick += new System.EventHandler(this.timer_gatherCritical_Tick);
+            // 
+            // netlabel
+            // 
+            this.netlabel.AutoSize = true;
+            this.netlabel.Location = new System.Drawing.Point(18, 446);
+            this.netlabel.Name = "netlabel";
+            this.netlabel.Size = new System.Drawing.Size(65, 12);
+            this.netlabel.TabIndex = 14;
+            this.netlabel.Text = "网络状态：";
+            // 
             // labelbaojingtest
             // 
             this.labelbaojingtest.AutoSize = true;
-            this.labelbaojingtest.Location = new System.Drawing.Point(429, 450);
+            this.labelbaojingtest.Location = new System.Drawing.Point(429, 446);
             this.labelbaojingtest.Name = "labelbaojingtest";
             this.labelbaojingtest.Size = new System.Drawing.Size(101, 12);
             this.labelbaojingtest.TabIndex = 13;
@@ -322,7 +336,7 @@
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.panel5);
             this.panel3.Controls.Add(this.panel4);
-            this.panel3.Location = new System.Drawing.Point(4, 143);
+            this.panel3.Location = new System.Drawing.Point(7, 143);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(771, 299);
             this.panel3.TabIndex = 11;
@@ -333,7 +347,7 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.40816F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.59184F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 144F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 224F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 226F));
             this.tableLayoutPanel5.Controls.Add(this.label71, 2, 0);
             this.tableLayoutPanel5.Controls.Add(this.label69, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.label70, 1, 0);
@@ -353,7 +367,7 @@
             // label71
             // 
             this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(209, 0);
+            this.label71.Location = new System.Drawing.Point(207, 0);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(53, 12);
             this.label71.TabIndex = 17;
@@ -371,7 +385,7 @@
             // label70
             // 
             this.label70.AutoSize = true;
-            this.label70.Location = new System.Drawing.Point(86, 0);
+            this.label70.Location = new System.Drawing.Point(85, 0);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(53, 12);
             this.label70.TabIndex = 16;
@@ -380,7 +394,7 @@
             // label72
             // 
             this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(353, 0);
+            this.label72.Location = new System.Drawing.Point(351, 0);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(41, 12);
             this.label72.TabIndex = 18;
@@ -399,7 +413,7 @@
             // LabFengmingtime
             // 
             this.LabFengmingtime.AutoSize = true;
-            this.LabFengmingtime.Location = new System.Drawing.Point(86, 15);
+            this.LabFengmingtime.Location = new System.Drawing.Point(85, 15);
             this.LabFengmingtime.Name = "LabFengmingtime";
             this.LabFengmingtime.Size = new System.Drawing.Size(29, 12);
             this.LabFengmingtime.TabIndex = 20;
@@ -408,7 +422,7 @@
             // LabRecordtime
             // 
             this.LabRecordtime.AutoSize = true;
-            this.LabRecordtime.Location = new System.Drawing.Point(209, 15);
+            this.LabRecordtime.Location = new System.Drawing.Point(207, 15);
             this.LabRecordtime.Name = "LabRecordtime";
             this.LabRecordtime.Size = new System.Drawing.Size(29, 12);
             this.LabRecordtime.TabIndex = 21;
@@ -417,7 +431,7 @@
             // LabXunjianPenson
             // 
             this.LabXunjianPenson.AutoSize = true;
-            this.LabXunjianPenson.Location = new System.Drawing.Point(353, 15);
+            this.LabXunjianPenson.Location = new System.Drawing.Point(351, 15);
             this.LabXunjianPenson.Name = "LabXunjianPenson";
             this.LabXunjianPenson.Size = new System.Drawing.Size(29, 12);
             this.LabXunjianPenson.TabIndex = 22;
@@ -1633,51 +1647,25 @@
             this.pictureBox19.TabIndex = 2;
             this.pictureBox19.TabStop = false;
             // 
-            // buttonxunjian
-            // 
-            this.buttonxunjian.Location = new System.Drawing.Point(186, 447);
-            this.buttonxunjian.Name = "buttonxunjian";
-            this.buttonxunjian.Size = new System.Drawing.Size(75, 23);
-            this.buttonxunjian.TabIndex = 9;
-            this.buttonxunjian.Text = "确认巡检";
-            this.buttonxunjian.UseVisualStyleBackColor = true;
-            this.buttonxunjian.Click += new System.EventHandler(this.button1_Click);
-            // 
             // labelnextxuanjiantime
             // 
             this.labelnextxuanjiantime.AutoSize = true;
-            this.labelnextxuanjiantime.Location = new System.Drawing.Point(601, 450);
+            this.labelnextxuanjiantime.Location = new System.Drawing.Point(577, 446);
             this.labelnextxuanjiantime.Name = "labelnextxuanjiantime";
             this.labelnextxuanjiantime.Size = new System.Drawing.Size(113, 12);
             this.labelnextxuanjiantime.TabIndex = 8;
             this.labelnextxuanjiantime.Text = "离下一次巡检时间：";
             // 
-            // netlabel
-            // 
-            this.netlabel.AutoSize = true;
-            this.netlabel.Location = new System.Drawing.Point(19, 449);
-            this.netlabel.Name = "netlabel";
-            this.netlabel.Size = new System.Drawing.Size(65, 12);
-            this.netlabel.TabIndex = 14;
-            this.netlabel.Text = "网络状态：";
-            // 
-            // timer_gatherCritical
-            // 
-            this.timer_gatherCritical.Enabled = true;
-            this.timer_gatherCritical.Interval = 1000;
-            this.timer_gatherCritical.Tick += new System.EventHandler(this.timer_gatherCritical_Tick);
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 466);
+            this.ClientSize = new System.Drawing.Size(789, 460);
             this.Controls.Add(this.netlabel);
             this.Controls.Add(this.labelbaojingtest);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.tableLayoutPanel4);
-            this.Controls.Add(this.buttonxunjian);
             this.Controls.Add(this.labelnextxuanjiantime);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
@@ -1763,7 +1751,6 @@
 
         private System.Windows.Forms.Label labelnextxuanjiantime;
         private System.Windows.Forms.Timer timer_coundown;
-        private System.Windows.Forms.Button buttonxunjian;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label27;

@@ -26,6 +26,8 @@ namespace TrainRemoteControl
 
         public MDIParent1()
         {
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point(0, 0);
             InitializeComponent();
             this.IsMdiContainer = true;
         }
@@ -256,16 +258,15 @@ namespace TrainRemoteControl
                 fo.MdiParent = this;
                 fo.Show();
             }
+            fo.Activate();
             
         }
 
-        int netTimeCount = 0;
         int uploadTimeCount = 0;
         int readtempTimeCount = 0;
-        //检测网络状态  报到 
-        private void timer2_net_Tick(object sender, EventArgs e)
+        //定时采集数据，读取温度，上传数据
+        private void gatherAndReadData_timer_Tick(object sender, EventArgs e)
         {
-            netTimeCount++;
             readtempTimeCount++;
             uploadTimeCount++;
             //采集关键数据
@@ -276,11 +277,7 @@ namespace TrainRemoteControl
                 readtempTimeCount = 0;
                 readTemperature();
             }
-            if (netTimeCount == 4)
-            {
-                netTimeCount = 0;
-                tcputil.SendMsg2Server(1, Program.g_serialNum);  //2s 报到一次
-            }
+
             if (uploadTimeCount == 8)   //4s上传关键数据
             {
                 uploadTimeCount = 0;
@@ -291,16 +288,43 @@ namespace TrainRemoteControl
                     tcputil.SendMsg2Server(2, upStr);
                     Program.WriteLog(" 上传关键数据调用成功");
 
-                    Program.WriteLog(" TCP通信，上传温度数据");
-                    string uptempStr = new BuildMsgUtil().buildUploadTemperatureData(Program.g_tempCellsTerminalList);
-                    tcputil.SendMsg2Server(3, uptempStr);
-                    Program.WriteLog(" 上传温度数据调用成功");
+                    //Program.WriteLog(" TCP通信，上传温度数据");
+                    //string uptempStr = new BuildMsgUtil().buildUploadTemperatureData(Program.g_tempCellsTerminalList);
+                    //tcputil.SendMsg2Server(3, uptempStr);
+                    //Program.WriteLog(" 上传温度数据调用成功");
                 }
 
             }
+
+        }
+       
+        //检测网络状态  报到 
+        private void timer2_net_Tick(object sender, EventArgs e)
+        {
+            tcputil.SendMsg2Server(1, Program.g_serialNum);  //2s 报到一次          
         }
 
+        
+        private DateTime planTime; //巡检计划时间
+        //检测是否按下巡检按钮  
+        private void xunjian_timer_Tick(object sender, EventArgs e)
+        {
+            dataAcquisitionMana.StartListenBtnStatus(); //开始监听按钮
+            //判断巡检按钮是否按下
+            dataAcquisitionMana.PressButtonEvent += new Action(() =>
+            {
+                Program.WriteLog("按下巡检按钮");
+                //设置本次巡检时间
+                Program.g_inspectionRecord.getRecordTime = DateTime.Now;
+                //判断是否晚检
+                Program.g_inspectionRecord.getStatus = Program.g_inspectionRecord.getRecordTime.Value.Subtract(planTime).TotalMilliseconds > int.Parse(Program.g_laterInterval) ? "晚检" : "已检";
 
+                Program.g_isInspected = true;
+
+                Thread.Sleep(2000);
+            });
+
+        }
 
 
         DataAcquisitionManager dataAcquisitionMana = new DataAcquisitionManager();
@@ -543,6 +567,10 @@ namespace TrainRemoteControl
                 Program.WriteLog(Program.ScriptSerialize(Program.g_tempCellsTerminalList));
             }
         }
+
+        
+
+       
 
 
 
