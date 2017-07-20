@@ -17,7 +17,8 @@ namespace TrainRemoteControl
         {
             
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            //this.WindowState = FormWindowState.Maximized;
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point(0, 80);
             InitializeComponent();
         }
 
@@ -29,8 +30,8 @@ namespace TrainRemoteControl
         private void InputPassWordForm_Load(object sender, EventArgs e)
         {
             Program.WriteLog("==========================>>进入输入密码页面");
-            this.Top = 80;
-            this.Left = 0;
+            //this.Top = 80;
+            //this.Left = 0;
             //this.label1.Top = Convert.ToInt16((this.Height - this.label1.Height) / 3.2);
             //this.label1.Left = Convert.ToInt16((this.Width - this.label1.Width) / 2.65 +30);
             //输入框

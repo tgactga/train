@@ -322,6 +322,9 @@
     <EmbeddedResource Include="TerminalTemperaturex.resx">
       <DependentUpon>TerminalTemperaturex.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="test\TestForm1.resx">
+      <DependentUpon>TestForm1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="test\TestInvokeForm1.resx">
       <DependentUpon>TestInvokeForm1.cs</DependentUpon>
     </EmbeddedResource>

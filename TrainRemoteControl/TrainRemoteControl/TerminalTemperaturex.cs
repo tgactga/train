@@ -25,6 +25,8 @@ namespace TrainRemoteControl
         public TerminalTemperaturex()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point(0, 80);
         }
 
         //protected override void OnActivated(EventArgs e)
@@ -48,8 +50,8 @@ namespace TrainRemoteControl
 
         private void TerminalTemperature_Load(object sender, EventArgs e)
         {
-            this.Top = 80;
-            this.Left = 0;
+            //this.Top = 80;
+            //this.Left = 0;
 
             #region 控件集合
             lbTemperature = new Label[] 

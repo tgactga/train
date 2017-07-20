@@ -57,19 +57,19 @@ namespace TrainRemoteControl.utilclass
                 {
                     TrainRemoteControl.WebModel.CriticalData cd = new WebModel.CriticalData();
                     cd.alarmValue = criticalDataList[i].AlarmValue;
-                    cd.current = criticalDataList[i]._Current;
+                    cd.current =  Math.Round(criticalDataList[i]._Current, 2);
                     cd.dateTime = criticalDataList[i].Date;
-                    cd.frequency = criticalDataList[i].Frequency;
+                    cd.frequency =  Math.Round(criticalDataList[i].Frequency, 2);
                     cd.generatorId = criticalDataList[i].GeneratorId;
                     cd.lcNum = criticalDataList[i].LcNum;
-                    cd.motorPower = criticalDataList[i].MotorPower;
-                    cd.motorSpeed = criticalDataList[i].MotorSpeed;
-                    cd.oilMass = criticalDataList[i].OilMass;
-                    cd.oilPress = criticalDataList[i].OilPress;
-                    cd.powerFactor = criticalDataList[i].PowerFactor;
+                    cd.motorPower =  Math.Round(criticalDataList[i].MotorPower, 2);
+                    cd.motorSpeed =  Math.Round(criticalDataList[i].MotorSpeed, 2);
+                    cd.oilMass =  Math.Round(criticalDataList[i].OilMass, 2);
+                    cd.oilPress =  Math.Round(criticalDataList[i].OilPress, 2);
+                    cd.powerFactor =  Math.Round(criticalDataList[i].PowerFactor, 2);
                     cd.trainInfo = null;
-                    cd.voltage = criticalDataList[i].Voltage;
-                    cd.waterTemp = criticalDataList[i].WaterTemp;
+                    cd.voltage =  Math.Round(criticalDataList[i].Voltage, 2);
+                    cd.waterTemp =  Math.Round(criticalDataList[i].WaterTemp, 2);
                     cdList.Add(cd);
                 }
                   str = Program.ScriptSerialize(cdList);

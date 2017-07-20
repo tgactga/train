@@ -51,7 +51,6 @@
             this.welcome = new System.Windows.Forms.Label();
             this.username = new System.Windows.Forms.Label();
             this.lbname = new System.Windows.Forms.Label();
-            this.timer2_net = new System.Windows.Forms.Timer(this.components);
             this.xunjian_timer = new System.Windows.Forms.Timer(this.components);
             this.gatherAndReadData_timer = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
@@ -187,12 +186,6 @@
             this.lbname.Text = "用户名：";
             this.lbname.Visible = false;
             // 
-            // timer2_net
-            // 
-            this.timer2_net.Enabled = true;
-            this.timer2_net.Interval = 2000;
-            this.timer2_net.Tick += new System.EventHandler(this.timer2_net_Tick);
-            // 
             // xunjian_timer
             // 
             this.xunjian_timer.Enabled = true;
@@ -212,7 +205,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(794, 682);
+            this.ClientSize = new System.Drawing.Size(794, 583);
             this.ControlBox = false;
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -244,7 +237,6 @@
         private System.Windows.Forms.Button button4_data;
         private System.Windows.Forms.Button btnTerminalTemp;
         private System.Windows.Forms.Label labelpsw;
-        private System.Windows.Forms.Timer timer2_net;
         private System.Windows.Forms.Timer xunjian_timer;
         private System.Windows.Forms.Timer gatherAndReadData_timer;
     }

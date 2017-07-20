@@ -97,7 +97,7 @@ namespace TrainRemoteControl
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new BaseForm());
-            //Application.Run(new TestMoreWindows());
+            //Application.Run(new TestForm1());
         }
         static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
         {

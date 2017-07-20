@@ -16,15 +16,17 @@ namespace TrainRemoteControl
         public XunjianForm()
         {
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Dock = DockStyle.Fill;
+            //this.Dock = DockStyle.Fill;
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point(0, 80);
             InitializeComponent();
         }
 
         private void XunjianForm_Load(object sender, EventArgs e)
         {
             Program.WriteLog("==========================>>进入XunjianForm（巡检）界面");
-            this.Top = 80;
-            this.Left = 0;
+            //this.Top = 80;
+            //this.Left = 0;
             //this.label3.Text = "0002";  //车体名称
             dateTimePicker1.Value = DateTime.Now.AddDays(-7);
            this.dataGridView1.RowsDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter; //设置居中

@@ -15,6 +15,8 @@ namespace TrainRemoteControl
         public DataPageForm()
         {
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point(0, 80);
             InitializeComponent();
         }
         DataTable t1 = new DataTable();
@@ -24,8 +26,7 @@ namespace TrainRemoteControl
         private void DataPageForm_Load(object sender, EventArgs e)
         {
             Program.WriteLog("=========================>>进入DataPageForm页面");
-            this.Top = 80;
-            this.Left = 0;
+           
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
             backgroundWorker1.RunWorkerAsync();
 

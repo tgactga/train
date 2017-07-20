@@ -118,7 +118,23 @@ namespace TrainRemoteControl
             fo.Activate();
 
             this.FormClosed += new FormClosedEventHandler(MDIParent1_FormClosed);
+
+            System.Timers.Timer t = new System.Timers.Timer();
+            t.Elapsed += new System.Timers.ElapsedEventHandler(t_Elapsed);
+            t.Interval = 1000 * Convert.ToInt16(2);
+            t.Enabled = true;
              
+        }
+
+         //检测网络状态  报到 
+        void t_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            //加锁检查数据库和发送MSMQ
+            lock (this)
+            {
+                Program.WriteLog("报到");
+                tcputil.SendMsg2Server(1, Program.g_serialNum);  //2s 报到一次    
+            }
         }
 
         public void MDIParent1_FormClosed(object sender, EventArgs e)
@@ -127,7 +143,7 @@ namespace TrainRemoteControl
         }
         int hour = -1;
         
-        //点击巡检
+        //点击巡检记录
         private void button1_Click_1(object sender, EventArgs e)
         {
             Form fo = FindMdiChildren("XunjianForm");
@@ -297,14 +313,7 @@ namespace TrainRemoteControl
             }
 
         }
-       
-        //检测网络状态  报到 
-        private void timer2_net_Tick(object sender, EventArgs e)
-        {
-            tcputil.SendMsg2Server(1, Program.g_serialNum);  //2s 报到一次          
-        }
 
-        
         private DateTime planTime; //巡检计划时间
         //检测是否按下巡检按钮  
         private void xunjian_timer_Tick(object sender, EventArgs e)
@@ -408,13 +417,13 @@ namespace TrainRemoteControl
                         if (a1 > timesCount)
                         {
                             Program.WriteLog("保存一号电机关键数据");
-                            Type t = typeof(CriticalData);
-                            System.Reflection.PropertyInfo[] properties = t.GetProperties();
+                            //Type t = typeof(CriticalData);
+                            //System.Reflection.PropertyInfo[] properties = t.GetProperties();
 
-                            foreach (System.Reflection.PropertyInfo info in properties)
-                            {
-                                Program.WriteLog("name=" + info.Name + ";" + "type=" + info.PropertyType.Name + ";value=" + Program.ini.GetObjectPropertyValue<CriticalData>(cd, info.Name) + "<br />");
-                            }
+                            //foreach (System.Reflection.PropertyInfo info in properties)
+                            //{
+                            //    Program.WriteLog("name=" + info.Name + ";" + "type=" + info.PropertyType.Name + ";value=" + Program.ini.GetObjectPropertyValue<CriticalData>(cd, info.Name) + "<br />");
+                            //}
                             bll.GetCricialDataToDataBase(cd);  //保存数据
                             a1 = 0;
                         }
@@ -435,6 +444,7 @@ namespace TrainRemoteControl
                         Program.WriteLog("一号电机未开机");
                         CriticalData criticalData = new CriticalData(Program.g_serialNum, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, saveNowTime, false, "1");
                         Program.g_criticalDataList[0] = criticalData;
+                        
                         //showCriticalData(criticalData);
                     }
                     //二号电机数据采集
@@ -534,6 +544,7 @@ namespace TrainRemoteControl
                     {
                         CriticalData criticalData = new CriticalData(Program.g_serialNum, i, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, DateTime.Now, DateTime.Now, false, "1");
                         //界面显示
+                        //bll.GetCricialDataToDataBase(criticalData);  //保存数据
                     }
 
                     if (oldGeneratorStatus != "000")
