@@ -21,7 +21,8 @@ namespace TrainRemoteControl
         public Main()
         {
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            //this.WindowState = FormWindowState.Maximized;
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point(0, 80);
             InitializeComponent();
         }
         private Image redCircle = TrainRemoteControl.Properties.Resources.circl;// Image.FromFile( @"..\..\image\red.png" );//: @"..\..\image\green.png";
@@ -78,8 +79,8 @@ namespace TrainRemoteControl
         private void Main_Load(object sender, EventArgs e)
         {
             Program.WriteLog("==========================>>进入主界面（main）");
-            this.Top = 80;
-            this.Left = 0;
+            //this.Top = 80;
+            //this.Left = 0;
             this.labTrainNum.Text = Program.g_lcNumber;
             this.labTrains.Text = Program.g_checi;
             //if (Program.g_isAlarm)
